@@ -43,7 +43,7 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 🔹 **Regiões com maior densidade populacional**: **Centro e Sul**  
 
 🖼 **Figura 1 - Número de habitantes e densidade populacional**  
-![Figura 1 - Número de habitantes e densidade populacional](assets/figura1.jpg)  
+<img src="assets/figura1.jpg" alt="Figura 1 - Número de habitantes e densidade populacional" width="130%">
 
 *(Fonte: Adaptado de FGV ATLAS.)*  
 
@@ -67,7 +67,7 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 - **Área urbanizada**: **128,94 km²**.  
 
 🖼 **Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território**  
-![Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território](assets/figura2.jpg)  
+<img src="assets/figura2.jpg" alt="Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território" width="60%">
 
 *(Fonte: Adaptado de IBGE.)*  
 
@@ -89,9 +89,10 @@ Além da divisão geográfica principal, São José dos Campos também pode ser 
 Para entender melhor a **distribuição da renda** na cidade, a **Figura 4** apresenta a **renda per capita por setor censitário** dentro das áreas mais urbanizadas de São José dos Campos.  
 
 🖼 **Figura 4 - Renda per capita por setor censitário**  
-![Figura 4 - Renda per capita por setor censitário](assets/figura4.jpg)  
+<img src="assets/figura4.jpg" alt="Figura 4 - Renda per capita por setor censitário" width="130%">
 
 *(Fonte: Adaptado de FGV Consolidação.)*  
 
 ---
 
+ 
