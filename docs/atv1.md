@@ -4,10 +4,10 @@
 
 Esta seção apresenta dados **sociodemográficos** e **econômicos** relevantes sobre o município de **São José dos Campos - SP**, obtidos a partir de fontes como:
 
-- 📌 **Instituto Brasileiro de Geografia e Estatística (IBGE)**
-- 🏛️ **Órgãos públicos (federais, estaduais e municipais)**
-- 🌍 **Ferramentas governamentais e estudos privados**
-- 🏙️ **Prefeitura de São José dos Campos**  
+📌 **Instituto Brasileiro de Geografia e Estatística (IBGE)**
+🏛️ **Órgãos públicos (federais, estaduais e municipais)**
+🌍 **Ferramentas governamentais e estudos privados**
+🏙️ **Prefeitura de São José dos Campos**  
 
 Esses dados fornecem um **panorama abrangente** das características **populacionais, sociais e econômicas** da região, permitindo uma melhor compreensão da **dinâmica e desenvolvimento** do município.  
 
@@ -111,3 +111,72 @@ Na **Figura 6**, é apresentado um **panorama geral** sobre os **dados demográf
 *(Fonte: Autor.)*  
 
 ---
+
+## 🚏 Infraestrutura Viária e Transporte  
+
+A mobilidade urbana em **São José dos Campos** é estruturada por uma ampla rede de transporte público, pontos de táxi, semáforos e conexões viárias com outros municípios. Esses elementos desempenham um papel essencial na organização do tráfego e na acessibilidade da cidade.  
+
+---
+
+### 🚍 Distribuição dos Pontos de Ônibus  
+
+Os **pontos de ônibus** estão **bem distribuídos** ao longo da região mais urbanizada da cidade, garantindo cobertura eficiente para o transporte coletivo. Além disso, há pontos estrategicamente localizados em regiões menos populosas, permitindo o deslocamento de moradores dessas áreas para os principais centros urbanos.  
+
+🖼 **Figura 7 - Distribuição de pontos de ônibus**  
+![Figura 7 - Distribuição de pontos de ônibus](assets/figura7.jpg)  
+
+*(Fonte: Adaptado de https://sjview.sjc.sp.gov.br.)*  
+
+---
+
+### 🚖 Localização dos Pontos de Táxi  
+
+Os **pontos de táxi** concentram-se principalmente nas regiões **Centro e Sul** da cidade, onde há maior demanda por transporte individual. Essa distribuição reflete a alta movimentação nessas áreas, que abrigam importantes centros comerciais, empresariais e serviços públicos.  
+
+🖼 **Figura 8 - Distribuição dos pontos de táxi**  
+![Figura 8 - Distribuição dos pontos de táxi](assets/figura8.jpg)  
+
+*(Fonte: Adaptado de https://sjview.sjc.sp.gov.br.)*  
+
+---
+
+### 🚦 Distribuição dos Semáforos  
+
+Os **semáforos** estão **predominantemente localizados ao longo das áreas adjacentes à Rodovia Dutra**, uma das principais vias de acesso à cidade. A maior concentração de semáforos ocorre nas regiões **Centro, Sul e Oeste**, onde há maior fluxo de veículos e necessidade de controle do trânsito. No entanto, eles também se fazem presentes nas demais regiões da cidade, embora em menor quantidade.  
+
+🖼 **Figura 9 - Distribuição dos semáforos**  
+![Figura 9 - Distribuição dos semáforos](assets/figura9.jpg)  
+
+*(Fonte: Adaptado de https://sjview.sjc.sp.gov.br.)*  
+
+---
+
+### 🛣️ Ligações Viárias com Outros Municípios  
+
+A cidade conta com **importantes conexões rodoviárias** que a ligam a municípios vizinhos e às principais capitais do Brasil. A **Rodovia Presidente Dutra (BR-116)** é a principal via de acesso, conectando **São José dos Campos** a **São Paulo e Rio de Janeiro**. Além disso, a cidade possui acessos estratégicos às rodovias **Tamoios (SP-099)**, que leva ao litoral norte, e **Carvalho Pinto (SP-070)**, que serve como uma alternativa rápida para a capital paulista.  
+
+🖼 **Figura 10 - Ligações viárias com outros municípios**  
+![Figura 10 - Ligações viárias com outros municípios](assets/figura10.jpg)  
+
+*(Fonte: Adaptado de FGV ATLAS.)*  
+
+---
+
+### 🏙️ Hierarquia Viária  
+
+A **hierarquia viária** de São José dos Campos é organizada em diferentes tipos de vias, conforme sua importância e função no fluxo urbano:  
+
+- **Rodovia**: vias que ligam São José dos Campos com outros municípios.
+- **Vias arteriais**: principais corredores de tráfego, interligando as diferentes regiões da cidade.  
+- **Vias coletoras**: conectam as vias arteriais a bairros e zonas residenciais.  
+- **Vias locais**: permitem o acesso direto a residências, estabelecimentos comerciais e pequenas ruas internas dos bairros.  
+
+Essa organização facilita a mobilidade dentro do município e melhora a eficiência no tráfego, garantindo acesso rápido a diferentes regiões.  
+
+🖼 **Figura 11 - Hierarquia viária de São José dos Campos**  
+![Figura 11 - Hierarquia viária de São José dos Campos](assets/figura11.jpg)  
+
+*(Fonte: Adaptado de FGV ATLAS.)*  
+
+---
+
