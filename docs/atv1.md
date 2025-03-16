@@ -271,5 +271,49 @@ Os veículos de transporte coletivo, como ônibus e vans, desempenham um papel f
 ---
 
 
+## 🚦 Distribuição e Uso dos Meios de Transporte  
+
+A distribuição modal dos meios de transporte em **São José dos Campos** reflete os padrões de deslocamento da população e a acessibilidade das opções de mobilidade na cidade. A análise considera a **proporção de cada meio de transporte**, a **comparação modal com outras cidades** e a **média do uso de cada tipo de transporte considerando a renda média**.  
+
+A seguir, são apresentados gráficos para ilustrar esses aspectos.  
+
+---
+
+### 📊 Distribuição Percentual dos Meios de Transporte  
+
+O gráfico a seguir apresenta a **porcentagem de cada meio de transporte utilizado** pelos moradores de São José dos Campos. Essa distribuição evidencia a predominância de determinados modos de deslocamento, como transporte individual, coletivo e não motorizado. A maior parte dos veículos utilizados na cidade são **automóveis**, enquanto a segunda maior parcela representa **veículos de transporte de passageiros**, evidenciando a dependência do transporte privado e coletivo na mobilidade urbana.  
+
+🖼 **Figura 17 - Porcentagem de meios de transporte e seus usos**  
+![Figura 17 - Porcentagem de meios de transporte e seus usos](assets/figura17.jpg)  
+
+*(Fonte: Adaptado de FGV Atlas.)*  
+
+---
+
+### 🚍 Categorias de Transporte e Comparação Modal  
+
+Os meios de transporte podem ser classificados em diferentes categorias, como **transporte individual, coletivo e ativo (não motorizado)**. Além disso, a distribuição modal de São José dos Campos pode ser comparada com cidades de tamanho semelhante, permitindo avaliar se os padrões de deslocamento são similares ou apresentam diferenças significativas.  
+
+Ao analisar essa comparação, percebe-se que **São José dos Campos possui uma taxa muito maior de transporte individual** do que cidades com populações diversas, enquanto **o transporte coletivo é significativamente menor**. Já o uso de meios de transporte ativo, como caminhada e bicicleta, se mantém **em patamares semelhantes aos de outras cidades**, indicando que a infraestrutura para mobilidade ativa tem um impacto equilibrado independentemente do porte da cidade.  
+
+🖼 **Figura 18 - Categorias de transportes e comparação com outras cidades**  
+![Figura 18 - Categorias de transportes e comparação com outras cidades](assets/figura18.jpg)  
+
+*(Fonte: Adaptado de FGV Atlas.)*  
+
+---
+
+### 🚶‍♂️ Média do Uso de Cada Modo de Transporte Considerando a Renda Média  
+
+Além da distribuição percentual e da comparação modal, é importante observar a **média do uso de cada modo de transporte em relação à renda média da população**. O gráfico abaixo mostra a relação direta entre **níveis de renda e escolha do meio de transporte**.  
+
+Os dados indicam que **quanto maior a renda mensal, maior a preferência pelo automóvel particular** como meio de deslocamento principal. Esse padrão reflete uma **tendência natural** observada em diversas cidades, onde o aumento do poder aquisitivo resulta na priorização do transporte individual em detrimento do transporte coletivo.  
+
+🖼 **Figura 19 - Média do modo de transporte considerando a renda média**  
+![Figura 19 - Média do modo de transporte considerando a renda média](assets/figura19.jpg)  
+
+*(Fonte: Adaptado de FGV Atlas.)*  
+
+---
 
 
