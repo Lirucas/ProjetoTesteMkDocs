@@ -1,30 +1,17 @@
 :root {
-    --md-primary-fg-color: #7FFF00; /* Verde-limão para a barra de menus */
-    --md-accent-fg-color: #000000; /* Preto para os botões */
+    --md-primary-fg-color: #228B22; /* Verde-limão para a barra de menus */
+    --md-accent-fg-color: #FFFFFF; /* Branco para os botões */
     --md-typeset-a-color: #FFFFFF; /* Links brancos */
 }
 
-/* Botões padrão (fora da barra de navegação) */
+/* Garante que os botões fiquem visíveis */
 .md-button {
-    background-color: #000000 !important; /* Fundo preto */
-    color: #FFFFFF !important; /* Texto branco */
-    border: 2px solid #000000 !important; /* Borda preta */
-}
-
-/* Botões primários */
-.md-button--primary {
-    background-color: #000000 !important; /* Fundo preto */
-    color: #FFFFFF !important; /* Texto branco */
-}
-
-/* Alterar os botões da barra de navegação */
-.md-header__button, .md-tabs__link {
-    background-color: #000000 !important; /* Fundo preto */
-    color: #FFFFFF !important; /* Texto branco */
-}
-
-/* Quando o botão está ativo (selecionado) */
-.md-tabs__link--active {
-    background-color: #000000 !important;
     color: #FFFFFF !important;
+    border: 2px solid #FFFFFF !important;
+}
+
+/* Define fundo branco para os botões */
+.md-button--primary {
+    background-color: #FFFFFF !important;
+    color: #000000 !important; /* Texto preto nos botões */
 }
