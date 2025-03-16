@@ -86,22 +86,27 @@ Além da divisão geográfica principal, São José dos Campos também pode ser 
 
 ### 💵 Renda Per Capita por Setor Censitário  
 
-Para entender melhor a **distribuição da renda** na cidade, a **Figura 4** apresenta a **renda per capita por setor censitário** dentro das áreas mais urbanizadas de São José dos Campos.  
+Para entender melhor a **distribuição da renda** na cidade, a **Figura 4** apresenta a **renda per capita por setor censitário** dentro das áreas mais urbanizadas de São José dos Campos, enquanto a **Figura 5** apresenta a **renda per capita mensal média** em cada macrozona.  
 
 🖼 **Figura 4 - Renda per capita por setor censitário**  
 ![Figura 4 - Renda per capita por setor censitário](assets/figura4.jpg)  
 
 *(Fonte: Adaptado de FGV Consolidação.)*  
 
+🖼 **Figura 5 - Renda per capita mensal média**  
+![Figura 5 - Renda per capita mensal média](assets/figura6.jpg)  
+
+*(Fonte: Adaptado de IBGE.)*  
+
 ---
 
 
 ### 🌍 Panorama Geral dos Dados  
 
-Na **Figura 5**, é apresentado um **panorama geral** sobre os **dados demográficos e socioeconômicos** de São José dos Campos.  
+Na **Figura 6**, é apresentado um **panorama geral** sobre os **dados demográficos e socioeconômicos** de São José dos Campos.  
 
-🖼 **Figura 5 - Panorama Geral dos Dados Demográficos e Socioeconômicos**  
-![Figura 5 - Panorama Geral dos Dados Demográficos e Socioeconômicos](assets/figura5.jpg)  
+🖼 **Figura 6 - Panorama Geral dos Dados Demográficos e Socioeconômicos**  
+![Figura 6 - Panorama Geral dos Dados Demográficos e Socioeconômicos](assets/figura5.jpg)  
 
 *(Fonte: Autor.)*  
 
