@@ -180,3 +180,44 @@ Essa organização facilita a mobilidade dentro do município e melhora a efici�
 
 ---
 
+## 🚦 Fluxo e Demanda de Transporte  
+
+O fluxo de transporte em **São José dos Campos** é fortemente influenciado pelas características urbanas e econômicas da cidade. A distribuição da demanda por viagens reflete a organização das atividades econômicas, a localização de polos de emprego, comércio e serviços, além das condições da infraestrutura viária.  
+
+A seguir, são apresentadas análises sobre as **vias com maior densidade de transporte coletivo** e as **viagens entre as macrozonas**, que ajudam a compreender melhor os padrões de deslocamento na cidade.  
+
+---
+
+### 🚌 Vias com Maior Densidade de Transporte Coletivo  
+
+Determinadas vias concentram um **alto fluxo de transporte coletivo**, representando os principais corredores utilizados pelos ônibus urbanos. Essas vias desempenham um papel essencial na mobilidade da população, conectando bairros residenciais a áreas comerciais e polos de emprego.  
+
+🖼 **Figura 12 - Vias com maior densidade de transporte coletivo**  
+![Figura 12 - Vias com maior densidade de transporte coletivo](assets/figura12.jpg)  
+
+*(Fonte: Adaptado de FGV ATLAS.)*  
+
+---
+
+### 🔄 Viagens entre as Macrozonas  
+
+A dinâmica do transporte urbano também pode ser analisada a partir das **viagens entre as macrozonas da cidade**. Esse estudo permite identificar os fluxos predominantes e os principais eixos de deslocamento da população, auxiliando no planejamento de melhorias para o sistema viário e transporte público.  
+
+📌 **Principais Regiões de Origem das Viagens:**  
+1️⃣ **Sul**  
+2️⃣ **Centro**  
+3️⃣ **Leste**  
+
+📌 **Principais Regiões de Destino das Viagens:**  
+1️⃣ **Sul**  
+2️⃣ **Leste**  
+3️⃣ **Centro**  
+
+🖼 **Figura 13 - Viagens entre as macrozonas**  
+![Figura 13 - Viagens entre as macrozonas](assets/figura13.jpg)  
+
+*(Fonte: Adaptado de FGV ATLAS.)*  
+
+---
+
+
