@@ -346,5 +346,37 @@ Além da variação espacial, o índice de mobilidade também apresenta diferen�
 
 ---
 
+## 🚁 Regulação para Vertiportos  
+
+### 📜 Normas Correlatas  
+
+#### ✈️ ICAO - Organização da Aviação Civil Internacional  
+
+- **Anexo 14**: Este anexo da ICAO fornece padrões e práticas recomendadas para aeródromos, incluindo helipontos. Ele cobre aspectos como projeto, construção, operação e manutenção de helipontos.  
+- **Doc 9261 (Manual de Heliportos)**: Documento da ICAO com orientações detalhadas sobre o projeto, construção e operação de helipontos, incluindo considerações sobre segurança, sinalização e iluminação.  
+
+---
+
+#### 🇧🇷 Brasil  
+
+##### 📖 **Lei Federal**  
+- **Lei nº 7.565, de 19 de dezembro de 1986**: Código Brasileiro de Aeronáutica.  
+
+##### 🏛 **ANAC - Agência Nacional de Aviação Civil**  
+- **RBAC 155 (Regulamento Brasileiro da Aviação Civil nº 155)**: Estabelece os requisitos para a construção, operação e manutenção de helipontos, cobrindo aspectos como localização, dimensionamento, sinalização, iluminação e segurança.  
+- **Manual de Orientações de Infraestrutura de Helipontos**: Documento de referência para projetos de helipontos, auxiliando no entendimento dos elementos previstos no RBAC nº 155.  
+
+##### ✈️ **DECEA - Departamento de Controle do Espaço Aéreo**  
+- **ICA 11-408 (Instrução do Comando da Aeronáutica nº 11-408)**: Restrições aos objetos projetados no espaço aéreo que possam afetar adversamente a segurança ou a regularidade das operações aéreas.  
+
+---
+
+#### 🏙️ Prefeitura de São José dos Campos  
+
+- **Decreto nº 19.665, de 14 de junho de 2024**: Regulamenta a Lei Complementar nº 633, de 3 de abril de 2020, que "dispõe sobre exigências e normas relativas ao licenciamento, aprovação e instalação de empreendimentos classificados ou não como Polo Gerador de Tráfego - PGT", e disciplina as vagas de estacionamento, os acessos, vias de circulação interna, a área de manobra e a acumulação de veículos e dá outras providências.  
+- **Lei Complementar nº 623, de 9 de outubro de 2019**: Estabelece as normas relativas ao parcelamento, uso e ocupação do solo, em consonância com o Plano Diretor de Desenvolvimento Integrado do Município de São José dos Campos aprovado e instituído pela Lei Complementar nº 612, de 30 de novembro de 2018. *(Aeródromo sujeito a análise específica.)*  
+
+---
+
 
 
