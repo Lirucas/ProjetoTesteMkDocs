@@ -44,11 +44,49 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 
 ---
 
-### 📊 Figura 1 - Número de habitantes e densidade populacional  
+### 📈 Dados Populacionais e Econômicos  
 
-![Figura 1 - Número de habitantes e densidade populacional](assets/figura1.jpg)  
+📊 **População e Densidade Demográfica**  
+- De acordo com os dados do último **Censo IBGE (2022)**, a cidade possui **697.054 habitantes**.  
+- Para **2024**, a população estimada é de **724.756 habitantes**.  
+- A **densidade demográfica** é de **634,03 habitantes por km²**.  
 
-*(Fonte: Adaptado de FGV ATLAS.)*  
+💰 **Indicadores Econômicos**  
+- **Índice de Desenvolvimento Humano Municipal (IDH-M)**: **0,807** (um dos maiores do Brasil).  
+- **PIB per capita**: **+61 mil reais**.  
+- **Salário médio mensal**: **3,3 salários mínimos**.  
+- **Emprego formal**: **Aproximadamente 36% da população empregada formalmente**.  
+
+📏 **Área Territorial**  
+- **Área total do município**: **1.099,409 km²**.  
+- **Área urbanizada**: **128,94 km²**.  
+
+🖼 **Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território**  
+![Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território](assets/figura2.jpg)  
+
+*(Fonte: Adaptado de IBGE.)*  
+
+---
+
+### 🚦 Densidade Populacional por Zona de Tráfego  
+
+Além da divisão geográfica principal, São José dos Campos também pode ser analisada a partir das **zonas de tráfego**, dentro das áreas mais urbanizadas da cidade. A **Figura 3** apresenta o **número de habitantes e a densidade populacional** em cada uma dessas zonas.  
+
+🖼 **Figura 3 - Número de habitantes e densidade populacional por zona de tráfego**  
+![Figura 3 - Número de habitantes e densidade populacional por zona de tráfego](assets/figura3.jpg)  
+
+*(Fonte: Adaptado de FGV Consolidação.)*  
+
+---
+
+### 💵 Renda Per Capita por Setor Censitário  
+
+Para entender melhor a **distribuição da renda** na cidade, a **Figura 4** apresenta a **renda per capita por setor censitário** dentro das áreas mais urbanizadas de São José dos Campos.  
+
+🖼 **Figura 4 - Renda per capita por setor censitário**  
+![Figura 4 - Renda per capita por setor censitário](assets/figura4.jpg)  
+
+*(Fonte: Adaptado de FGV Consolidação.)*  
 
 ---
 
