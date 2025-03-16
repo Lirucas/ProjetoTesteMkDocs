@@ -4,9 +4,10 @@ theme:
   name: material
   features:
     - navigation.tabs
-  palette:
-    primary: "#7CFC00"  # Barra de menus verde-limão
-    accent: "#FFFFFF"   # Botões brancos
+
+extra_css:
+  - assets/custom.css  # Aplica o CSS personalizado
 
 nav:
   - Home: index.md
+  - A1 - 18/03/2025: atv1.md
