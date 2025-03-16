@@ -316,4 +316,35 @@ Os dados indicam que **quanto maior a renda mensal, maior a preferência pelo au
 
 ---
 
+## 🚦 Índice de Mobilidade  
+
+O **Índice de Mobilidade** mede a capacidade de deslocamento da população dentro da cidade, considerando fatores como infraestrutura de transporte, distância percorrida e acessibilidade a diferentes regiões. Em **São José dos Campos**, um município com forte presença industrial e tecnológica, esse índice reflete tanto os deslocamentos diários para o trabalho quanto a eficiência da mobilidade urbana.  
+
+A seguir, são apresentados gráficos que mostram o **índice de mobilidade por região** e o **índice de mobilidade em relação à renda da população**.  
+
+---
+
+### 🏙️ Índice de Mobilidade por Região  
+
+A distribuição espacial do **índice de mobilidade** revela que as regiões com **maior índice** são, na seguinte ordem: **Oeste, Centro e Leste**. Essas áreas correspondem justamente aos pontos de **maior concentração industrial**, o que sugere que os índices de mobilidade refletem não apenas o acesso ao transporte, mas também os deslocamentos entre **zonas domiciliares e polos industriais**. Isso reforça a característica de **São José dos Campos como um grande polo industrial e tecnológico**, onde a mobilidade urbana está fortemente vinculada às atividades produtivas.  
+
+🖼 **Figura 20 - Índice de mobilidade por região**  
+![Figura 20 - Índice de mobilidade por região](assets/figura20.jpg)  
+
+*(Fonte: Adaptado de FGV Atlas.)*  
+
+---
+
+### 💰 Índice de Mobilidade por Faixa de Renda  
+
+Além da variação espacial, o índice de mobilidade também apresenta diferenças significativas quando analisado em relação à renda. O gráfico abaixo mostra uma **tendência previsível**: **quanto maior a renda, maior o índice de mobilidade**. Esse padrão indica que pessoas com maior poder aquisitivo têm **mais opções de transporte**, podendo optar por veículos particulares ou rotas mais eficientes no transporte coletivo.  
+
+🖼 **Figura 21 - Índice de mobilidade por salário mínimo**  
+![Figura 21 - Índice de mobilidade por salário mínimo](assets/figura21.jpg)  
+
+*(Fonte: Adaptado de FGV Atlas.)*  
+
+---
+
+
 
