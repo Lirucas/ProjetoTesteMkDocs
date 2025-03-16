@@ -1,10 +1,15 @@
-site_name: "Grupo A - Urban Air Mobility - IT 214"
+site_name: "Projeto Teste MkDocs"
 
 theme:
   name: material
   features:
-    - navigation.tabs  # Habilita navegação superior
+    - navigation.tabs
+  palette:
+    primary: "#7CFC00"  # Barra de menus verde-limão
+    accent: "#FFFFFF"   # Botões brancos
+
+extra_css:
+  - assets/custom.css  # Aplica o CSS personalizado
 
 nav:
   - Home: index.md
-  - Atividade 1: atv1.md
