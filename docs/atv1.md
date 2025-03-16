@@ -45,7 +45,7 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 🖼 **Figura 1 - Número de habitantes e densidade populacional**  
 ![Figura 1 - Número de habitantes e densidade populacional](assets/figura1.jpg)  
 
-*(Fonte: Adaptado de FGV ATLAS.)*  
+*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
 ---
 
@@ -69,7 +69,7 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 🖼 **Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território**  
 ![Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território](assets/figura2.jpg)  
 
-*(Fonte: Adaptado de IBGE.)*  
+*(Fonte: Adaptado de IBGE -https://cidades.ibge.gov.br/brasil/sp/sao-jose-dos-campos/panorama)*  
 
 ---
 
@@ -80,7 +80,7 @@ Além da divisão geográfica principal, São José dos Campos também pode ser 
 🖼 **Figura 3 - Número de habitantes e densidade populacional por zona de tráfego**  
 ![Figura 3 - Número de habitantes e densidade populacional por zona de tráfego](assets/figura3.jpg)  
 
-*(Fonte: Adaptado de FGV Consolidação.)*  
+*(Fonte: Adaptado de FGV Consolidação - https://www.sjc.sp.gov.br/media/148074/consolidacao-dos-dados.pdf)*  
 
 ---
 
@@ -91,12 +91,12 @@ Para entender melhor a **distribuição da renda** na cidade, a **Figura 4** apr
 🖼 **Figura 4 - Renda per capita por setor censitário**  
 ![Figura 4 - Renda per capita por setor censitário](assets/figura4.jpg)  
 
-*(Fonte: Adaptado de FGV Consolidação.)*  
+*(Fonte: Adaptado de FGV Consolidação - https://www.sjc.sp.gov.br/media/148074/consolidacao-dos-dados.pdf)*  
 
 🖼 **Figura 5 - Renda per capita mensal média**  
 ![Figura 5 - Renda per capita mensal média](assets/figura6.jpg)  
 
-*(Fonte: Adaptado de IBGE.)*  
+*(Fonte: Adaptado de IBGE - https://cidades.ibge.gov.br/brasil/sp/sao-jose-dos-campos/panorama)*  
 
 ---
 
@@ -158,7 +158,7 @@ A cidade conta com **importantes conexões rodoviárias** que a ligam a municíp
 🖼 **Figura 10 - Ligações viárias com outros municípios**  
 ![Figura 10 - Ligações viárias com outros municípios](assets/figura10.jpg)  
 
-*(Fonte: Adaptado de FGV ATLAS.)*  
+*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
 ---
 
@@ -176,7 +176,7 @@ Essa organização facilita a mobilidade dentro do município e melhora a efici�
 🖼 **Figura 11 - Hierarquia viária de São José dos Campos**  
 ![Figura 11 - Hierarquia viária de São José dos Campos](assets/figura11.jpg)  
 
-*(Fonte: Adaptado de FGV ATLAS.)*  
+*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
 ---
 
@@ -195,7 +195,7 @@ Determinadas vias concentram um **alto fluxo de transporte coletivo**, represent
 🖼 **Figura 12 - Vias com maior densidade de transporte coletivo**  
 ![Figura 12 - Vias com maior densidade de transporte coletivo](assets/figura12.jpg)  
 
-*(Fonte: Adaptado de FGV ATLAS.)*  
+*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
 ---
 
@@ -216,7 +216,7 @@ A dinâmica do transporte urbano também pode ser analisada a partir das **viage
 🖼 **Figura 13 - Viagens entre as macrozonas**  
 ![Figura 13 - Viagens entre as macrozonas](assets/figura13.jpg)  
 
-*(Fonte: Adaptado de FGV ATLAS.)*  
+*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
 ---
 
@@ -235,7 +235,7 @@ O gráfico abaixo apresenta a **quantidade total de veículos por mil habitantes
 🖼 **Figura 14 - Frota de veículos por mil habitantes**  
 ![Figura 14 - Frota de veículos por mil habitantes](assets/figura14.jpg)  
 
-*(Fonte: Adaptado de FGV Atlas.)*  
+*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
 📌 **Observação:**  
 🚗 **São José dos Campos** possui mais de **600 veículos para cada mil habitantes**, quase ultrapassando a cidade de **São Paulo**, que tem um dos maiores índices de motorização do país.  
@@ -249,7 +249,7 @@ A quantidade de **veículos individuais** (como carros e motocicletas) por mil h
 🖼 **Figura 15 - Frota de veículos individuais por mil habitantes**  
 ![Figura 15 - Frota de veículos individuais por mil habitantes](assets/figura15.jpg)  
 
-*(Fonte: Adaptado de FGV Atlas.)*  
+*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
 📌 **Observação:**  
 🚘 Considerando apenas **veículos individuais**, **São José dos Campos** possui quase **500 veículos para cada mil habitantes**, um número **superior ao da cidade de São Paulo**.  
@@ -263,7 +263,7 @@ Os veículos de transporte coletivo, como ônibus e vans, desempenham um papel f
 🖼 **Figura 16 - Frota de veículos coletivos por mil habitantes**  
 ![Figura 16 - Frota de veículos coletivos por mil habitantes](assets/figura16.jpg)  
 
-*(Fonte: Adaptado de FGV Atlas.)*  
+*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
 📌 **Observação:**  
 🚌 Em relação aos **veículos coletivos**, **São José dos Campos** possui **quase metade da frota per capita de São Paulo**. Isso indica que há **espaço para o desenvolvimento do transporte intraurbano coletivo**, reforçando a necessidade de investimentos no setor.  
@@ -286,7 +286,7 @@ O gráfico a seguir apresenta a **porcentagem de cada meio de transporte utiliza
 🖼 **Figura 17 - Porcentagem de meios de transporte e seus usos**  
 ![Figura 17 - Porcentagem de meios de transporte e seus usos](assets/figura17.jpg)  
 
-*(Fonte: Adaptado de FGV Atlas.)*  
+*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
 ---
 
@@ -299,7 +299,7 @@ Ao analisar essa comparação, percebe-se que **São José dos Campos possui uma
 🖼 **Figura 18 - Categorias de transportes e comparação com outras cidades**  
 ![Figura 18 - Categorias de transportes e comparação com outras cidades](assets/figura18.jpg)  
 
-*(Fonte: Adaptado de FGV Atlas.)*  
+*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
 ---
 
@@ -312,7 +312,7 @@ Os dados indicam que **quanto maior a renda mensal, maior a preferência pelo au
 🖼 **Figura 19 - Média do modo de transporte considerando a renda média**  
 ![Figura 19 - Média do modo de transporte considerando a renda média](assets/figura19.jpg)  
 
-*(Fonte: Adaptado de FGV Atlas.)*  
+*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
 ---
 
@@ -331,7 +331,7 @@ A distribuição espacial do **índice de mobilidade** revela que as regiões co
 🖼 **Figura 20 - Índice de mobilidade por região**  
 ![Figura 20 - Índice de mobilidade por região](assets/figura20.jpg)  
 
-*(Fonte: Adaptado de FGV Atlas.)*  
+*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
 ---
 
@@ -342,7 +342,7 @@ Além da variação espacial, o índice de mobilidade também apresenta diferen�
 🖼 **Figura 21 - Índice de mobilidade por salário mínimo**  
 ![Figura 21 - Índice de mobilidade por salário mínimo](assets/figura21.jpg)  
 
-*(Fonte: Adaptado de FGV Atlas.)*  
+*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
 ---
 
@@ -355,6 +355,8 @@ Além da variação espacial, o índice de mobilidade também apresenta diferen�
 - **Anexo 14**: Este anexo da ICAO fornece padrões e práticas recomendadas para aeródromos, incluindo helipontos. Ele cobre aspectos como projeto, construção, operação e manutenção de helipontos.  
 - **Doc 9261 (Manual de Heliportos)**: Documento da ICAO com orientações detalhadas sobre o projeto, construção e operação de helipontos, incluindo considerações sobre segurança, sinalização e iluminação.  
 
+*(Fonte: ICAO - Organização da Aviação Civil Internacional - https://www.icao.int/Pages/default.aspx.)*  
+
 ---
 
 #### 🇧🇷 Brasil  
@@ -362,12 +364,18 @@ Além da variação espacial, o índice de mobilidade também apresenta diferen�
 ##### 📖 **Lei Federal**  
 - **Lei nº 7.565, de 19 de dezembro de 1986**: Código Brasileiro de Aeronáutica.  
 
+*(Fonte: Presidência da República - Legislação Federal - https://www.planalto.gov.br/ccivil_03/leis/l7565compilado.htm#:~:text=LEI%20N%C2%BA%207.565%2C%20DE%2019%20DE%20DEZEMBRO%20DE%201986.&text=Disp%C3%B5e%20sobre%20o%20C%C3%B3digo%20Brasileiro%20de%20Aeron%C3%A1utica.&text=Art.,C%C3%B3digo%20e%20pela%20legisla%C3%A7%C3%A3o%20complementar..)*  
+
 ##### 🏛 **ANAC - Agência Nacional de Aviação Civil**  
 - **RBAC 155 (Regulamento Brasileiro da Aviação Civil nº 155)**: Estabelece os requisitos para a construção, operação e manutenção de helipontos, cobrindo aspectos como localização, dimensionamento, sinalização, iluminação e segurança.  
 - **Manual de Orientações de Infraestrutura de Helipontos**: Documento de referência para projetos de helipontos, auxiliando no entendimento dos elementos previstos no RBAC nº 155.  
 
+*(Fonte: ANAC - Agência Nacional de Aviação Civil - https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-155 - https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/cadastro-de-aerodromos/procedimentos-para-aerodromos-privados/manual_orientacoes_infraestrutura_helipontos.pdf.)*  
+
 ##### ✈️ **DECEA - Departamento de Controle do Espaço Aéreo**  
 - **ICA 11-408 (Instrução do Comando da Aeronáutica nº 11-408)**: Restrições aos objetos projetados no espaço aéreo que possam afetar adversamente a segurança ou a regularidade das operações aéreas.  
+
+*(Fonte: DECEA - Departamento de Controle do Espaço Aéreo - https://sysaga.decea.mil.br/download/32.)*  
 
 ---
 
@@ -376,7 +384,11 @@ Além da variação espacial, o índice de mobilidade também apresenta diferen�
 - **Decreto nº 19.665, de 14 de junho de 2024**: Regulamenta a Lei Complementar nº 633, de 3 de abril de 2020, que "dispõe sobre exigências e normas relativas ao licenciamento, aprovação e instalação de empreendimentos classificados ou não como Polo Gerador de Tráfego - PGT", e disciplina as vagas de estacionamento, os acessos, vias de circulação interna, a área de manobra e a acumulação de veículos e dá outras providências.  
 - **Lei Complementar nº 623, de 9 de outubro de 2019**: Estabelece as normas relativas ao parcelamento, uso e ocupação do solo, em consonância com o Plano Diretor de Desenvolvimento Integrado do Município de São José dos Campos aprovado e instituído pela Lei Complementar nº 612, de 30 de novembro de 2018. *(Aeródromo sujeito a análise específica.)*  
 
+*(Fonte: Prefeitura de São José dos Campos - https://www.sjc.sp.gov.br/media/289924/decreto-pgt_19665-2024.pdf - https://www.sjc.sp.gov.br/media/198888/lc-623_19-alterada-pela-lc632_20_atualizjun2022.pdf.)*  
+
 ---
+
+
 
 
 
