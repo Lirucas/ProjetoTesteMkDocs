@@ -220,4 +220,56 @@ A dinâmica do transporte urbano também pode ser analisada a partir das **viage
 
 ---
 
+## 🚗 Frota de Veículos  
+
+A frota de veículos em **São José dos Campos** reflete a mobilidade urbana e a dependência do transporte individual e coletivo na cidade. A análise dos veículos disponíveis por mil habitantes permite uma compreensão mais precisa da dinâmica de deslocamento da população e do impacto no tráfego urbano.  
+
+A seguir, são apresentados gráficos sobre a **frota total de veículos**, a **frota de veículos individuais** e a **frota de veículos coletivos** por mil habitantes.  
+
+---
+
+### 📊 Frota de Veículos por Mil Habitantes  
+
+O gráfico abaixo apresenta a **quantidade total de veículos por mil habitantes**, permitindo avaliar o nível de motorização da população e suas possíveis implicações para a infraestrutura viária e mobilidade urbana.  
+
+🖼 **Figura 14 - Frota de veículos por mil habitantes**  
+![Figura 14 - Frota de veículos por mil habitantes](assets/figura14.jpg)  
+
+*(Fonte: Adaptado de FGV Atlas.)*  
+
+📌 **Observação:**  
+🚗 **São José dos Campos** possui mais de **600 veículos para cada mil habitantes**, quase ultrapassando a cidade de **São Paulo**, que tem um dos maiores índices de motorização do país.  
+
+---
+
+### 🚘 Frota de Veículos Individuais por Mil Habitantes  
+
+A quantidade de **veículos individuais** (como carros e motocicletas) por mil habitantes é um indicador importante da **dependência do transporte privado**. O gráfico a seguir ilustra a distribuição dessa frota na cidade.  
+
+🖼 **Figura 15 - Frota de veículos individuais por mil habitantes**  
+![Figura 15 - Frota de veículos individuais por mil habitantes](assets/figura15.jpg)  
+
+*(Fonte: Adaptado de FGV Atlas.)*  
+
+📌 **Observação:**  
+🚘 Considerando apenas **veículos individuais**, **São José dos Campos** possui quase **500 veículos para cada mil habitantes**, um número **superior ao da cidade de São Paulo**.  
+
+---
+
+### 🚌 Frota de Veículos Coletivos por Mil Habitantes  
+
+Os veículos de transporte coletivo, como ônibus e vans, desempenham um papel fundamental na mobilidade urbana. O gráfico abaixo apresenta a **quantidade de veículos coletivos disponíveis por mil habitantes**, permitindo avaliar a capacidade do sistema de transporte público em relação à demanda populacional.  
+
+🖼 **Figura 16 - Frota de veículos coletivos por mil habitantes**  
+![Figura 16 - Frota de veículos coletivos por mil habitantes](assets/figura16.jpg)  
+
+*(Fonte: Adaptado de FGV Atlas.)*  
+
+📌 **Observação:**  
+🚌 Em relação aos **veículos coletivos**, **São José dos Campos** possui **quase metade da frota per capita de São Paulo**. Isso indica que há **espaço para o desenvolvimento do transporte intraurbano coletivo**, reforçando a necessidade de investimentos no setor.  
+
+---
+
+
+
 
