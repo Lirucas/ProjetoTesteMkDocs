@@ -8,8 +8,5 @@ theme:
     primary: "#7CFC00"  # Barra de menus verde-limão
     accent: "#FFFFFF"   # Botões brancos
 
-extra_css:
-  - assets/custom.css  # Aplica o CSS personalizado
-
 nav:
   - Home: index.md
