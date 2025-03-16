@@ -42,6 +42,11 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 🔹 **Regiões mais populosas**: **Leste e Sul**  
 🔹 **Regiões com maior densidade populacional**: **Centro e Sul**  
 
+🖼 **Figura 1 - Número de habitantes e densidade populacional**  
+![Figura 1 - Número de habitantes e densidade populacional](assets/figura1.jpg)  
+
+*(Fonte: Adaptado de FGV ATLAS.)*  
+
 ---
 
 ### 📈 Dados Populacionais e Econômicos  
