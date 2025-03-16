@@ -46,9 +46,9 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 
 ### 📊 Figura 1 - Número de habitantes e densidade populacional  
 
-![Figura 1 - Número de habitantes e densidade populacional](assets/figura1.png)  
+![Figura 1 - Número de habitantes e densidade populacional](assets/figura1.jpg)  
 
-*(Fonte: Dados obtidos a partir de IBGE e órgãos públicos.)*  
+*(Fonte: Adaptado de FGV ATLAS.)*  
 
 ---
 
