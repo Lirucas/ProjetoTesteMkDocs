@@ -104,7 +104,7 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 
 ### 🚦 Densidade Populacional por Zona de Tráfego  
 
-Além da divisão geográfica principal, São José dos Campos também pode ser analisada a partir das **zonas de tráfego**, dentro das áreas mais urbanizadas da cidade. A **Figura 3** apresenta o **número de habitantes e a densidade populacional** em cada uma dessas zonas.  
+Além da divisão geográfica principal, São José dos Campos também pode ser analisada a partir das **zonas de tráfego**, dentro das áreas mais urbanizadas da cidade. A **Figura 4** apresenta o **número de habitantes e a densidade populacional** em cada uma dessas zonas.  
 
 🖼 **Figura 4 - Número de habitantes e densidade populacional por zona de tráfego**  
 ![Figura 4 - Número de habitantes e densidade populacional por zona de tráfego](assets/figura3.jpg)  
@@ -115,7 +115,7 @@ Além da divisão geográfica principal, São José dos Campos também pode ser 
 
 ### 💵 Renda Per Capita por Setor Censitário  
 
-Para entender melhor a **distribuição da renda** na cidade, a **Figura 4** apresenta a **renda per capita por setor censitário** dentro das áreas mais urbanizadas de São José dos Campos, enquanto a **Figura 5** apresenta a **renda per capita mensal média** em cada macrozona.  
+Para entender melhor a **distribuição da renda** na cidade, a **Figura 5** apresenta a **renda per capita por setor censitário** dentro das áreas mais urbanizadas de São José dos Campos, enquanto a **Figura 6** apresenta a **renda per capita mensal média** em cada macrozona.  
 
 🖼 **Figura 5 - Renda per capita por setor censitário**  
 ![Figura 5 - Renda per capita por setor censitário](assets/figura4.jpg)  
@@ -151,8 +151,8 @@ A mobilidade urbana em **São José dos Campos** é estruturada por uma ampla re
 
 Os **pontos de ônibus** estão **bem distribuídos** ao longo da região mais urbanizada da cidade, garantindo cobertura eficiente para o transporte coletivo. Além disso, há pontos estrategicamente localizados em regiões menos populosas, permitindo o deslocamento de moradores dessas áreas para os principais centros urbanos.  
 
-🖼 **Figura 7 - Distribuição de pontos de ônibus**  
-![Figura 7 - Distribuição de pontos de ônibus](assets/figura7.jpg)  
+🖼 **Figura 8 - Distribuição de pontos de ônibus**  
+![Figura 8 - Distribuição de pontos de ônibus](assets/figura7.jpg)  
 
 *(Fonte: Adaptado de https://sjview.sjc.sp.gov.br.)*  
 
@@ -162,8 +162,8 @@ Os **pontos de ônibus** estão **bem distribuídos** ao longo da região mais u
 
 Os **pontos de táxi** concentram-se principalmente nas regiões **Centro e Sul** da cidade, onde há maior demanda por transporte individual. Essa distribuição reflete a alta movimentação nessas áreas, que abrigam importantes centros comerciais, empresariais e serviços públicos.  
 
-🖼 **Figura 8 - Distribuição dos pontos de táxi**  
-![Figura 8 - Distribuição dos pontos de táxi](assets/figura8.jpg)  
+🖼 **Figura 9 - Distribuição dos pontos de táxi**  
+![Figura 9 - Distribuição dos pontos de táxi](assets/figura8.jpg)  
 
 *(Fonte: Adaptado de https://sjview.sjc.sp.gov.br.)*  
 
@@ -173,8 +173,8 @@ Os **pontos de táxi** concentram-se principalmente nas regiões **Centro e Sul*
 
 Os **semáforos** estão **predominantemente localizados ao longo das áreas adjacentes à Rodovia Dutra**, uma das principais vias de acesso à cidade. A maior concentração de semáforos ocorre nas regiões **Centro, Sul e Oeste**, onde há maior fluxo de veículos e necessidade de controle do trânsito. No entanto, eles também se fazem presentes nas demais regiões da cidade, embora em menor quantidade.  
 
-🖼 **Figura 9 - Distribuição dos semáforos**  
-![Figura 9 - Distribuição dos semáforos](assets/figura9.jpg)  
+🖼 **Figura 10 - Distribuição dos semáforos**  
+![Figura 10 - Distribuição dos semáforos](assets/figura9.jpg)  
 
 *(Fonte: Adaptado de https://sjview.sjc.sp.gov.br.)*  
 
@@ -184,8 +184,8 @@ Os **semáforos** estão **predominantemente localizados ao longo das áreas adj
 
 A cidade conta com **importantes conexões rodoviárias** que a ligam a municípios vizinhos e às principais capitais do Brasil. A **Rodovia Presidente Dutra (BR-116)** é a principal via de acesso, conectando **São José dos Campos** a **São Paulo e Rio de Janeiro**. Além disso, a cidade possui acessos estratégicos às rodovias **Tamoios (SP-099)**, que leva ao litoral norte, e **Carvalho Pinto (SP-070)**, que serve como uma alternativa rápida para a capital paulista.  
 
-🖼 **Figura 10 - Ligações viárias com outros municípios**  
-![Figura 10 - Ligações viárias com outros municípios](assets/figura10.jpg)  
+🖼 **Figura 11 - Ligações viárias com outros municípios**  
+![Figura 11 - Ligações viárias com outros municípios](assets/figura10.jpg)  
 
 *(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
@@ -202,8 +202,8 @@ A **hierarquia viária** de São José dos Campos é organizada em diferentes ti
 
 Essa organização facilita a mobilidade dentro do município e melhora a eficiência no tráfego, garantindo acesso rápido a diferentes regiões.  
 
-🖼 **Figura 11 - Hierarquia viária de São José dos Campos**  
-![Figura 11 - Hierarquia viária de São José dos Campos](assets/figura11.jpg)  
+🖼 **Figura 12 - Hierarquia viária de São José dos Campos**  
+![Figura 12 - Hierarquia viária de São José dos Campos](assets/figura11.jpg)  
 
 *(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
@@ -221,8 +221,8 @@ A seguir, são apresentadas análises sobre as **vias com maior densidade de tra
 
 Determinadas vias concentram um **alto fluxo de transporte coletivo**, representando os principais corredores utilizados pelos ônibus urbanos. Essas vias desempenham um papel essencial na mobilidade da população, conectando bairros residenciais a áreas comerciais e polos de emprego.  
 
-🖼 **Figura 12 - Vias com maior densidade de transporte coletivo**  
-![Figura 12 - Vias com maior densidade de transporte coletivo](assets/figura12.jpg)  
+🖼 **Figura 13 - Vias com maior densidade de transporte coletivo**  
+![Figura 13 - Vias com maior densidade de transporte coletivo](assets/figura12.jpg)  
 
 *(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
@@ -242,8 +242,8 @@ A dinâmica do transporte urbano também pode ser analisada a partir das **viage
 2️⃣ **Leste**  
 3️⃣ **Centro**  
 
-🖼 **Figura 13 - Viagens entre as macrozonas**  
-![Figura 13 - Viagens entre as macrozonas](assets/figura13.jpg)  
+🖼 **Figura 14 - Viagens entre as macrozonas**  
+![Figura 14 - Viagens entre as macrozonas](assets/figura13.jpg)  
 
 *(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
@@ -261,8 +261,8 @@ A seguir, são apresentados gráficos sobre a **frota total de veículos**, a **
 
 O gráfico abaixo apresenta a **quantidade total de veículos por mil habitantes**, permitindo avaliar o nível de motorização da população e suas possíveis implicações para a infraestrutura viária e mobilidade urbana.  
 
-🖼 **Figura 14 - Frota de veículos por mil habitantes**  
-![Figura 14 - Frota de veículos por mil habitantes](assets/figura14.jpg)  
+🖼 **Figura 15 - Frota de veículos por mil habitantes**  
+![Figura 15 - Frota de veículos por mil habitantes](assets/figura14.jpg)  
 
 *(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
@@ -275,8 +275,8 @@ O gráfico abaixo apresenta a **quantidade total de veículos por mil habitantes
 
 A quantidade de **veículos individuais** (como carros e motocicletas) por mil habitantes é um indicador importante da **dependência do transporte privado**. O gráfico a seguir ilustra a distribuição dessa frota na cidade.  
 
-🖼 **Figura 15 - Frota de veículos individuais por mil habitantes**  
-![Figura 15 - Frota de veículos individuais por mil habitantes](assets/figura15.jpg)  
+🖼 **Figura 16 - Frota de veículos individuais por mil habitantes**  
+![Figura 16 - Frota de veículos individuais por mil habitantes](assets/figura15.jpg)  
 
 *(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
@@ -289,8 +289,8 @@ A quantidade de **veículos individuais** (como carros e motocicletas) por mil h
 
 Os veículos de transporte coletivo, como ônibus e vans, desempenham um papel fundamental na mobilidade urbana. O gráfico abaixo apresenta a **quantidade de veículos coletivos disponíveis por mil habitantes**, permitindo avaliar a capacidade do sistema de transporte público em relação à demanda populacional.  
 
-🖼 **Figura 16 - Frota de veículos coletivos por mil habitantes**  
-![Figura 16 - Frota de veículos coletivos por mil habitantes](assets/figura16.jpg)  
+🖼 **Figura 17 - Frota de veículos coletivos por mil habitantes**  
+![Figura 17 - Frota de veículos coletivos por mil habitantes](assets/figura16.jpg)  
 
 *(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
@@ -312,8 +312,8 @@ A seguir, são apresentados gráficos para ilustrar esses aspectos.
 
 O gráfico a seguir apresenta a **porcentagem de cada meio de transporte utilizado** pelos moradores de São José dos Campos. Essa distribuição evidencia a predominância de determinados modos de deslocamento, como transporte individual, coletivo e não motorizado. A maior parte dos veículos utilizados na cidade são **automóveis**, enquanto a segunda maior parcela representa **veículos de transporte de passageiros**, evidenciando a dependência do transporte privado e coletivo na mobilidade urbana.  
 
-🖼 **Figura 17 - Porcentagem de meios de transporte e seus usos**  
-![Figura 17 - Porcentagem de meios de transporte e seus usos](assets/figura17.jpg)  
+🖼 **Figura 18 - Porcentagem de meios de transporte e seus usos**  
+![Figura 18 - Porcentagem de meios de transporte e seus usos](assets/figura17.jpg)  
 
 *(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
@@ -325,8 +325,8 @@ Os meios de transporte podem ser classificados em diferentes categorias, como **
 
 Ao analisar essa comparação, percebe-se que **São José dos Campos possui uma taxa muito maior de transporte individual** do que cidades com populações diversas, enquanto **o transporte coletivo é significativamente menor**. Já o uso de meios de transporte ativo, como caminhada e bicicleta, se mantém **em patamares semelhantes aos de outras cidades**, indicando que a infraestrutura para mobilidade ativa tem um impacto equilibrado independentemente do porte da cidade.  
 
-🖼 **Figura 18 - Categorias de transportes e comparação com outras cidades**  
-![Figura 18 - Categorias de transportes e comparação com outras cidades](assets/figura18.jpg)  
+🖼 **Figura 19 - Categorias de transportes e comparação com outras cidades**  
+![Figura 19 - Categorias de transportes e comparação com outras cidades](assets/figura18.jpg)  
 
 *(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
@@ -338,8 +338,8 @@ Além da distribuição percentual e da comparação modal, é importante observ
 
 Os dados indicam que **quanto maior a renda mensal, maior a preferência pelo automóvel particular** como meio de deslocamento principal. Esse padrão reflete uma **tendência natural** observada em diversas cidades, onde o aumento do poder aquisitivo resulta na priorização do transporte individual em detrimento do transporte coletivo.  
 
-🖼 **Figura 19 - Média do modo de transporte considerando a renda média**  
-![Figura 19 - Média do modo de transporte considerando a renda média](assets/figura19.jpg)  
+🖼 **Figura 20 - Média do modo de transporte considerando a renda média**  
+![Figura 20 - Média do modo de transporte considerando a renda média](assets/figura19.jpg)  
 
 *(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
@@ -357,8 +357,8 @@ A seguir, são apresentados gráficos que mostram o **índice de mobilidade por 
 
 A distribuição espacial do **índice de mobilidade** revela que as regiões com **maior índice** são, na seguinte ordem: **Oeste, Centro e Leste**. Essas áreas correspondem justamente aos pontos de **maior concentração industrial**, o que sugere que os índices de mobilidade refletem não apenas o acesso ao transporte, mas também os deslocamentos entre **zonas domiciliares e polos industriais**. Isso reforça a característica de **São José dos Campos como um grande polo industrial e tecnológico**, onde a mobilidade urbana está fortemente vinculada às atividades produtivas.  
 
-🖼 **Figura 20 - Índice de mobilidade por região**  
-![Figura 20 - Índice de mobilidade por região](assets/figura20.jpg)  
+🖼 **Figura 21 - Índice de mobilidade por região**  
+![Figura 21 - Índice de mobilidade por região](assets/figura20.jpg)  
 
 *(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
@@ -368,8 +368,8 @@ A distribuição espacial do **índice de mobilidade** revela que as regiões co
 
 Além da variação espacial, o índice de mobilidade também apresenta diferenças significativas quando analisado em relação à renda. O gráfico abaixo mostra uma **tendência previsível**: **quanto maior a renda, maior o índice de mobilidade**. Esse padrão indica que pessoas com maior poder aquisitivo têm **mais opções de transporte**, podendo optar por veículos particulares ou rotas mais eficientes no transporte coletivo.  
 
-🖼 **Figura 21 - Índice de mobilidade por salário mínimo**  
-![Figura 21 - Índice de mobilidade por salário mínimo](assets/figura21.jpg)  
+🖼 **Figura 22 - Índice de mobilidade por salário mínimo**  
+![Figura 22 - Índice de mobilidade por salário mínimo](assets/figura21.jpg)  
 
 *(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
@@ -425,8 +425,8 @@ Além da variação espacial, o índice de mobilidade também apresenta diferen�
 
 A cidade de **São José dos Campos** possui diferentes zonas que regulam o uso e a ocupação do solo, garantindo um crescimento ordenado e equilibrado. Essas zonas são organizadas de acordo com sua função principal, permitindo desde áreas estritamente residenciais até espaços destinados a comércios, indústrias e preservação ambiental.  
 
-🖼 **Figura 23 - Mapa de uso e ocupação do solo SJCampos**  
-![Figura 23 - Mapa de uso e ocupação do solo SJCampos](assets/figura23.png)  
+🖼 **Figura 22 - Mapa de uso e ocupação do solo SJCampos**  
+![Figura 22 - Mapa de uso e ocupação do solo SJCampos](assets/figura23.png)  
 *(Fonte: Autor.)*  
 
 ### 1. Centralidade  
