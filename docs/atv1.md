@@ -49,8 +49,8 @@ Além disso, sua localização **privilegiada** entre as capitais **São Paulo e
     - **Departamento de Ciência e Tecnologia Aeroespacial (DCTA)** 🏛️  
     - **Parque Tecnológico**, fomentando **startups e projetos científicos**.  
 
-🖼 **Figura - Região Metropolitana do Vale do Paraíba e do Litoral Norte**  
-![Figura - Região Metropolitana do Vale do Paraíba e do Litoral Norte](assets/figura22.jpg)  
+🖼 **Figura 1 - Região Metropolitana do Vale do Paraíba e do Litoral Norte**  
+![Figura 1 - Região Metropolitana do Vale do Paraíba e do Litoral Norte](assets/figura22.jpg)  
 
 *(Fonte: Autor.)*  
 
@@ -71,8 +71,8 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 🔹 **Regiões mais populosas**: **Leste e Sul**  
 🔹 **Regiões com maior densidade populacional**: **Centro e Sul**  
 
-🖼 **Figura 1 - Número de habitantes e densidade populacional**  
-![Figura 1 - Número de habitantes e densidade populacional](assets/figura1.jpg)  
+🖼 **Figura 2 - Número de habitantes e densidade populacional**  
+![Figura 2 - Número de habitantes e densidade populacional](assets/figura1.jpg)  
 
 *(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
 
@@ -95,8 +95,8 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 - **Área total do município**: **1.099,409 km²**.  
 - **Área urbanizada**: **128,94 km²**.  
 
-🖼 **Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território**  
-![Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território](assets/figura2.jpg)  
+🖼 **Figura 3 - Dados sobre população, trabalho, economia, meio ambiente e território**  
+![Figura 3 - Dados sobre população, trabalho, economia, meio ambiente e território](assets/figura2.jpg)  
 
 *(Fonte: Adaptado de IBGE -https://cidades.ibge.gov.br/brasil/sp/sao-jose-dos-campos/panorama)*  
 
@@ -106,8 +106,8 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 
 Além da divisão geográfica principal, São José dos Campos também pode ser analisada a partir das **zonas de tráfego**, dentro das áreas mais urbanizadas da cidade. A **Figura 3** apresenta o **número de habitantes e a densidade populacional** em cada uma dessas zonas.  
 
-🖼 **Figura 3 - Número de habitantes e densidade populacional por zona de tráfego**  
-![Figura 3 - Número de habitantes e densidade populacional por zona de tráfego](assets/figura3.jpg)  
+🖼 **Figura 4 - Número de habitantes e densidade populacional por zona de tráfego**  
+![Figura 4 - Número de habitantes e densidade populacional por zona de tráfego](assets/figura3.jpg)  
 
 *(Fonte: Adaptado de FGV Consolidação - https://www.sjc.sp.gov.br/media/148074/consolidacao-dos-dados.pdf)*  
 
@@ -117,13 +117,13 @@ Além da divisão geográfica principal, São José dos Campos também pode ser 
 
 Para entender melhor a **distribuição da renda** na cidade, a **Figura 4** apresenta a **renda per capita por setor censitário** dentro das áreas mais urbanizadas de São José dos Campos, enquanto a **Figura 5** apresenta a **renda per capita mensal média** em cada macrozona.  
 
-🖼 **Figura 4 - Renda per capita por setor censitário**  
-![Figura 4 - Renda per capita por setor censitário](assets/figura4.jpg)  
+🖼 **Figura 5 - Renda per capita por setor censitário**  
+![Figura 5 - Renda per capita por setor censitário](assets/figura4.jpg)  
 
 *(Fonte: Adaptado de FGV Consolidação - https://www.sjc.sp.gov.br/media/148074/consolidacao-dos-dados.pdf)*  
 
-🖼 **Figura 5 - Renda per capita mensal média**  
-![Figura 5 - Renda per capita mensal média](assets/figura6.jpg)  
+🖼 **Figura 6 - Renda per capita mensal média**  
+![Figura 6 - Renda per capita mensal média](assets/figura6.jpg)  
 
 *(Fonte: Adaptado de IBGE - https://cidades.ibge.gov.br/brasil/sp/sao-jose-dos-campos/panorama)*  
 
@@ -132,10 +132,10 @@ Para entender melhor a **distribuição da renda** na cidade, a **Figura 4** apr
 
 ### 🌍 Panorama Geral dos Dados  
 
-Na **Figura 6**, é apresentado um **panorama geral** sobre os **dados demográficos e socioeconômicos** de São José dos Campos.  
+Na **Figura 7**, é apresentado um **panorama geral** sobre os **dados demográficos e socioeconômicos** de São José dos Campos.  
 
-🖼 **Figura 6 - Panorama Geral dos Dados Demográficos e Socioeconômicos**  
-![Figura 6 - Panorama Geral dos Dados Demográficos e Socioeconômicos](assets/figura5.jpg)  
+🖼 **Figura 7 - Panorama Geral dos Dados Demográficos e Socioeconômicos**  
+![Figura 7 - Panorama Geral dos Dados Demográficos e Socioeconômicos](assets/figura5.jpg)  
 
 *(Fonte: Autor.)*  
 
@@ -418,6 +418,53 @@ Além da variação espacial, o índice de mobilidade também apresenta diferen�
 
 
 *(Fonte: Prefeitura de São José dos Campos - https://www.sjc.sp.gov.br/media/289924/decreto-pgt_19665-2024.pdf - https://www.sjc.sp.gov.br/media/198888/lc-623_19-alterada-pela-lc632_20_atualizjun2022.pdf - https://www.sjc.sp.gov.br/media/148068/lc_576_2016-plano_de_mobilidade_urbana-planmob.pdf - https://www.sjc.sp.gov.br/media/198888/lc-623_19-alterada-pela-lc632_20_atualizjun2022.pdf)*  
+
+---
+
+## 🌍 Zoneamento Urbano e Uso de Solo  
+
+A cidade de **São José dos Campos** possui diferentes zonas que regulam o uso e a ocupação do solo, garantindo um crescimento ordenado e equilibrado. Essas zonas são organizadas de acordo com sua função principal, permitindo desde áreas estritamente residenciais até espaços destinados a comércios, indústrias e preservação ambiental.  
+
+🖼 **Figura 23 - Mapa de uso e ocupação do solo SJCampos**  
+![Figura 23 - Mapa de uso e ocupação do solo SJCampos](assets/figura23.png)  
+*(Fonte: Autor.)*  
+
+### 1. Centralidade  
+Incluem as **Centralidades Locais e Metropolitanas**, que concentram comércios, serviços e habitação verticalizada. Nessas áreas, há grande movimentação urbana e facilidade de acesso. Variam conforme a abrangência, desde pequenos comércios para atender bairros até polos comerciais de impacto regional e metropolitano.  
+
+### 2. Corredores  
+Eixos viários que permitem comércio e serviços de diferentes portes. São usados como áreas de transição entre zonas residenciais e comerciais mais intensas. Variam de pequenos comércios locais a grandes empreendimentos de alto fluxo, estruturando o crescimento da cidade ao longo das principais vias.  
+
+### 3. Zonas Residenciais  
+Destinadas principalmente à moradia, diferem pela densidade permitida:  
+- **ZR1**: Áreas de **baixa densidade**, com casas isoladas.  
+- **ZR2**: Áreas de **média densidade**, com sobrados e pequenos edifícios.  
+- **ZR3**: Áreas de **alta densidade**, permitindo edifícios maiores.  
+
+Nessas zonas, a presença de comércios e serviços é restrita para preservar o caráter habitacional.  
+
+### 4. Zonas de Uso Diversificado  
+Permitem a coexistência de moradia, comércio e serviços no mesmo espaço. Promovem o **uso misto do solo**, garantindo um equilíbrio entre atividades urbanas e residenciais. Variam conforme a intensidade das atividades comerciais permitidas, desde pequenos negócios locais até estabelecimentos de maior porte.  
+
+### 5. Zonas Industriais  
+Destinadas a atividades industriais e logísticas, classificadas de acordo com o impacto ambiental e a necessidade de afastamento das áreas residenciais:  
+- **ZI1**: **Indústrias leves**, compatíveis com a cidade.  
+- **ZI2**: **Indústrias de médio porte**, exigindo infraestrutura específica.  
+- **ZI3**: **Indústrias de alto impacto**, exigindo afastamento maior das áreas urbanas.  
+
+### 6. Zonas Especiais  
+Áreas designadas para usos específicos, visando atender a demandas sociais, ambientais e urbanísticas:  
+- **ZEIS**: Zonas destinadas à **habitação de interesse social**.  
+- **ZEPA**: **Áreas protegidas** para **conservação ambiental**.  
+- **ZPE1** e **ZPE2**: Áreas que exigem planejamento específico, seja para regularização de glebas urbanas (**ZPE1**) ou para ocupação ordenada de locais estratégicos (**ZPE2**).  
+
+### 7. Zona Aeroportuária  
+Área exclusiva para **operações aeroportuárias** e **logística aérea**. Permite atividades relacionadas à aviação, como hangares, terminais e serviços de suporte.  
+
+### 8. Zonas de São Francisco Xavier  
+Regiões específicas para preservar o caráter natural e cultural do distrito:  
+- **ZESFX**: Núcleo urbano com **incentivos ao turismo** e **preservação cultural**.  
+- **APA São Francisco Xavier**: **Área de proteção ambiental**, garantindo o uso sustentável do território e restringindo ocupações que possam degradar o meio ambiente.  
 
 ---
 
