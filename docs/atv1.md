@@ -369,8 +369,9 @@ Além da variação espacial, o índice de mobilidade também apresenta diferen�
 ##### 🏛 **ANAC - Agência Nacional de Aviação Civil**  
 - **RBAC 155 (Regulamento Brasileiro da Aviação Civil nº 155)**: Estabelece os requisitos para a construção, operação e manutenção de helipontos, cobrindo aspectos como localização, dimensionamento, sinalização, iluminação e segurança.  
 - **Manual de Orientações de Infraestrutura de Helipontos**: Documento de referência para projetos de helipontos, auxiliando no entendimento dos elementos previstos no RBAC nº 155.  
+- **RBAC-E nº 94/2017**: Este Regulamento Brasileiro da Aviação Civil Especial – RBAC-E aborda os requisitos gerais de competência da ANAC para aeronaves não tripuladas.  
 
-*(Fonte: ANAC - Agência Nacional de Aviação Civil - https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-155 - https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/cadastro-de-aerodromos/procedimentos-para-aerodromos-privados/manual_orientacoes_infraestrutura_helipontos.pdf.)*  
+*(Fonte: ANAC - Agência Nacional de Aviação Civil - https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-155 - https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/cadastro-de-aerodromos/procedimentos-para-aerodromos-privados/manual_orientacoes_infraestrutura_helipontos.pdf - https://www.anac.gov.br/assuntos/legislacao/legislacao-1/rbha-e-rbac/rbac/rbac-e-94)*  
 
 ##### ✈️ **DECEA - Departamento de Controle do Espaço Aéreo**  
 - **ICA 11-408 (Instrução do Comando da Aeronáutica nº 11-408)**: Restrições aos objetos projetados no espaço aéreo que possam afetar adversamente a segurança ou a regularidade das operações aéreas.  
@@ -382,9 +383,12 @@ Além da variação espacial, o índice de mobilidade também apresenta diferen�
 #### 🏙️ Prefeitura de São José dos Campos  
 
 - **Decreto nº 19.665, de 14 de junho de 2024**: Regulamenta a Lei Complementar nº 633, de 3 de abril de 2020, que "dispõe sobre exigências e normas relativas ao licenciamento, aprovação e instalação de empreendimentos classificados ou não como Polo Gerador de Tráfego - PGT", e disciplina as vagas de estacionamento, os acessos, vias de circulação interna, a área de manobra e a acumulação de veículos e dá outras providências.  
-- **Lei Complementar nº 623, de 9 de outubro de 2019**: Estabelece as normas relativas ao parcelamento, uso e ocupação do solo, em consonância com o Plano Diretor de Desenvolvimento Integrado do Município de São José dos Campos aprovado e instituído pela Lei Complementar nº 612, de 30 de novembro de 2018. *(Aeródromo sujeito a análise específica.)*  
+- **Lei Complementar nº 623, de 9 de outubro de 2019**: Estabelece as normas relativas ao parcelamento, uso e ocupação do solo, em consonância com o Plano Diretor de Desenvolvimento Integrado do Município de São José dos Campos aprovado e instituído pela Lei Complementar nº 612, de 30 de novembro de 2018. *(Aeródromo sujeito a análise específica.)* 
+- **Plano Municipal de Mobilidade Urbana – Lei Complementar nº 576/2016**: Institui a política municipal de mobilidade urbana no município de São José dos Campos e dá outras providências.  
+- **Lei de Uso e Ocupação do Solo – Lei Complementar nº 623/2019**: Estabelece as normas relativas ao parcelamento, uso e ocupação do solo, em consonância com o Plano Diretor de Desenvolvimento Integrado do Município de São José dos Campos aprovado e instituído pela Lei Complementar nº 612/2018.  
 
-*(Fonte: Prefeitura de São José dos Campos - https://www.sjc.sp.gov.br/media/289924/decreto-pgt_19665-2024.pdf - https://www.sjc.sp.gov.br/media/198888/lc-623_19-alterada-pela-lc632_20_atualizjun2022.pdf.)*  
+
+*(Fonte: Prefeitura de São José dos Campos - https://www.sjc.sp.gov.br/media/289924/decreto-pgt_19665-2024.pdf - https://www.sjc.sp.gov.br/media/198888/lc-623_19-alterada-pela-lc632_20_atualizjun2022.pdf - https://www.sjc.sp.gov.br/media/148068/lc_576_2016-plano_de_mobilidade_urbana-planmob.pdf - https://www.sjc.sp.gov.br/media/198888/lc-623_19-alterada-pela-lc632_20_atualizjun2022.pdf)*  
 
 ---
 
