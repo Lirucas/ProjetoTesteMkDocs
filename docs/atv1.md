@@ -113,7 +113,7 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 - Transporte de passageiros (coletivo e individual)
 
 **Figura 8 - Porcentagem de meios de transporte e seus usos**  
-![Figura 8 - Porcentagem de meios de transporte e seus usos](assets/figura8.jpg)  
+![Figura 8 - Porcentagem de meios de transporte e seus usos](assets/a.jpg)  
 
 *(Fonte: Adaptado de [FGV Atlas OD](https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf))*   
 
