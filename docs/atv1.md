@@ -49,7 +49,7 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 **Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território**  
 ![Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território](assets/figura2.jpg)  
 
-**(Fonte: Adaptado de [IBGE](https://cidades.ibge.gov.br/brasil/sp/sao-jose-dos-campos/panorama))**
+(Fonte: Adaptado de **[IBGE](https://cidades.ibge.gov.br/brasil/sp/sao-jose-dos-campos/panorama)**)
 
 
 ---
