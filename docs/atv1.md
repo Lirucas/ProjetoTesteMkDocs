@@ -1,105 +1,59 @@
 # Atividade A1 - 18/03/2025
 
-## 📊 Dados Demográficos e Socioeconômicos
+# São José dos Campos - SP
 
-Esta seção apresenta dados **sociodemográficos** e **econômicos** relevantes sobre o município de **São José dos Campos - SP**, obtidos a partir de fontes como:
+São José dos Campos é uma **cidade estratégica** localizada no **Vale do Paraíba**, interior do estado de São Paulo. Reconhecida por sua **forte indústria e tecnologia**, destaca-se como um dos principais **polos aeroespaciais e de inovação** do Brasil. Além disso, sua localização **privilegiada** entre as capitais **São Paulo e Rio de Janeiro**, aliada a um **dinamismo econômico diversificado**, faz de São José dos Campos um **importante centro de desenvolvimento** no cenário nacional.
 
-📌 **Instituto Brasileiro de Geografia e Estatística (IBGE)**
-🏛️ **Órgãos públicos (federais, estaduais e municipais)**
-🌍 **Ferramentas governamentais e estudos privados**
-🏙️ **Prefeitura de São José dos Campos**  
-
-Esses dados fornecem um **panorama abrangente** das características **populacionais, sociais e econômicas** da região, permitindo uma melhor compreensão da **dinâmica e desenvolvimento** do município.  
-
----
-
-### 🌆 Sobre São José dos Campos
-
-São José dos Campos é uma **cidade estratégica**, localizada no **Vale do Paraíba**, interior do estado de São Paulo. Reconhecida por sua **forte indústria e tecnologia**, destaca-se como um dos principais **polos aeroespaciais e de inovação** do Brasil.  
-
-🏭 **Destaques da cidade:**  
-✅ Infraestrutura desenvolvida 🚧  
-✅ Altos índices de qualidade de vida 🌱  
-✅ Grandes empresas nacionais e multinacionais 🏢  
-✅ Instituições de ensino e pesquisa de referência 🎓  
-
-Além disso, sua localização **privilegiada** entre as capitais **São Paulo e Rio de Janeiro**, aliada a um **dinamismo econômico diversificado**, faz de São José dos Campos um **importante centro de desenvolvimento** no cenário nacional.  
-### 🌍 Região Metropolitana do Vale do Paraíba e Litoral Norte (RMVale)  
-
-- Criada em **2012**, a **RMVale** reúne municípios com **forte interdependência econômica e social**, promovendo uma gestão integrada para desafios regionais, como:  
-  - **Mobilidade** 🚉  
-  - **Infraestrutura** 🏗️  
-  - **Meio ambiente** 🌱  
-
-- Localização **estratégica** 📍:  
-  - Situada entre as metrópoles de **São Paulo e Rio de Janeiro**, conecta **interior e litoral**.  
-  - Atua como **eixo de desenvolvimento** do estado, impulsionando **indústria, comércio e turismo**.  
-  - Rodovias **Presidente Dutra** e **Tamoios** facilitam o **escoamento da produção e circulação de pessoas**.  
-
-- **São José dos Campos como cidade-polo** 🚀:  
-  - Principal **motor econômico da RMVale**.  
-  - Um dos **maiores PIBs do estado**.  
-  - Forte presença de **indústrias de ponta** nos setores:  
-    - **Aeroespacial** ✈️ (Embraer, Avibras)  
-    - **Automotivo** 🚗 (General Motors)  
-    - **Tecnológico** 💡  
-  - Polo de **inovação e pesquisa**, com instituições de referência:  
-    - **Instituto Tecnológico de Aeronáutica (ITA)** 🎓  
-    - **Instituto Nacional de Pesquisas Espaciais (INPE)** 🛰️  
-    - **Departamento de Ciência e Tecnologia Aeroespacial (DCTA)** 🏛️  
-    - **Parque Tecnológico**, fomentando **startups e projetos científicos**.  
-
-🖼 **Figura 1 - Região Metropolitana do Vale do Paraíba e do Litoral Norte**  
-![Figura 1 - Região Metropolitana do Vale do Paraíba e do Litoral Norte](assets/figura22.jpg)  
-
-*(Fonte: Autor.)*  
+## **Destaques da cidade:**  
+- **Infraestrutura desenvolvida** 
+- **Alto índice de qualidade de vida** 
+- **Forte indústria e tecnologia**
+- **Polo aeroespacial e tecnológico** 
+- **Instituições de ensino e pesquisa de referência**  
 
 ---
 
-### 🗺️ Divisão Geográfica  
+## Divisão Geográfica  
 
 A cidade pode ser dividida em **sete regiões geográficas principais**, ou **macrozonas**:  
 
-📍 **Centro**  
-📍 **Norte**  
-📍 **Sul**  
-📍 **Sudeste**  
-📍 **Leste**  
-📍 **Oeste**  
-📍 **Extremo Norte**  
+- **Centro**  
+- **Norte**  
+- **Sul**  
+- **Sudeste**  
+- **Leste**  
+- **Oeste**  
+- **Extremo Norte**  
 
-🔹 **Regiões mais populosas**: **Leste e Sul**  
-🔹 **Regiões com maior densidade populacional**: **Centro e Sul**  
+**Regiões mais populosas**: **Leste e Sul**  
+**Regiões com maior densidade populacional**: **Centro e Sul**  
 
-🖼 **Figura 2 - Número de habitantes e densidade populacional**  
-![Figura 2 - Número de habitantes e densidade populacional](assets/figura1.jpg)  
+**Figura 1 - Número de habitantes e densidade populacional**  
+![Figura 1 - Número de habitantes e densidade populacional](assets/figura1.jpg)  
 
-*(Fonte: Adaptado de FGV Atlas OD - https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf.)*  
+*(Fonte: Adaptado de [FGV Atlas OD](https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf))*  
 
 ---
 
-### 📈 Dados Populacionais e Econômicos  
+## Dados Populacionais e Econômicos  
+  
+- **População Censo IBGE 2022**: 697.054 habitantes  
+- **População estimada em 2024**: 724.756 habitantes  
+- **Densidade demográfica**: 634,03 hab/km²   
+- **Índice de Desenvolvimento Humano Municipal (IDHM)**: 0,807  
+- **PIB per capita**: +61 mil reais  
+- **Salário médio mensal**: 3,3 salários mínimos    
+- **Área total do município**: 1.099,409 km²  
+- **Área urbanizada**: 128,94 km²
 
-📊 **População e Densidade Demográfica**  
-- De acordo com os dados do último **Censo IBGE (2022)**, a cidade possui **697.054 habitantes**.  
-- Para **2024**, a população estimada é de **724.756 habitantes**.  
-- A **densidade demográfica** é de **634,03 habitantes por km²**.  
+**Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território**  
+![Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território](assets/figura2.jpg)  
 
-💰 **Indicadores Econômicos**  
-- **Índice de Desenvolvimento Humano Municipal (IDH-M)**: **0,807** (um dos maiores do Brasil).  
-- **PIB per capita**: **+61 mil reais**.  
-- **Salário médio mensal**: **3,3 salários mínimos**.  
-- **Emprego formal**: **Aproximadamente 36% da população empregada formalmente**.  
+*(Fonte: Adaptado de [IBGE](https://cidades.ibge.gov.br/brasil/sp/sao-jose-dos-campos/panorama))*  
 
-📏 **Área Territorial**  
-- **Área total do município**: **1.099,409 km²**.  
-- **Área urbanizada**: **128,94 km²**.  
-
-🖼 **Figura 3 - Dados sobre população, trabalho, economia, meio ambiente e território**  
-![Figura 3 - Dados sobre população, trabalho, economia, meio ambiente e território](assets/figura2.jpg)  
-
-*(Fonte: Adaptado de IBGE -https://cidades.ibge.gov.br/brasil/sp/sao-jose-dos-campos/panorama)*  
-
+---
+---
+---
 ---
 
 ### 🚦 Densidade Populacional por Zona de Tráfego  
@@ -425,7 +379,7 @@ Além da variação espacial, o índice de mobilidade também apresenta diferen�
 
 A cidade de **São José dos Campos** possui diferentes zonas que regulam o uso e a ocupação do solo, garantindo um crescimento ordenado e equilibrado. Essas zonas são organizadas de acordo com sua função principal, permitindo desde áreas estritamente residenciais até espaços destinados a comércios, indústrias e preservação ambiental.  
 
-🖼 **Figura 23 - Mapa de uso e ocupação do solo SJCampos**  
+🖼 **Figura 23 - Mapa de uso e ocupação do solo de São José dos Campos**  
 ![Figura 23 - Mapa de uso e ocupação do solo SJCampos](assets/figura23.png)  
 *(Fonte: Autor.)*  
 
