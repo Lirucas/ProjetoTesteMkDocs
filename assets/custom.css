@@ -1,7 +1,7 @@
 :root {
     --md-primary-fg-color: #228B22; /* Verde-limão para a barra de menus */
     --md-accent-fg-color: #FFFFFF; /* Branco para os botões */
-    --md-typeset-a-color: #0000FF; /* Altere para a cor desejada para os links (ex: azul) */
+    --md-typeset-a-color: #228B22; /* Altere para a cor desejada para os links (ex: azul) */
 }
 
 
