@@ -2,6 +2,11 @@
 
 São José dos Campos é uma **cidade estratégica** localizada no **Vale do Paraíba**, interior do estado de São Paulo. Reconhecida por sua **forte indústria e tecnologia**, destaca-se como um dos principais **polos aeroespaciais e de inovação** do Brasil. Além disso, sua localização **privilegiada** entre as capitais **São Paulo e Rio de Janeiro**, aliada a um **dinamismo econômico diversificado**, faz de São José dos Campos um **importante centro de desenvolvimento** no cenário nacional.
 
+**Figura 1 - São José dos Campos - Região Metropolitana do Vale do Paraíba e do Litoral Norte**  
+![Figura 1 - São José dos Campos - Região Metropolitana do Vale do Paraíba e do Litoral Norte](assets/aaa.jpg)  
+
+*(Fonte: Adaptado de [IBGE](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/18354-recortes-metropolitanos-e-aglomeracoes-urbanas.html))* 
+
 ## Destaques da Cidade 
  
 - **Infraestrutura desenvolvida** 
@@ -27,8 +32,8 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 **Regiões mais populosas**: Leste e Sul  
 **Regiões com maior densidade populacional**: Centro e Sul 
 
-**Figura 1 - Número de habitantes e densidade populacional**  
-![Figura 1 - Número de habitantes e densidade populacional](assets/figura1.jpg)  
+**Figura 2 - Número de habitantes e densidade populacional**  
+![Figura 2 - Número de habitantes e densidade populacional](assets/figura1.jpg)  
 
 *(Fonte: Adaptado de [FGV Atlas OD](https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf))*  
 
@@ -45,8 +50,8 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 - **Área total do município**: 1.099,409 km²  
 - **Área urbanizada**: 128,94 km²
 
-**Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território**  
-![Figura 2 - Dados sobre população, trabalho, economia, meio ambiente e território](assets/figura2.jpg)  
+**Figura 3 - Dados sobre população, trabalho, economia, meio ambiente e território**  
+![Figura 3 - Dados sobre população, trabalho, economia, meio ambiente e território](assets/figura2.jpg)  
 
 *(Fonte: Adaptado de [IBGE](https://cidades.ibge.gov.br/brasil/sp/sao-jose-dos-campos/panorama))*
 
@@ -56,8 +61,8 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 
 - **Regiões com maior renda per capita mensal**: Oeste, Centro e Sul
 
-**Figura 3 - Renda per capita mensal média**  
-![Figura 3 - Renda per capita mensal média](assets/figura3.jpg)  
+**Figura 4 - Renda per capita mensal média**  
+![Figura 4 - Renda per capita mensal média](assets/figura3.jpg)  
 
 *(Fonte: Adaptado de [IBGE](https://cidades.ibge.gov.br/brasil/sp/sao-jose-dos-campos/panorama))*  
 
@@ -65,8 +70,8 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 
 ## Panorama Geral dos Dados  
 
-**Figura 4 - Panorama Geral dos Dados Demográficos e Socioeconômicos**  
-![Figura 4 - Panorama Geral dos Dados Demográficos e Socioeconômicos](assets/figura4.jpg)  
+**Figura 5 - Panorama Geral dos Dados Demográficos e Socioeconômicos**  
+![Figura 5 - Panorama Geral dos Dados Demográficos e Socioeconômicos](assets/figura4.jpg)  
 
 *(Fonte: Autor.)*  
 
@@ -74,8 +79,8 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 
 ## Transporte e Fluxo 
  
-**Figura 5 - Hierarquia viária de São José dos Campos**  
-![Figura 5 - Hierarquia viária de São José dos Campos](assets/figura5.jpg)  
+**Figura 6 - Hierarquia viária de São José dos Campos**  
+![Figura 6 - Hierarquia viária de São José dos Campos](assets/figura5.jpg)  
 
 *(Fonte: Adaptado de [FGV Atlas OD](https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf))*   
 
@@ -91,8 +96,8 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 - Leste
 - Centro
 
-**Figura 6 - Viagens entre as macrozonas**  
-![Figura 6 - Viagens entre as macrozonas](assets/figura6.jpg)  
+**Figura 7 - Viagens entre as macrozonas**  
+![Figura 7 - Viagens entre as macrozonas](assets/figura6.jpg)  
 
 *(Fonte: Adaptado de [FGV Atlas OD](https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf))*   
 
@@ -102,8 +107,8 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 - Centro
 - Leste
 
-**Figura 7 - Índice de mobilidade por região**  
-![Figura 7 - Índice de mobilidade por região](assets/figura7.jpg)  
+**Figura 8 - Índice de mobilidade por região**  
+![Figura 8 - Índice de mobilidade por região](assets/figura7.jpg)  
 
 *(Fonte: Adaptado de [FGV Atlas OD](https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf))* 
 
@@ -112,8 +117,8 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 - Automóvel (individual)
 - Transporte de passageiros (coletivo e individual)
 
-**Figura 8 - Porcentagem de meios de transporte e seus usos**  
-![Figura 8 - Porcentagem de meios de transporte e seus usos](assets/a.jpg)  
+**Figura 9 - Porcentagem de meios de transporte e seus usos**  
+![Figura 9 - Porcentagem de meios de transporte e seus usos](assets/a.jpg)  
 
 *(Fonte: Adaptado de [FGV Atlas OD](https://www.sjc.sp.gov.br/media/56152/atlas_origem_destino_baixa_res.pdf))*   
 
@@ -162,9 +167,9 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 - Zona aeroportuária
 - Zoas de São Francisco Xavier
 
-**Figura 9 - Mapa de uso e ocupação do solo de São José dos Campos**  
-![Figura 9 - Mapa de uso e ocupação do solo SJCampos](assets/figura9.png)  
-*(Fonte: [IBGE](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html) e [Prefeitura de São José dos Campos](https://www.sjc.sp.gov.br/servicos/urbanismo-e-sustentabilidade/planejamento-urbano/zoneamento/consulta-de-zoneamento/))*  
+**Figura 10 - Mapa de uso e ocupação do solo de São José dos Campos**  
+![Figura 10 - Mapa de uso e ocupação do solo SJCampos](assets/figura9.png)  
+*(Fonte: Adaptado de [IBGE](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html) e [Prefeitura de São José dos Campos](https://www.sjc.sp.gov.br/servicos/urbanismo-e-sustentabilidade/planejamento-urbano/zoneamento/consulta-de-zoneamento/))*  
 
 ---
 
