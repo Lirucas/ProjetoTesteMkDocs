@@ -1,8 +1,8 @@
-# **São José dos Campos - SP** aaaa
+# **São José dos Campos - SP** 
 
 São José dos Campos é uma **cidade estratégica** localizada no **Vale do Paraíba**, interior do estado de São Paulo. Reconhecida por sua **forte indústria e tecnologia**, destaca-se como um dos principais **polos aeroespaciais e de inovação** do Brasil. Além disso, sua localização **privilegiada** entre as capitais **São Paulo e Rio de Janeiro**, aliada a um **dinamismo econômico diversificado**, faz de São José dos Campos um **importante centro de desenvolvimento** no cenário nacional.
 
-## **Destaques da Cidade:** 
+## Destaques da Cidade 
  
 - **Infraestrutura desenvolvida** 
 - **Alto índice de qualidade de vida** 
@@ -148,5 +148,25 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 - **[Lei de Uso e Ocupação do Solo – Lei Complementar nº 623/2019](https://www.sjc.sp.gov.br/media/198888/lc-623_19-alterada-pela-lc632_20_atualizjun2022.pdf)**: Estabelece as normas relativas ao parcelamento, uso e ocupação do solo, em consonância com o Plano Diretor de Desenvolvimento Integrado do Município de São José dos Campos aprovado e instituído pela Lei Complementar nº 612/2018  
 
 ---
+
+## Zoneamento Urbano e Uso de Solo 
+
+**Divisões de Zoneamento Urbano e Uso de Solo:** 
+
+- Centralidade
+- Corredores
+- Zonas residenciais
+- Zonas de uso diversificado
+- Zonas industriais
+- Zonas especiais
+- Zona aeroportuária
+- Zoas de São Francisco Xavier
+
+**Figura 9 - Mapa de uso e ocupação do solo de São José dos Campos**  
+![Figura 9 - Mapa de uso e ocupação do solo SJCampos](assets/figura9.png)  
+*(Fonte: [IBGE](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html) e [Prefeitura de São José dos Campos](https://www.sjc.sp.gov.br/servicos/urbanismo-e-sustentabilidade/planejamento-urbano/zoneamento/consulta-de-zoneamento/))*  
+
+---
+
 
 
