@@ -13,16 +13,3 @@
 .md-typeset a {
     color: var(--md-typeset-a-color) !important; /* Verde */
 }
-
-.md-nav__title {
-    visibility: hidden;
-    position: relative;
-}
-
-.md-nav__title::after {
-    content: "Sumário"; /* Novo título */
-    visibility: visible;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
