@@ -4,15 +4,7 @@
     --md-typeset-a-color: #228B22 !important; /* Verde para os links com !important */
 }
 
-/* Altera a cor dos links normais para o verde */
-a {
-    color: #228B22 !important; /* Verde para os links */
-}
 
-/* Altera a cor dos links ao passar o mouse sobre eles */
-a:hover {
-    color: #006400 !important; /* Verde escuro (DarkGreen) no hover */
-}
 
 /* Garante que os botões fiquem visíveis */
 .md-button {
