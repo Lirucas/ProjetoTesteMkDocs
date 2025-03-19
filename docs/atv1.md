@@ -73,7 +73,7 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 **Figura 5 - Panorama Geral dos Dados Demográficos e Socioeconômicos**  
 ![Figura 5 - Panorama Geral dos Dados Demográficos e Socioeconômicos](assets/figura4.jpg)  
 
-*(Fonte: Autor.)*  
+*(Fonte: Autor)*  
 
 ---
 
