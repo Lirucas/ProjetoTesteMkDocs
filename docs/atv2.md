@@ -43,16 +43,6 @@ adsadasda
 
 ## AIP (*Agregação Individual de Prioridades*) ##
 
-| Critério  | Grupo A  | 
-|-----------------|--------|
-| Infraestrutura  | 26,80%  | 
-| Ruído          | 11,36%   | 
-| Acessibilidade | 12,32%   | 
-| Privacidade    | 4,30%   | 
-| Eficiência     | 12,58%  | 
-| Horas Op.      | 5,20%   | 
-| Impacto Amb.   | 8,40%  | 
-| Segurança      | 19,04%   |
 
 **Figura 2 - Resultados do grupo para AIP dos oito critérios para escolha de sítio**  
 ![Figura 2 - Resultados do grupo para AIP dos oito critérios para escolha de sítio](assets/aip.jpg)
