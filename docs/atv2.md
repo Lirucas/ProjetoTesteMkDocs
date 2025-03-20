@@ -1,6 +1,6 @@
 # **Seleção de Sítio para Vertiporto** 
 
-Introdução
+Para *avaliar a escolha do sítio* são usados *critérios* que consideram diversos fatores relevantes, aplicados no método *Processo Hierárquico Analítico* (AHP) para hierarquizar as alternativas. A *Agregação Individual de Prioridades* (AIP) é então utilizada para consolidar as avaliações de diferentes participantes, gerando uma *avaliação que represente a vontade do grupo*.
 
 ## Critérios para Seleção de Sítio ##
 
