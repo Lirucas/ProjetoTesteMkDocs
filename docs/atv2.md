@@ -19,18 +19,6 @@ Para **avaliar a escolha do sítio** são usados **critérios** que consideram d
 
 AHP é uma **metodologia de tomada de decisão** que organiza e analisa complexos problemas através de uma estrutura hierárquica, permitindo **comparar e priorizar alternativas com base em critérios** quantitativos e qualitativos.
 
-| Critério/Membro  | Lucas  | Alex   | Edson  | Francisco | Gabriela |
-|-----------------|--------|--------|--------|-----------|----------|
-| Infraestrutura  | 25,2%  | 30,2%  | 40,7%  | 19,8%     | 18,0%    |
-| Ruído          | 3,5%   | 22,9%  | 19,8%  | 6,9%      | 3,7%     |
-| Acessibilidade | 6,4%   | 4,3%   | 17,6%  | 11,0%     | 22,3%    |
-| Privacidade    | 1,7%   | 4,3%   | 3,6%   | 9,1%      | 2,8%     |
-| Eficiência     | 25,2%  | 4,3%   | 5,8%   | 12,1%     | 15,5%    |
-| Horas Op.      | 6,4%   | 4,3%   | 4,9%   | 3,7%      | 6,7%     |
-| Impacto Amb.   | 25,2%  | 4,3%   | 2,9%   | 3,5%      | 6,1%     |
-| Segurança      | 6,4%   | 25,4%  | 4,6%   | 33,9%     | 24,9%    |
-| CR             | 4,0%   | 6,2%   | 8,8%   | 3,9%      | 9,9%     |
-
 **Figura 1 - Resultados individuais para AHP dos oito critérios para escolha de sítio**  
 ![Figura 1 - Resultados individuais para AHP dos oito critérios para escolha de sítio](assets/ahpindi.jpg)  
 
@@ -43,7 +31,7 @@ AHP é uma **metodologia de tomada de decisão** que organiza e analisa complexo
 - Tendência a valorizar a infraestrutura e segurança
 - Tendência a desvalorizar a privacidade e horas de operação
 - Tendência de manter a importância do ruído, acessibilidade, impacto ambiental e eficiência como medianos
-- Todos as razões de consistência abaixo de 10%
+- Razões de consistência abaixo de 10%
 
 ---
 
@@ -58,7 +46,7 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 
 ## Possíveis Sítios ##
 
-- Aeroporto Internacional de SJC Professor Urbano Ernesto Stumpf: Integração multimodal e logística
+- Aeroporto Internacional de SJC Prof. Urbano E. Stumpf: Integração multimodal e logística
 - Bairro Urbanova: Comunidade residencial e acadêmica
 - Parque Tecnológico: Foco em negócios e inovação
 - Shopping Colinas: Público de alto poder aquisitivo e comércio
@@ -69,5 +57,8 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 ---
 
 ## AHP e AIP Sítios ##
-´
 
+Com o **AHP dentre os sítios para cada critério**, é possível definir um **AIP para todas as possibilidades de sítio**.
+
+**Figura 4 - Resultados do grupo para AIP dos quatro sítios de acordo com cada critério**  
+![Figura 4 - Resultados do grupo para AIP dos quatro sítios de acordo com cada critério](assets/aip2.jpg)
