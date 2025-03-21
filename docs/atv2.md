@@ -20,7 +20,7 @@ Para **avaliar a escolha do sítio** são usados **critérios** que consideram d
 AHP é uma **metodologia de tomada de decisão** que organiza e analisa complexos problemas através de uma estrutura hierárquica, permitindo **comparar e priorizar alternativas com base em critérios** quantitativos e qualitativos.
 
 **Figura 1 - Resultados individuais para AHP dos oito critérios para escolha de sítio**  
-![Figura 1 - Resultados individuais para AHP dos oito critérios para escolha de sítio](assets/ahpindi.jpg)  
+![Figura 1 - Resultados individuais para AHP dos oito critérios para escolha de sítio](assets/ahp.jpg)  
 
 *(Fonte: Autor.)* 
 
