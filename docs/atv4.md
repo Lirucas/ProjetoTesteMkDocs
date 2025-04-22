@@ -142,7 +142,7 @@ Por fim, de acordo com a **prioridade entre os critérios** e a **prioridade ent
 
 ---
 
-# **Zoneamento e Modelagem de Demanda** 
+## Zoneamento e Modelagem de Demanda 
 
 Para **avaliar a demanda** e realizar a **análise de viagens entre vertiportos e macrozonas**, é necessário dividir o espaço urbano em zonas de estudo e aplicar modelos que representem o comportamento de escolha dos usuários, sendo utilizados o **Modelo de Gravidade** e o **Modelo de Huff**, que permitem estimar o fluxo de viagens e a probabilidade de utilização dos vertiportos.
 
@@ -289,9 +289,9 @@ A aplicação do modelo com os parâmetros definidos resulta na **matriz origem-
 ![Figura 18 - Matriz de origem-destino entre vertiportos e macrozonas](assets/A4R1.jpg)  
 *(Fonte: Autor)* 
 
-A **matriz origem-destino** revela **tendências de fluxo compatíveis com os perfis de produção e atração definidos**. O **Aeroporto Internacional de São José dos Campos**, com maior fator de produção (\( P_i = 52,6 \)), apresenta os maiores volumes de viagens estimadas, destacando-se nas conexões com o **Sul (76 viagens)** e **Leste (60 viagens)** — macrozonas que, por sua vez, possuem os maiores fatores de atração.
+A **matriz origem-destino** revela **tendências de fluxo compatíveis com os perfis de produção e atração definidos**. O **Aeroporto Internacional de São José dos Campos**, com maior fator de produção **P<sub>i</sub>** = 52,6 , apresenta os maiores volumes de viagens estimadas, destacando-se nas conexões com o **Sul (76 viagens)** e **Leste (60 viagens)** — macrozonas que, por sua vez, possuem os maiores fatores de atração.
 
-O **Shopping Colinas** também se destaca com **valores expressivos**, especialmente em direção ao **Sul (43)** e ao **Leste (34)**, refletindo tanto seu **potencial comercial** quanto sua **boa localização relativa** e **baixa distância penalizada** pelo valor negativo de \(\beta = -0.1\). Esse valor de \(\beta\), ao **inverter o efeito tradicional da impedância**, favorece deslocamentos um pouco mais longos, alinhados à lógica de que **viagens muito curtas tendem a ser supridas por meios terrestres convencionais**.
+O **Shopping Colinas** também se destaca com **valores expressivos**, especialmente em direção ao **Sul (43)** e ao **Leste (34)**, refletindo tanto seu **potencial comercial** quanto sua **boa localização relativa** e **baixa distância penalizada** pelo valor negativo de **β** = -0.1. Esse valor de **β**, ao **inverter o efeito tradicional da impedância**, favorece deslocamentos um pouco mais longos, alinhados à lógica de que **viagens muito curtas tendem a ser supridas por meios terrestres convencionais**.
 
 Já o **Parque de Inovação Tecnológica** e o **Urbanova** apresentam valores mais modestos, consistentes com seus **menores fatores de produção** e com sua **localização mais periférica** em relação às zonas de maior atração.
 
