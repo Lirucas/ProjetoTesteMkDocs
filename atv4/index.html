@@ -41,7 +41,7 @@
       
     
     
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css">
+      <link rel="stylesheet" href="../assets/custom.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -811,17 +811,15 @@
 <h2 id="modelo-de-gravidade"><strong>Modelo de Gravidade</strong></h2>
 <p>O <strong>Modelo de Gravidade</strong> é utilizado para <strong>estimar o número de viagens entre os vertiportos e as macrozonas</strong>, considerando as seguintes variáveis:</p>
 <ul>
-<li><strong><span class="arithmatex">\( T_{ij} \)</span></strong> – Número estimado de <strong>viagens entre o vertiporto <span class="arithmatex">\( i \)</span></strong> e a <strong>macrozona <span class="arithmatex">\( j \)</span></strong>: Representa o <strong>resultado da equação em formato de matriz</strong>, mostrando o <strong>número estimado de viagens partindo de cada vertiporto para cada macrozona</strong></li>
-<li><strong><span class="arithmatex">\( P_i \)</span></strong> – Fator de <strong>produção</strong> associado ao vertiporto <span class="arithmatex">\( i \)</span>: Representa a capacidade do vertiporto de <strong>gerar viagens</strong>, refletindo o <strong>potencial de suprir a demanda</strong></li>
-<li><strong><span class="arithmatex">\( A_j \)</span></strong> – Fator de <strong>atração</strong> da macrozona <span class="arithmatex">\( j \)</span>: Representa o poder da macrozona de <strong>atrair os usuários</strong>, demonstrando a <strong>tendência das pessoas de irem à essa região</strong></li>
-<li><strong><span class="arithmatex">\( c_{ij} \)</span></strong> – <strong>Custo de deslocamento</strong> entre <span class="arithmatex">\( i \)</span> e <span class="arithmatex">\( j \)</span>: Representa a <strong>dificuldade ou penalização relacionada à distância entre vertiporto e macrozona</strong></li>
-<li><strong><span class="arithmatex">\( \beta \)</span></strong> – Parâmetro de <strong>impedância</strong>: Representa o <strong>grau de dificuldade ou penalização também relacionada à distância entre vertiporto e macrozona</strong></li>
-<li><strong><span class="arithmatex">\( k \)</span></strong> – <strong>Constante de proporcionalidade</strong>: Representa a <strong>escala do modelo</strong></li>
+<li><strong>T<sub>ij</sub></strong> – Número estimado de <strong>viagens entre o vertiporto ( i )</strong> e a <strong>macrozona ( j )</strong>: Representa o <strong>resultado da equação em formato de matriz</strong>, mostrando o <strong>número estimado de viagens partindo de cada vertiporto para cada macrozona</strong></li>
+<li><strong>P<sub>i</sub></strong> – Fator de <strong>produção</strong> associado ao vertiporto ( i ): Representa a capacidade do vertiporto de <strong>gerar viagens</strong>, refletindo o <strong>potencial de suprir a demanda</strong></li>
+<li><strong>A<sub>j</sub></strong> – Fator de <strong>atração</strong> da macrozona ( j ): Representa o poder da macrozona de <strong>atrair os usuários</strong>, demonstrando a <strong>tendência das pessoas de irem à essa região</strong></li>
+<li><strong>c<sub>ij</sub></strong> – <strong>Custo de deslocamento</strong> entre ( i ) e ( j ): Representa a <strong>dificuldade ou penalização relacionada à distância entre vertiporto e macrozona</strong></li>
+<li><strong>β</strong> – Parâmetro de <strong>impedância</strong>: Representa o <strong>grau de dificuldade ou penalização também relacionada à distância entre vertiporto e macrozona</strong></li>
+<li><strong>k</strong> – <strong>Constante de proporcionalidade</strong>: Representa a <strong>escala do modelo</strong></li>
 </ul>
 <p>A formulação geral do modelo é dada por:</p>
-<div class="arithmatex">\[
-T_{ij} = k \cdot \frac{P_i \cdot A_j}{c_{ij}^\beta}
-\]</div>
+<p><strong>T<sub>ij</sub> = k × (P<sub>i</sub> × A<sub>j</sub>) / c<sub>ij</sub><sup>β</sup></strong></p>
 <p>Para a <strong>aplicação prática do modelo</strong>, são consideradas as seguintes <strong>macrozonas</strong>:</p>
 <ul>
 <li>Centro  </li>
@@ -838,26 +836,26 @@ T_{ij} = k \cdot \frac{P_i \cdot A_j}{c_{ij}^\beta}
 <li>Parque Tecnológico</li>
 <li>Shopping Colinas </li>
 </ul>
-<p>Para o fator de produção <strong><span class="arithmatex">\( P_i \)</span></strong>, é utilizado o critério de <strong>infraestrutura disponível</strong> de cada vertiporto, tendo sido avaliado anteriormente a partir do método <strong>AHP</strong> e <strong>AIP</strong>, considerando uma <strong>nota entre 0 e 100</strong>.</p>
+<p>Para o fator de produção <strong>P<sub>i</sub></strong>, é utilizado o critério de <strong>infraestrutura disponível</strong> de cada vertiporto, tendo sido avaliado anteriormente a partir do método <strong>AHP</strong> e <strong>AIP</strong>, considerando uma <strong>nota entre 0 e 100</strong>.</p>
 <p><strong>Figura 15 - Fator de produção de cada vertiporto</strong><br />
 <img alt="Figura 15 - Fator de produção de cada vertiporto" src="../assets/A4prod1.jpg" /><br />
 <em>(Fonte: Autor)</em>  </p>
-<p>Para o fator de atração <strong><span class="arithmatex">\( A_j \)</span></strong>, é estimado um valor de <strong>0,001% das viagens com destino</strong> a <strong>respectiva macrozona</strong>.</p>
+<p>Para o fator de atração <strong>A<sub>j</sub></strong>, é estimado um valor de <strong>0,001% das viagens com destino</strong> a <strong>respectiva macrozona</strong>.</p>
 <p><strong>Figura 16 - Fator de produção de cada macrozona</strong><br />
 <img alt="Figura 16 - Fator de produção de cada macrozona" src="../assets/A4atr1.jpg" /><br />
 <em>(Fonte: Autor)</em>  </p>
-<p>O custo de deslocamento <strong><span class="arithmatex">\( c_{ij} \)</span></strong> é obtido a partir da criação de uma matriz com as <strong>distâncias (km) aérea entre cada vertiporto e cada macrozona</strong>.</p>
+<p>O custo de deslocamento <strong>c<sub>ij</sub></strong> é obtido a partir da criação de uma matriz com as <strong>distâncias (km) aérea entre cada vertiporto e cada macrozona</strong>.</p>
 <p><strong>Figura 17 - Matriz de distância aérea entre macrozonas e vertiportos</strong><br />
 <img alt="Figura 17 - Matriz de distância aérea entre macrozonas e vertiportos" src="../assets/A4custo1.jpg" /><br />
 <em>(Fonte: Autor)</em>  </p>
-<p>O parâmetro de impedância <strong><span class="arithmatex">\( \beta = 1.5 \)</span></strong> foi estimado a partir de <strong>iterações</strong> . É interessante notar que o parâmetro de impedância, em casos usuais, <strong>penaliza voos mais distantes</strong>, mas no caso de <strong>viagens entre vertiportos em São José dos Campos</strong>, o <strong>valor absoluto de distância é extremamente baixo em todos os casos</strong> (menor que 16,5 km), ou seja, <strong>voos mais distantes</strong> (até 16,5 km) <strong>são desejados para maior eficiência</strong>, já que <strong>viagens de poucos km são mais vantajosas utilizando veículos comuns</strong>, que irão oferecer um tempo de viagem semelhante e menores custos. Após a <strong>estimativa do valor de impedância</strong>, o mesmo <strong>é validado a partir da literatura</strong>, <strong>convergindo para -0,1</strong> - <a href="https://www.sciencedirect.com/science/article/pii/S2773153724000252">A demand forecasting model for urban air mobility in Chengdu, China</a>.</p>
-<p>A constante de proporcionalidade <strong><span class="arithmatex">\( k \)</span></strong> é ajustada de forma que os resultados estejam em uma <strong>escala interpretável e coerente</strong> com a quantidade de viagens esperadas, <strong>convergindo para 0,25</strong>.</p>
+<p>O parâmetro de impedância <strong>β = 1.5</strong> foi estimado a partir de <strong>iterações</strong> . É interessante notar que o parâmetro de impedância, em casos usuais, <strong>penaliza voos mais distantes</strong>, mas no caso de <strong>viagens entre vertiportos em São José dos Campos</strong>, o <strong>valor absoluto de distância é extremamente baixo em todos os casos</strong> (menor que 16,5 km), ou seja, <strong>voos mais distantes</strong> (até 16,5 km) <strong>são desejados para maior eficiência</strong>, já que <strong>viagens de poucos km são mais vantajosas utilizando veículos comuns</strong>, que irão oferecer um tempo de viagem semelhante e menores custos. Após a <strong>estimativa do valor de impedância</strong>, o mesmo <strong>é validado a partir da literatura</strong>, <strong>convergindo para -0,1</strong> - <a href="https://www.sciencedirect.com/science/article/pii/S2773153724000252">A demand forecasting model for urban air mobility in Chengdu, China</a>.</p>
+<p>A constante de proporcionalidade <strong>k</strong> é ajustada de forma que os resultados estejam em uma <strong>escala interpretável e coerente</strong> com a quantidade de viagens esperadas, <strong>convergindo para 0,25</strong>.</p>
 <p>A aplicação do modelo com os parâmetros definidos resulta na <strong>matriz origem-destino</strong> estimada, que indica o <strong>número relativo de viagens</strong> partindo de cada vertiporto para cada macrozona. Essa matriz permite observar <strong>tendências de fluxo</strong>, identificar <strong>zonas com maior atratividade</strong> e subsidiar decisões sobre <strong>localização ótima de vertiportos</strong>, <strong>planejamento de rotas</strong> e <strong>integração modal</strong>.</p>
 <p><strong>Figura 18 - Matriz de origem-destino entre vertiportos e macrozonas</strong><br />
 <img alt="Figura 18 - Matriz de origem-destino entre vertiportos e macrozonas" src="../assets/A4R1.jpg" /><br />
 <em>(Fonte: Autor)</em> </p>
-<p>A <strong>matriz origem-destino</strong> revela <strong>tendências de fluxo compatíveis com os perfis de produção e atração definidos</strong>. O <strong>Aeroporto Internacional de São José dos Campos</strong>, com maior fator de produção (<span class="arithmatex">\( P_i = 52,6 \)</span>), apresenta os maiores volumes de viagens estimadas, destacando-se nas conexões com o <strong>Sul (76 viagens)</strong> e <strong>Leste (60 viagens)</strong> — macrozonas que, por sua vez, possuem os maiores fatores de atração.</p>
-<p>O <strong>Shopping Colinas</strong> também se destaca com <strong>valores expressivos</strong>, especialmente em direção ao <strong>Sul (43)</strong> e ao <strong>Leste (34)</strong>, refletindo tanto seu <strong>potencial comercial</strong> quanto sua <strong>boa localização relativa</strong> e <strong>baixa distância penalizada</strong> pelo valor negativo de <span class="arithmatex">\(\beta = -0.1\)</span>. Esse valor de <span class="arithmatex">\(\beta\)</span>, ao <strong>inverter o efeito tradicional da impedância</strong>, favorece deslocamentos um pouco mais longos, alinhados à lógica de que <strong>viagens muito curtas tendem a ser supridas por meios terrestres convencionais</strong>.</p>
+<p>A <strong>matriz origem-destino</strong> revela <strong>tendências de fluxo compatíveis com os perfis de produção e atração definidos</strong>. O <strong>Aeroporto Internacional de São José dos Campos</strong>, com maior fator de produção (( P_i = 52,6 )), apresenta os maiores volumes de viagens estimadas, destacando-se nas conexões com o <strong>Sul (76 viagens)</strong> e <strong>Leste (60 viagens)</strong> — macrozonas que, por sua vez, possuem os maiores fatores de atração.</p>
+<p>O <strong>Shopping Colinas</strong> também se destaca com <strong>valores expressivos</strong>, especialmente em direção ao <strong>Sul (43)</strong> e ao <strong>Leste (34)</strong>, refletindo tanto seu <strong>potencial comercial</strong> quanto sua <strong>boa localização relativa</strong> e <strong>baixa distância penalizada</strong> pelo valor negativo de (\beta = -0.1). Esse valor de (\beta), ao <strong>inverter o efeito tradicional da impedância</strong>, favorece deslocamentos um pouco mais longos, alinhados à lógica de que <strong>viagens muito curtas tendem a ser supridas por meios terrestres convencionais</strong>.</p>
 <p>Já o <strong>Parque de Inovação Tecnológica</strong> e o <strong>Urbanova</strong> apresentam valores mais modestos, consistentes com seus <strong>menores fatores de produção</strong> e com sua <strong>localização mais periférica</strong> em relação às zonas de maior atração.</p>
 <p>A matriz gerada fornece um panorama inicial bastante útil para:</p>
 <ul>
@@ -917,10 +915,6 @@ T_{ij} = k \cdot \frac{P_i \cdot A_j}{c_{ij}^\beta}
     
     
       <script src="../assets/javascripts/bundle.f1b6f286.min.js"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"></script>
       
     
   </body>
