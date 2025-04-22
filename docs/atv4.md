@@ -309,10 +309,10 @@ A matriz gerada fornece um panorama inicial bastante útil para:
 O **Modelo de Huff** é utilizado para **estimar a probabilidade de escolha de um vertiporto por parte de usuários de diferentes macrozonas**, com base na **atratividade da alternativa** e na **distância percorrida para acessá-la**. Esse modelo é particularmente útil para **analisar o comportamento de decisão dos usuários** diante de múltiplas opções de transporte. São consideradas as seguintes variáveis:
 
 - **P<sub>ij</sub>** – **Probabilidade de um usuário da macrozona \( i \) escolher o vertiporto \( j \)**: Representa o **peso relativo da escolha do vertiporto** diante das demais alternativas disponíveis
-- **A<sub>j</sub>** – **Atratividade do vertiporto \( j \)**: Está relacionada à sua **infraestrutura, conectividade e oferta de serviços**
+- **A<sub>j</sub>** – **Atratividade do vertiporto \( j \)**: Representa a **atratividade completa do vertiporto com base em todos os critérios de seleção de sítio** descritos anteriormente
 - **c<sub>ij</sub>** – **Custo de deslocamento entre a macrozona \( i \) e o vertiporto \( j \)**: Expressa a **distância ou tempo de deslocamento**
 - **λ** – **Parâmetro de sensibilidade à distância**: Controla o **quanto o custo influencia negativamente a escolha**
-- **n** – **Número de alternativas disponíveis**: Representa o **conjunto de vertiportos considerados na decisão**
+- **n** – **Número de alternativas disponíveis**: Representa o **conjunto de vertiportos considerados no somatório**
 
 A formulação geral do modelo é dada por:
 
@@ -320,19 +320,15 @@ A formulação geral do modelo é dada por:
 
 Para a **aplicação prática do modelo**, são utilizadas as **mesmas macrozonas e vertiportos** definidas no Modelo de Gravidade.
 
-A **atratividade A<sub>j</sub>** de cada vertiporto é atribuída com base no **mesmo fator de produção utilizado no Modelo de Gravidade**, ou seja, a **infraestrutura disponível**, conforme avaliada pelos métodos **AHP** e **AIP**.
-
-**Figura 19 - Atratividade dos vertiportos (fator A<sub>j</sub>)**  
-![Figura 19 - Atratividade dos vertiportos (fator Aj)](assets/batata.jpg)  
-*(Fonte: Autor)*
+A **atratividade A<sub>j</sub>** de cada vertiporto é atribuída com base na **decisão final de escolha de sítio**, ou seja, a **nota final para os oito critérios de avaliação**, conforme concluído pelos métodos **AHP** e **AIP** anteriormente.
 
 O **custo de deslocamento c<sub>ij</sub>** é o mesmo utilizado no modelo anterior, baseado nas **distâncias aéreas entre macrozonas e vertiportos**.
 
-O **parâmetro de sensibilidade à distância λ = -0,3** foi definido com base em iterações de acordo com o comportamento das probabilidades no resultado na equação, de forma a manter a atratividade de utilizar viagens com eVTOLs para destinos mais distantes, aumentando a eficiência da viagem, de forma semelhante ao descrito anteriormente.
+O **parâmetro de sensibilidade à distância λ = -0,1** foi definido com base em iterações de acordo com o comportamento das probabilidades no resultado na equação, de forma a manter a atratividade de utilizar viagens com eVTOLs para destinos mais distantes, aumentando a eficiência da viagem, de forma semelhante ao descrito anteriormente.
 
 A aplicação do modelo resulta na **matriz de probabilidades P<sub>ij</sub>**, representando a **probabilidade de um usuário de cada macrozona escolher cada vertiporto como ponto de partida ou chegada**.
 
 **Figura 20 - Matriz de probabilidades de escolha entre macrozonas e vertiportos**  
-![Figura 20 - Matriz de probabilidades de escolha entre macrozonas e vertiportos](assets/batata.jpg)  
+![Figura 20 - Matriz de probabilidades de escolha entre macrozonas e vertiportos](assets/A4R2.jpg)  
 *(Fonte: Autor)*
 
