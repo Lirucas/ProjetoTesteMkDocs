@@ -63,7 +63,7 @@ Com o **AHP dentre os sítios para cada critério**, é possível definir um **A
 **Figura 4 - Resultados do grupo para AIP dos quatro sítios de acordo com cada critério**  
 ![Figura 4 - Resultados do grupo para AIP dos quatro sítios de acordo com cada critério](assets/aip2.jpg)
 
-Por fim, de acordo com a **prioridade entre os critérios** e a **prioridade entre os sítios de acordo com os critérios**, é possível **definir o sítio no qual o vertiporto será projetado**, que é o **Aeroporto Internacional de São José dos Campos, Professor Urbano Ernesto Stumpf**.
+Por fim, de acordo com a **prioridade entre os critérios** e a **prioridade entre os sítios de acordo com os critérios**, é possível **definir o sítio no qual o vertiporto será projetado**, que é o **Aeroporto Internacional de São José dos Campos Professor Urbano Ernesto Stumpf**.
 
 **Figura 5 - Resultados de escolha do sítio a partir do AIP para critérios e AIP para sítios**  
 ![Figura 5 - Resultados de escolha do sítio a partir do AIP para critérios e AIP para sítios](assets/a2final.jpg)
