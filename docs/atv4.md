@@ -234,18 +234,16 @@ ADICIONAR MAPA QGIS SOBREPONDO MACROZONAS E ZONEAMENTO.
 
 O **Modelo de Gravidade** é utilizado para **estimar o número de viagens entre os vertiportos e as macrozonas**, considerando as seguintes variáveis:
 
-- **\( T_{ij} \)** – Número estimado de **viagens entre o vertiporto \( i \)** e a **macrozona \( j \)**: Representa o **resultado da equação em formato de matriz**, mostrando o **número estimado de viagens partindo de cada vertiporto para cada macrozona**
-- **\( P_i \)** – Fator de **produção** associado ao vertiporto \( i \): Representa a capacidade do vertiporto de **gerar viagens**, refletindo o **potencial de suprir a demanda**
-- **\( A_j \)** – Fator de **atração** da macrozona \( j \): Representa o poder da macrozona de **atrair os usuários**, demonstrando a **tendência das pessoas de irem à essa região**
-- **\( c_{ij} \)** – **Custo de deslocamento** entre \( i \) e \( j \): Representa a **dificuldade ou penalização relacionada à distância entre vertiporto e macrozona**
-- **\( \beta \)** – Parâmetro de **impedância**: Representa o **grau de dificuldade ou penalização também relacionada à distância entre vertiporto e macrozona**
-- **\( k \)** – **Constante de proporcionalidade**: Representa a **escala do modelo**
+- **T<sub>ij</sub>** – Número estimado de **viagens entre o vertiporto \( i \)** e a **macrozona \( j \)**: Representa o **resultado da equação em formato de matriz**, mostrando o **número estimado de viagens partindo de cada vertiporto para cada macrozona**
+- **P<sub>i</sub>** – Fator de **produção** associado ao vertiporto \( i \): Representa a capacidade do vertiporto de **gerar viagens**, refletindo o **potencial de suprir a demanda**
+- **A<sub>j</sub>** – Fator de **atração** da macrozona \( j \): Representa o poder da macrozona de **atrair os usuários**, demonstrando a **tendência das pessoas de irem à essa região**
+- **c<sub>ij</sub>** – **Custo de deslocamento** entre \( i \) e \( j \): Representa a **dificuldade ou penalização relacionada à distância entre vertiporto e macrozona**
+- **β** – Parâmetro de **impedância**: Representa o **grau de dificuldade ou penalização também relacionada à distância entre vertiporto e macrozona**
+- **k** – **Constante de proporcionalidade**: Representa a **escala do modelo**
 
 A formulação geral do modelo é dada por:
 
-\[
-T_{ij} = k \cdot \frac{P_i \cdot A_j}{c_{ij}^\beta}
-\]
+**T<sub>ij</sub> = k × (P<sub>i</sub> × A<sub>j</sub>) / c<sub>ij</sub><sup>β</sup>**
 
 Para a **aplicação prática do modelo**, são consideradas as seguintes **macrozonas**:
 
@@ -263,27 +261,27 @@ Os **vertiportos** definidos são:
 - Parque Tecnológico
 - Shopping Colinas 
 
-Para o fator de produção **\( P_i \)**, é utilizado o critério de **infraestrutura disponível** de cada vertiporto, tendo sido avaliado anteriormente a partir do método **AHP** e **AIP**, considerando uma **nota entre 0 e 100**.
+Para o fator de produção **P<sub>i</sub>**, é utilizado o critério de **infraestrutura disponível** de cada vertiporto, tendo sido avaliado anteriormente a partir do método **AHP** e **AIP**, considerando uma **nota entre 0 e 100**.
 
 **Figura 15 - Fator de produção de cada vertiporto**  
 ![Figura 15 - Fator de produção de cada vertiporto](assets/A4prod1.jpg)  
 *(Fonte: Autor)*  
 
-Para o fator de atração **\( A_j \)**, é estimado um valor de **0,001% das viagens com destino** a **respectiva macrozona**.
+Para o fator de atração **A<sub>j</sub>**, é estimado um valor de **0,001% das viagens com destino** a **respectiva macrozona**.
 
 **Figura 16 - Fator de produção de cada macrozona**  
 ![Figura 16 - Fator de produção de cada macrozona](assets/A4atr1.jpg)  
 *(Fonte: Autor)*  
 
-O custo de deslocamento **\( c_{ij} \)** é obtido a partir da criação de uma matriz com as **distâncias (km) aérea entre cada vertiporto e cada macrozona**.
+O custo de deslocamento **c<sub>ij</sub>** é obtido a partir da criação de uma matriz com as **distâncias (km) aérea entre cada vertiporto e cada macrozona**.
 
 **Figura 17 - Matriz de distância aérea entre macrozonas e vertiportos**  
 ![Figura 17 - Matriz de distância aérea entre macrozonas e vertiportos](assets/A4custo1.jpg)  
 *(Fonte: Autor)*  
 
-O parâmetro de impedância **\( \beta = 1.5 \)** foi estimado a partir de **iterações** . É interessante notar que o parâmetro de impedância, em casos usuais, **penaliza voos mais distantes**, mas no caso de **viagens entre vertiportos em São José dos Campos**, o **valor absoluto de distância é extremamente baixo em todos os casos** (menor que 16,5 km), ou seja, **voos mais distantes** (até 16,5 km) **são desejados para maior eficiência**, já que **viagens de poucos km são mais vantajosas utilizando veículos comuns**, que irão oferecer um tempo de viagem semelhante e menores custos. Após a **estimativa do valor de impedância**, o mesmo **é validado a partir da literatura**, **convergindo para -0,1** - [A demand forecasting model for urban air mobility in Chengdu, China](https://www.sciencedirect.com/science/article/pii/S2773153724000252).
+O parâmetro de impedância **β = 1.5** foi estimado a partir de **iterações** . É interessante notar que o parâmetro de impedância, em casos usuais, **penaliza voos mais distantes**, mas no caso de **viagens entre vertiportos em São José dos Campos**, o **valor absoluto de distância é extremamente baixo em todos os casos** (menor que 16,5 km), ou seja, **voos mais distantes** (até 16,5 km) **são desejados para maior eficiência**, já que **viagens de poucos km são mais vantajosas utilizando veículos comuns**, que irão oferecer um tempo de viagem semelhante e menores custos. Após a **estimativa do valor de impedância**, o mesmo **é validado a partir da literatura**, **convergindo para -0,1** - [A demand forecasting model for urban air mobility in Chengdu, China](https://www.sciencedirect.com/science/article/pii/S2773153724000252).
 
-A constante de proporcionalidade **\( k \)** é ajustada de forma que os resultados estejam em uma **escala interpretável e coerente** com a quantidade de viagens esperadas, **convergindo para 0,25**.
+A constante de proporcionalidade **k** é ajustada de forma que os resultados estejam em uma **escala interpretável e coerente** com a quantidade de viagens esperadas, **convergindo para 0,25**.
 
 A aplicação do modelo com os parâmetros definidos resulta na **matriz origem-destino** estimada, que indica o **número relativo de viagens** partindo de cada vertiporto para cada macrozona. Essa matriz permite observar **tendências de fluxo**, identificar **zonas com maior atratividade** e subsidiar decisões sobre **localização ótima de vertiportos**, **planejamento de rotas** e **integração modal**.
 
