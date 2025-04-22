@@ -521,6 +521,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#modelo-de-huff" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelo de Huff
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -691,6 +700,15 @@
   <a href="#modelo-de-gravidade" class="md-nav__link">
     <span class="md-ellipsis">
       Modelo de Gravidade
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelo-de-huff" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelo de Huff
     </span>
   </a>
   
@@ -955,6 +973,28 @@
 <li><strong>Apoiar decisões sobre fases de implementação</strong> e escalonamento da infraestrutura.</li>
 </ul>
 <hr />
+<h2 id="modelo-de-huff"><strong>Modelo de Huff</strong></h2>
+<p>O <strong>Modelo de Huff</strong> é utilizado para <strong>estimar a probabilidade de escolha de um vertiporto por parte de usuários de diferentes macrozonas</strong>, com base na <strong>atratividade da alternativa</strong> e na <strong>distância percorrida para acessá-la</strong>. Esse modelo é particularmente útil para <strong>analisar o comportamento de decisão dos usuários</strong> diante de múltiplas opções de transporte. São consideradas as seguintes variáveis:</p>
+<ul>
+<li><strong>P<sub>ij</sub></strong> – <strong>Probabilidade de um usuário da macrozona ( i ) escolher o vertiporto ( j )</strong>: Representa o <strong>peso relativo da escolha do vertiporto</strong> diante das demais alternativas disponíveis</li>
+<li><strong>A<sub>j</sub></strong> – <strong>Atratividade do vertiporto ( j )</strong>: Está relacionada à sua <strong>infraestrutura, conectividade e oferta de serviços</strong></li>
+<li><strong>c<sub>ij</sub></strong> – <strong>Custo de deslocamento entre a macrozona ( i ) e o vertiporto ( j )</strong>: Expressa a <strong>distância ou tempo de deslocamento</strong></li>
+<li><strong>λ</strong> – <strong>Parâmetro de sensibilidade à distância</strong>: Controla o <strong>quanto o custo influencia negativamente a escolha</strong></li>
+<li><strong>n</strong> – <strong>Número de alternativas disponíveis</strong>: Representa o <strong>conjunto de vertiportos considerados na decisão</strong></li>
+</ul>
+<p>A formulação geral do modelo é dada por:</p>
+<p><strong>P<sub>ij</sub> = (A<sub>j</sub> / c<sub>ij</sub><sup>λ</sup>) / Σ(A<sub>k</sub> / c<sub>ik</sub><sup>λ</sup>)</strong></p>
+<p>Para a <strong>aplicação prática do modelo</strong>, são utilizadas as <strong>mesmas macrozonas e vertiportos</strong> definidas no Modelo de Gravidade.</p>
+<p>A <strong>atratividade A<sub>j</sub></strong> de cada vertiporto é atribuída com base no <strong>mesmo fator de produção utilizado no Modelo de Gravidade</strong>, ou seja, a <strong>infraestrutura disponível</strong>, conforme avaliada pelos métodos <strong>AHP</strong> e <strong>AIP</strong>.</p>
+<p><strong>Figura 19 - Atratividade dos vertiportos (fator A<sub>j</sub>)</strong><br />
+<img alt="Figura 19 - Atratividade dos vertiportos (fator Aj)" src="../assets/batata.jpg" /><br />
+<em>(Fonte: Autor)</em></p>
+<p>O <strong>custo de deslocamento c<sub>ij</sub></strong> é o mesmo utilizado no modelo anterior, baseado nas <strong>distâncias aéreas entre macrozonas e vertiportos</strong>.</p>
+<p>O <strong>parâmetro de sensibilidade à distância λ = -0,3</strong> foi definido com base em iterações de acordo com o comportamento das probabilidades no resultado na equação, de forma a manter a atratividade de utilizar viagens com eVTOLs para destinos mais distantes, aumentando a eficiência da viagem, de forma semelhante ao descrito anteriormente.</p>
+<p>A aplicação do modelo resulta na <strong>matriz de probabilidades P<sub>ij</sub></strong>, representando a <strong>probabilidade de um usuário de cada macrozona escolher cada vertiporto como ponto de partida ou chegada</strong>.</p>
+<p><strong>Figura 20 - Matriz de probabilidades de escolha entre macrozonas e vertiportos</strong><br />
+<img alt="Figura 20 - Matriz de probabilidades de escolha entre macrozonas e vertiportos" src="../assets/batata.jpg" /><br />
+<em>(Fonte: Autor)</em></p>
 
 
 
