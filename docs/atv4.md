@@ -261,13 +261,13 @@ Os **vertiportos** definidos são:
 - Parque Tecnológico
 - Shopping Colinas 
 
-Para o fator de produção **P<sub>i</sub>**, é utilizado o critério de **infraestrutura disponível** de cada vertiporto, tendo sido avaliado anteriormente a partir do método **AHP** e **AIP**, considerando uma **nota entre 0 e 100**.
+Para o fator de produção **P<sub>i</sub>**, é utilizado o critério de **infraestrutura disponível** de cada vertiporto, tendo sido avaliado anteriormente a partir do método **AHP** e **AIP**, considerando uma **nota entre 0 e 100**. Por ser utilizado **um valor que reflete justamente uma maior capacidade do sítio avaliado** anteriormente pelos métodos citados, **é esperado que o sítio com maior demanda de viagens** seja justamente este, ou seja, o **Aeroporto de São José dos Campos**. 
 
 **Figura 15 - Fator de produção de cada vertiporto**  
 ![Figura 15 - Fator de produção de cada vertiporto](assets/A4prod1.jpg)  
 *(Fonte: Autor)*  
 
-Para o fator de atração **A<sub>j</sub>**, é estimado um valor de **0,001% das viagens com destino** a **respectiva macrozona**.
+Para o fator de atração **A<sub>j</sub>**, é estimado um valor de **0,001% das viagens com destino** a **respectiva macrozona**. O valor utilizado é meramente uma **estimativa**, considerando que **uma pequena parte das viagens realizadas** para cada macrozona se dará a partir do **modal aéreo utilizando aeronaves eVTOL**.
 
 **Figura 16 - Fator de produção de cada macrozona**  
 ![Figura 16 - Fator de produção de cada macrozona](assets/A4atr1.jpg)  
@@ -281,7 +281,7 @@ O custo de deslocamento **c<sub>ij</sub>** é obtido a partir da criação de um
 
 O parâmetro de impedância **β = 1.5** foi estimado a partir de **iterações** . É interessante notar que o parâmetro de impedância, em casos usuais, **penaliza voos mais distantes**, mas no caso de **viagens entre vertiportos em São José dos Campos**, o **valor absoluto de distância é extremamente baixo em todos os casos** (menor que 16,5 km), ou seja, **voos mais distantes** (até 16,5 km) **são desejados para maior eficiência**, já que **viagens de poucos km são mais vantajosas utilizando veículos comuns**, que irão oferecer um tempo de viagem semelhante e menores custos. Após a **estimativa do valor de impedância**, o mesmo **é validado a partir da literatura**, **convergindo para -0,1** - [A demand forecasting model for urban air mobility in Chengdu, China](https://www.sciencedirect.com/science/article/pii/S2773153724000252).
 
-A constante de proporcionalidade **k** é ajustada de forma que os resultados estejam em uma **escala interpretável e coerente** com a quantidade de viagens esperadas, **convergindo para 0,25**.
+A constante de proporcionalidade **k** é ajustada de forma que os resultados estejam em uma **escala interpretável e coerente** com a quantidade de viagens esperadas, **convergindo para 0,25**. Caso este valor seja superior ao utilizado, a estimativa de demanda irá retornar uma maior quantidade de viagens, mas novamente, conforme descrito anteriormente, é esperado apenas uma pequena quantidade de viagens neste modal.
 
 A aplicação do modelo com os parâmetros definidos resulta na **matriz origem-destino** estimada, que indica o **número relativo de viagens** partindo de cada vertiporto para cada macrozona. Essa matriz permite observar **tendências de fluxo**, identificar **zonas com maior atratividade** e subsidiar decisões sobre **localização ótima de vertiportos**, **planejamento de rotas** e **integração modal**.
 
@@ -301,6 +301,10 @@ A matriz gerada fornece um panorama inicial bastante útil para:
 - **Compreender a relação espacial entre origem e destino** em contextos urbanos de média escala;
 - **Refinar trajetórias e horários operacionais**, especialmente para evitar sobreposição de rotas em regiões sensíveis;
 - **Apoiar decisões sobre fases de implementação** e escalonamento da infraestrutura.
+
+É **importante destacar** que o estudo realizado possui limitações devido a abordagem e aos dados utilizados. Essas limitações se dão principalmente pelo uso de dados estabelecidos empiricamente, como é o caso do fator de produção e do fator de atratividade, definidos a partir da priorização de critérios e análise empírica dos sítios, e da percepção de uma pequena quantidade de viagens adotadas inicialmente, ou seja, por serem utilizadas estimativas que refletem as escolhas dos autores, os resultados seguem uma tendência de mostrar o que já era esperado ainda durante os estudos de critérios dos sítios. 
+
+Ainda, **uma forma de mitigar essas tendências e aumentar a qualidade do estudo** seria **utilizar de dados que possuem menor correlação com as escolhas dos autores e que sejam validados**, como a **percepção dos usuários finais das aeronaves eVTOL, ou seja, os passageiros**. Também é interessante citar que **diferentes dados usados para o modelo podem gerar diferentes estimativas de demanda**, ou seja, e**m cenários que outros critérios sejam avaliados, o sítio ótimo poderia ser outro**.  
 
 ---
 
@@ -331,4 +335,32 @@ A aplicação do modelo resulta na **matriz de probabilidades P<sub>ij</sub>**, 
 **Figura 20 - Matriz de probabilidades de escolha entre macrozonas e vertiportos**  
 ![Figura 20 - Matriz de probabilidades de escolha entre macrozonas e vertiportos](assets/A4R2.jpg)  
 *(Fonte: Autor)*
+
+A **aplicação do Modelo de Huff** resultou em uma **matriz de probabilidades de escolha** para cada vertiporto, considerando a **nota final de atratividade atribuída a partir de 8 critérios multicritério** (e não apenas infraestrutura), além da penalização da distância por meio do parâmetro **λ = -0,1**.
+
+Os resultados demonstram que o **Aeroporto Internacional de SJC** mantém as **maiores probabilidades de escolha** em praticamente todas as macrozonas, com valores variando entre **41% e 44%**, o que reflete sua **alta atratividade total (49,672)**, aliada a **distâncias competitivas** mesmo em macrozonas mais afastadas.
+
+O **Parque Tecnológico**, com nota de atratividade intermediária (**31,223**), apresenta **probabilidades médias**, entre **24% e 29%**, mostrando forte preferência relativa especialmente nas zonas **Sul, Oeste e Centro**, onde sua posição geográfica e o equilíbrio com os custos de deslocamento geram vantagem comparativa.
+
+O **Shopping Colinas**, embora com menor nota geral (**20,168**), mantém **probabilidades consistentes** na faixa de **16% a 18%**, sugerindo que **a boa localização e a facilidade de acesso** compensam, em parte, sua atratividade mais modesta.
+
+O **Urbanova**, com a menor nota de atratividade geral (**12,902**), apresenta **as menores probabilidades em todas as macrozonas**, com valores abaixo de **12%**, refletindo seu **perfil mais restrito de uso** e **localização periférica** em relação aos polos urbanos mais ativos.
+
+Essa análise por probabilidades:
+
+- **Reflete o comportamento provável de escolha dos usuários**, em um cenário com múltiplas opções disponíveis
+- **Complementa a matriz de gravidade** ao considerar **não apenas a intensidade de fluxo**, mas também a **distribuição relativa da preferência**
+- Permite visualizar **como a atratividade total afeta diretamente a decisão do usuário**, mesmo diante de distâncias diferentes
+- Auxilia na **priorização de investimentos e definição de políticas operacionais** para cada vertiporto
+
+É **importante destacar** que, de forma semelhante para o modelo de gravidade, o estudo realizado com o modelo de Huff também possui limitações devido a abordagem e aos dados utilizados. Essas limitações se dão, de forma semelhante, pelo uso de estimativas que refletem as escolhas dos autores, portanto, os resultados seguem uma tendência de mostrar o que já era esperado ainda durante os estudos de critérios dos sítios. Nos dois casos os parâmetros de sensibilidade **β** e **λ** foram ajustados para diminuir essa tendência e aumentar a influência do que é importante para a eficácia deste tipo de transporte aéreo em curtas distâncias absolutas, o que é perceptível em ambos os resultados a partir do número de viagens e chance de escolha, mesmo que não superior, mas próximo, entre os valores das macrozonas e vertiportos que possuem maior atratividade e os valores das macrozonas e vertiportos que possuem maior distância, ou seja, maior eficiência.
+
+
+Por fim, análise conjunta dos modelos de **Gravidade** e **Huff** revela **resultados consistentes**, mas com **ênfases distintas**: enquanto o Modelo de Gravidade foca na **quantidade estimada de viagens entre origens e destinos**, o Modelo de Huff se concentra na **probabilidade relativa de escolha entre alternativas**.
+
+No Modelo de Gravidade, os vertiportos com **maior fator de produção** e **melhor posicionamento geográfico** — como o **Aeroporto Internacional de SJC** e o **Shopping Colinas** — concentram a maior parte dos **fluxos totais estimados**. Já o Modelo de Huff, ao incorporar **comportamento de escolha**, reforça a **preferência pelo Aeroporto** devido à sua **alta atratividade global**, mas também destaca como **vertiportos medianamente atrativos**, como o **Parque Tecnológico**, podem alcançar **relevância em zonas específicas**.
+
+Além disso, o Modelo de Huff evidencia que mesmo alternativas com menor atratividade, como o **Urbanova**, mantêm **alguma participação proporcional**, ainda que reduzida, ao passo que o Modelo de Gravidade pode atribuir valores muito baixos ou nulos em termos absolutos.
+
+Em conjunto, os dois modelos oferecem uma **visão complementar**: o **Gravidade projeta demanda em volume**, enquanto o **Huff interpreta a escolha com base na atratividade e acessibilidade relativa**, ampliando a qualidade da tomada de decisão para a **localização e operação de vertiportos urbanos**.
 
