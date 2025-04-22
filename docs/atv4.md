@@ -62,7 +62,7 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 - Potencial para atender tanto **passageiros quanto cargas**
 
 **Figura 3 - Sítio Aeroporto SJK no Qgis**  
-![Figura 3 - Sítio Aeroporto SJK no Qgis](assets/batata.png)  
+![Figura 3 - Sítio Aeroporto SJK no Qgis](assets/batata.jpg)  
 *(Fonte: Autor)* 
 
 
@@ -82,7 +82,7 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 - **Espaço disponível** para a construção de infraestrutura sem grandes impactos urbanos
 
 **Figura 4 - Sítio Bairro Urbanova no Qgis**  
-![Figura 4 - Sítio Bairro Urbanova no Qgis](assets/batata.png)  
+![Figura 4 - Sítio Bairro Urbanova no Qgis](assets/batata.jpg)  
 *(Fonte: Autor)* 
 
 ### **Parque de Inovação Tecnológica São José dos Campos** ###
@@ -101,7 +101,7 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 - **Infraestrutura já existente** para suportar operações avançadas
 
 **Figura 5 - Sítio Parque Tecnológico no Qgis**  
-![Figura 5 - Sítio Parque Tecnológico no Qgis](assets/batata.png)  
+![Figura 5 - Sítio Parque Tecnológico no Qgis](assets/batata.jpg)  
 *(Fonte: Autor)* 
 
 ### **Shopping Colinas** ###
@@ -120,7 +120,7 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 - Possibilidade de **integração com serviços de entrega rápida** (logística de e-commerce)
 
 **Figura 6 - Sítio Shopping Colinas no Qgis**  
-![Figura 6 - Sítio Shopping Colinas no Qgis](assets/batata.png)  
+![Figura 6 - Sítio Shopping Colinas no Qgis](assets/batata.jpg)  
 *(Fonte: Autor)* 
 
 **Figura 7 - Mapa com possíveis sítios**  
