@@ -109,17 +109,11 @@ Para a análise proposta, é adotado o modelo de regressão **linear simples com
 
 O modelo pode ser representado matematicamente pela seguinte equação:
 
-\[
-Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3 + \epsilon
-\]
+Y = \beta<sub>0 + \beta<sub>1 X<sub>1 + \beta<sub>2 X<sub>2 + \beta<sub>3 X<sub>3 + \epsilon
 
 Ou
 
-\[
-Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3 + \epsilon
-\]
-
-
+Passageiros = -14.530.000 + (-19,9615 × PIB\ per\ capita) + (-173,8034 × Renda\ média) + (126.100 × Área\ urbanizada)
 
 Onde:
 
