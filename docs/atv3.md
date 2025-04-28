@@ -44,13 +44,13 @@ Os dados foram organizados como **série temporal anual** entre 2010 e 2024.
 
 **Tabela – Base de dados socioeconômicos de São José dos Campos (valores selecionados)**
 
-| Ano  | PIB per capita (R$) | População | Renda média (R$) | IDHM | Densidade (hab/km²) | Área urbanizada (km²) | Passageiros comerciais |
-|-----|----------------------|------------|-------------------|------|----------------------|-------------------------|-------------------------|
-| 2010 | 42.314 | 625.096 | 2.295 | 0,798 | 582,61 | 125,20 | Sem operação |
-| 2011 | 45.762 | 634.998 | 2.503 | 0,807 | 591,88 | 126,30 | 51.541 |
-| 2012 | 48.920 | 639.752 | 2.638 | 0,807 | 599,04 | 127,10 | 59.863 |
-| 2013 | 50.896 | 644.641 | 2.731 | 0,807 | 607,33 | 127,65 | 57.683 |
-| 2024 | 56.140 (est.) | 724.756 | 3.352 (est.) | Idem | 634,03 | 128,94 | 20.300 (estimado) |
+| Ano  | PIB per capita (R$) | População | Renda média (R$) | Densidade (hab/km²) | Área urbanizada (km²) | Passageiros comerciais |
+|-----|----------------------|------------|-------------------|----------------------|-------------------------|-------------------------|
+| 2010 | 42.314 | 625.096 | 2.295 | 582,61 | 125,20 | Sem operação |
+| 2011 | 45.762 | 634.998 | 2.503 | 591,88 | 126,30 | 51.541 |
+| 2012 | 48.920 | 639.752 | 2.638 | 599,04 | 127,10 | 59.863 |
+| 2013 | 50.896 | 644.641 | 2.731 | 607,33 | 127,65 | 57.683 |
+| 2024 | 56.140 (est.) | 724.756 | 3.352 (est.)| 634,03 | 128,94 | 20.300 (estimado) |
 
 ---
 
@@ -108,22 +108,23 @@ Foram calculadas as principais estatísticas descritivas para as variáveis, con
 Para a análise proposta, é adotado o modelo de regressão **linear simples com múltiplas variáveis explicativas**. Essa forma funcional é caracterizada pela relação linear entre a variável dependente (número de passageiros comerciais) e as variáveis independentes (PIB per capita, renda média e área urbanizada).
 
 O modelo pode ser representado matematicamente pela seguinte equação:
+A equação geral do modelo é:
 
-Y = \beta<sub>0 + \beta<sub>1 X<sub>1 + \beta<sub>2 X<sub>2 + \beta<sub>3 X<sub>3 + \epsilon
+**Y = β<sub>0</sub> + β<sub>1</sub>X<sub>1</sub> + β<sub>2</sub>X<sub>2</sub> + β<sub>3</sub>X<sub>3</sub> + ε**
 
-Ou
+Ou:
 
-Passageiros = -14.530.000 + (-19,9615 × PIB\ per\ capita) + (-173,8034 × Renda\ média) + (126.100 × Área\ urbanizada)
+**Passageiros = -14.530.000 + (-19,9615 × PIB per capita) + (-173,8034 × Renda média) + (126.100 × Área urbanizada)**
 
 Onde:
 
-- **\( Y \)** representa o número de passageiros comerciais;
-- **\( X_1 \)** corresponde ao PIB per capita;
-- **\( X_2 \)** corresponde à renda média;
-- **\( X_3 \)** corresponde à área urbanizada;
-- **\( \beta_0 \)** é o intercepto do modelo;
-- **\( \beta_1, \beta_2, \beta_3 \)** são os coeficientes que indicam o efeito marginal de cada variável explicativa sobre \( Y \);
-- **\( \epsilon \)** é o termo de erro aleatório, que captura as influências não observadas no modelo.
+- **Y** – Número de passageiros comerciais;
+- **X<sub>1</sub>** – PIB per capita;
+- **X<sub>2</sub>** – Renda média;
+- **X<sub>3</sub>** – Área urbanizada;
+- **β<sub>0</sub>** – Intercepto do modelo;
+- **β<sub>1</sub>, β<sub>2</sub>, β<sub>3</sub>** – Coeficientes que indicam o efeito marginal de cada variável explicativa sobre **Y**;
+- **ε** – Termo de erro aleatório, que captura as influências não observadas no modelo.
 
 Além do modelo linear simples, também são testadas outras formas funcionais, como o **modelo log-linear** (semi-log), o **modelo linear-log** e o **modelo log-log** (elasticidade constante). 
 
@@ -131,7 +132,7 @@ Diferentes combinações de variáveis explicativas são consideradas, incluindo
 
 A escolha do modelo linear simples com as variáveis PIB per capita, renda média e área urbanizada é fundamentada no desempenho estatístico observado. Este modelo apresenta:
 
-- Alta capacidade explicativa (\( R^2 = 0,888 \));
+- Alta capacidade explicativa **R<sup>2</sup> = 0,888**;
 - Coeficientes estatisticamente significativos;
 - Resíduos homocedásticos;
 - Ausência de autocorrelação dos erros.
@@ -175,14 +176,14 @@ A validade dos estimadores obtidos por Mínimos Quadrados Ordinários (OLS) depe
 - O p-valor obtido foi 0,6741, não rejeitando a hipótese nula de especificação correta
 - A forma funcional adotada é adequada, sem necessidade de inclusão de termos quadráticos ou cúbicos
 
-### Exogeneidade dos erros ### 
+### Exogeneidade dos erros 
 
 - A exogeneidade dos erros requer que o termo de erro não esteja correlacionado com as variáveis independentes
 - Esta condição foi avaliada por meio da análise gráfica dos resíduos
 - A distribuição dos resíduos se mostrou aleatória em torno da linha zero, sem evidências de padrão sistemático
 - É atendida a hipótese de exogeneidade dos erros
 
-### Homocedasticidade ### 
+### Homocedasticidade 
 
 - A homocedasticidade implica variância constante dos resíduos ao longo de todas as observações.
 - A hipótese foi testada utilizando o teste de Breusch-Pagan.
@@ -193,21 +194,21 @@ A validade dos estimadores obtidos por Mínimos Quadrados Ordinários (OLS) depe
 ![Figura 3 - Resíduos vs valores preditos pelo modelo](assets/A33.jpg)  
 *(Fonte: Autor)* 
 
-### Ausência de autocorrelação dos erros ### 
+### Ausência de autocorrelação dos erros  
  
 - A ausência de autocorrelação nos resíduos garante a eficiência dos estimadores.
 - Essa condição foi testada pelo teste de Durbin-Watson
 - O valor encontrado foi 1,814, muito próximo do valor ideal de 2
 - Portanto, não há evidências de autocorrelação entre os resíduos
 
-### Ausência de multicolinearidade ### 
+### Ausência de multicolinearidade  
 
 - A ausência de multicolinearidade entre variáveis explicativas é fundamental para assegurar a precisão das estimativas.
 - A análise do número de condição (Condition Number) indicou um valor de 3,5 × 10⁷
 - Embora considerado elevado, este valor ainda está abaixo dos limites críticos comumente adotados
 - Assim, considera-se que a multicolinearidade é moderada e aceitável para fins exploratórios
 
-### Conclusão sobre as hipóteses ### 
+### Conclusão sobre as hipóteses
 
 - Todas as hipóteses clássicas da regressão foram atendidas no modelo estimado
 - O modelo apresenta características Best Linear Unbiased Estimators (BLUE)
@@ -232,9 +233,7 @@ A decisão final pela escolha deste modelo baseou-se na combinação entre bom a
 
 ## Interpretação econômica dos coeficientes estimados ##
 
-O coeficiente do PIB per capita é negativo e estatisticamente significativo. Isso indica que, no contexto analisado, aumentos no PIB per capita estão associados à redução no número de passageiros comerciais. Economicamente, essa relação pode ser interpretada como reflexo de substituição modal: com maior poder aquisitivo, parte da população pode optar por meios de transporte mais privados ou aeroportos maiores da região. O coeficiente da renda média também é negativo e estatisticamente significativo. Esse comportamento sugere que aumentos na renda média da população local não necessariamente se traduzem em maior demanda por transporte aéreo comercial a partir do aeroporto analisado, reforçando a hipótese de diversificação no uso de modais e preferência por outros polos de transporte. Esses coeficientes, negativos, podem indiciar...
-
-O coeficiente da área urbanizada é positivo e estatisticamente significativo. A expansão da área urbanizada tende a estar associada ao crescimento da infraestrutura, serviços e dinâmica econômica local, fatores que aumentam a demanda por transporte aéreo comercial. Assim, um maior desenvolvimento territorial tem impacto positivo na movimentação de passageiros.
+O coeficiente do PIB per capita é negativo e estatisticamente significativo. Isso indica que, no contexto analisado, aumentos no PIB per capita estão associados à redução no número de passageiros comerciais. Economicamente, essa relação pode ser interpretada como reflexo de substituição modal: com maior poder aquisitivo, parte da população pode optar por meios de transporte mais privados ou aeroportos maiores da região. O coeficiente da renda média também é negativo e estatisticamente significativo. Esse comportamento sugere que aumentos na renda média da população local não necessariamente se traduzem em maior demanda por transporte aéreo comercial a partir do aeroporto analisado, reforçando a hipótese de diversificação no uso de modais e preferência por outros polos de transporte. O coeficiente da área urbanizada é positivo e estatisticamente significativo. A expansão da área urbanizada tende a estar associada ao crescimento da infraestrutura, serviços e dinâmica econômica local, fatores que aumentam a demanda por transporte aéreo comercial. Assim, um maior desenvolvimento territorial tem impacto positivo na movimentação de passageiros.
 
 De maneira geral, os resultados estão alinhados com a teoria econômica, que prevê que fatores como desenvolvimento urbano e estrutura de mobilidade influenciam diretamente a demanda por transporte aéreo, enquanto variáveis de renda podem gerar efeitos mais complexos dependendo da oferta disponível e da competição entre modais.
 
@@ -242,6 +241,6 @@ De maneira geral, os resultados estão alinhados com a teoria econômica, que pr
 
 Devido ao tamanho reduzido da amostra (apenas sete observações), a divisão entre dados de treinamento e teste não foi aplicada. Essa divisão seria inviável estatisticamente e poderia comprometer a validade dos resultados.
 
-A capacidade preditiva do modelo foi avaliada com base na qualidade do ajuste observado. O valor elevado de \( R^2 \) (0,888) e a ausência de problemas detectados nos resíduos sugerem que o modelo possui bom poder explicativo dentro da amostra analisada.
+A capacidade preditiva do modelo foi avaliada com base na qualidade do ajuste observado. O valor elevado de **R<sup>2</sup> = 0,888** e a ausência de problemas detectados nos resíduos sugerem que o modelo possui bom poder explicativo dentro da amostra analisada.
 
 Apesar disso, recomenda-se cautela na extrapolação dos resultados para períodos ou contextos muito distintos, uma vez que a validação externa (out-of-sample) não pode ser realizada formalmente.
