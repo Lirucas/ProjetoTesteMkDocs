@@ -62,7 +62,7 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 - Potencial para atender tanto **passageiros quanto cargas**
 
 **Figura 3 - Sítio Aeroporto SJK no Qgis**  
-![Figura 3 - Sítio Aeroporto SJK no Qgis](assets/batata.jpg)  
+![Figura 3 - Sítio Aeroporto SJK no Qgis](assets/sjk.png)  
 *(Fonte: Autor)* 
 
 
@@ -82,7 +82,7 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 - **Espaço disponível** para a construção de infraestrutura sem grandes impactos urbanos
 
 **Figura 4 - Sítio Bairro Urbanova no Qgis**  
-![Figura 4 - Sítio Bairro Urbanova no Qgis](assets/batata.jpg)  
+![Figura 4 - Sítio Bairro Urbanova no Qgis](assets/urb.png)  
 *(Fonte: Autor)* 
 
 ### **Parque de Inovação Tecnológica São José dos Campos** ###
@@ -101,7 +101,7 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 - **Infraestrutura já existente** para suportar operações avançadas
 
 **Figura 5 - Sítio Parque Tecnológico no Qgis**  
-![Figura 5 - Sítio Parque Tecnológico no Qgis](assets/batata.jpg)  
+![Figura 5 - Sítio Parque Tecnológico no Qgis](assets/pq.png)  
 *(Fonte: Autor)* 
 
 ### **Shopping Colinas** ###
@@ -120,7 +120,7 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 - Possibilidade de **integração com serviços de entrega rápida** (logística de e-commerce)
 
 **Figura 6 - Sítio Shopping Colinas no Qgis**  
-![Figura 6 - Sítio Shopping Colinas no Qgis](assets/batata.jpg)  
+![Figura 6 - Sítio Shopping Colinas no Qgis](assets/shp.png)  
 *(Fonte: Autor)* 
 
 **Figura 7 - Mapa com possíveis sítios**  
@@ -224,9 +224,6 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 **Figura 14 - Mapa de uso e ocupação do solo de São José dos Campos**  
 ![Figura 14 - Mapa de uso e ocupação do solo SJCampos](assets/figura9.png)  
 *(Fonte: Adaptado de [IBGE](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html) e [Prefeitura de São José dos Campos](https://www.sjc.sp.gov.br/servicos/urbanismo-e-sustentabilidade/planejamento-urbano/zoneamento/consulta-de-zoneamento/))*  
-
-
-ADICIONAR MAPA QGIS SOBREPONDO MACROZONAS E ZONEAMENTO.
 
 ---
 
