@@ -532,7 +532,7 @@
           <li class="md-nav__item">
   <a href="#exogeneidade-dos-erros" class="md-nav__link">
     <span class="md-ellipsis">
-      Exogeneidade dos erros ###
+      Exogeneidade dos erros
     </span>
   </a>
   
@@ -541,7 +541,7 @@
           <li class="md-nav__item">
   <a href="#homocedasticidade" class="md-nav__link">
     <span class="md-ellipsis">
-      Homocedasticidade ###
+      Homocedasticidade
     </span>
   </a>
   
@@ -550,7 +550,7 @@
           <li class="md-nav__item">
   <a href="#ausencia-de-autocorrelacao-dos-erros" class="md-nav__link">
     <span class="md-ellipsis">
-      Ausência de autocorrelação dos erros ###
+      Ausência de autocorrelação dos erros
     </span>
   </a>
   
@@ -559,7 +559,7 @@
           <li class="md-nav__item">
   <a href="#ausencia-de-multicolinearidade" class="md-nav__link">
     <span class="md-ellipsis">
-      Ausência de multicolinearidade ###
+      Ausência de multicolinearidade
     </span>
   </a>
   
@@ -568,7 +568,7 @@
           <li class="md-nav__item">
   <a href="#conclusao-sobre-as-hipoteses" class="md-nav__link">
     <span class="md-ellipsis">
-      Conclusão sobre as hipóteses ###
+      Conclusão sobre as hipóteses
     </span>
   </a>
   
@@ -794,7 +794,7 @@
           <li class="md-nav__item">
   <a href="#exogeneidade-dos-erros" class="md-nav__link">
     <span class="md-ellipsis">
-      Exogeneidade dos erros ###
+      Exogeneidade dos erros
     </span>
   </a>
   
@@ -803,7 +803,7 @@
           <li class="md-nav__item">
   <a href="#homocedasticidade" class="md-nav__link">
     <span class="md-ellipsis">
-      Homocedasticidade ###
+      Homocedasticidade
     </span>
   </a>
   
@@ -812,7 +812,7 @@
           <li class="md-nav__item">
   <a href="#ausencia-de-autocorrelacao-dos-erros" class="md-nav__link">
     <span class="md-ellipsis">
-      Ausência de autocorrelação dos erros ###
+      Ausência de autocorrelação dos erros
     </span>
   </a>
   
@@ -821,7 +821,7 @@
           <li class="md-nav__item">
   <a href="#ausencia-de-multicolinearidade" class="md-nav__link">
     <span class="md-ellipsis">
-      Ausência de multicolinearidade ###
+      Ausência de multicolinearidade
     </span>
   </a>
   
@@ -830,7 +830,7 @@
           <li class="md-nav__item">
   <a href="#conclusao-sobre-as-hipoteses" class="md-nav__link">
     <span class="md-ellipsis">
-      Conclusão sobre as hipóteses ###
+      Conclusão sobre as hipóteses
     </span>
   </a>
   
@@ -922,7 +922,6 @@
 <th>PIB per capita (R$)</th>
 <th>População</th>
 <th>Renda média (R$)</th>
-<th>IDHM</th>
 <th>Densidade (hab/km²)</th>
 <th>Área urbanizada (km²)</th>
 <th>Passageiros comerciais</th>
@@ -934,7 +933,6 @@
 <td>42.314</td>
 <td>625.096</td>
 <td>2.295</td>
-<td>0,798</td>
 <td>582,61</td>
 <td>125,20</td>
 <td>Sem operação</td>
@@ -944,7 +942,6 @@
 <td>45.762</td>
 <td>634.998</td>
 <td>2.503</td>
-<td>0,807</td>
 <td>591,88</td>
 <td>126,30</td>
 <td>51.541</td>
@@ -954,7 +951,6 @@
 <td>48.920</td>
 <td>639.752</td>
 <td>2.638</td>
-<td>0,807</td>
 <td>599,04</td>
 <td>127,10</td>
 <td>59.863</td>
@@ -964,7 +960,6 @@
 <td>50.896</td>
 <td>644.641</td>
 <td>2.731</td>
-<td>0,807</td>
 <td>607,33</td>
 <td>127,65</td>
 <td>57.683</td>
@@ -974,7 +969,6 @@
 <td>56.140 (est.)</td>
 <td>724.756</td>
 <td>3.352 (est.)</td>
-<td>Idem</td>
 <td>634,03</td>
 <td>128,94</td>
 <td>20.300 (estimado)</td>
@@ -1136,25 +1130,26 @@
 <hr />
 <h2 id="formulacao-dos-modelos-de-regressao">Formulação dos Modelos de Regressão</h2>
 <p>Para a análise proposta, é adotado o modelo de regressão <strong>linear simples com múltiplas variáveis explicativas</strong>. Essa forma funcional é caracterizada pela relação linear entre a variável dependente (número de passageiros comerciais) e as variáveis independentes (PIB per capita, renda média e área urbanizada).</p>
-<p>O modelo pode ser representado matematicamente pela seguinte equação:</p>
-<p>Y = \beta<sub>0 + \beta<sub>1 X<sub>1 + \beta<sub>2 X<sub>2 + \beta<sub>3 X<sub>3 + \epsilon</p>
-<p>Ou</p>
-<p>Passageiros = -14.530.000 + (-19,9615 × PIB\ per\ capita) + (-173,8034 × Renda\ média) + (126.100 × Área\ urbanizada)</p>
+<p>O modelo pode ser representado matematicamente pela seguinte equação:
+A equação geral do modelo é:</p>
+<p><strong>Y = β<sub>0</sub> + β<sub>1</sub>X<sub>1</sub> + β<sub>2</sub>X<sub>2</sub> + β<sub>3</sub>X<sub>3</sub> + ε</strong></p>
+<p>Ou:</p>
+<p><strong>Passageiros = -14.530.000 + (-19,9615 × PIB per capita) + (-173,8034 × Renda média) + (126.100 × Área urbanizada)</strong></p>
 <p>Onde:</p>
 <ul>
-<li><strong>( Y )</strong> representa o número de passageiros comerciais;</li>
-<li><strong>( X_1 )</strong> corresponde ao PIB per capita;</li>
-<li><strong>( X_2 )</strong> corresponde à renda média;</li>
-<li><strong>( X_3 )</strong> corresponde à área urbanizada;</li>
-<li><strong>( \beta_0 )</strong> é o intercepto do modelo;</li>
-<li><strong>( \beta_1, \beta_2, \beta_3 )</strong> são os coeficientes que indicam o efeito marginal de cada variável explicativa sobre ( Y );</li>
-<li><strong>( \epsilon )</strong> é o termo de erro aleatório, que captura as influências não observadas no modelo.</li>
+<li><strong>Y</strong> – Número de passageiros comerciais;</li>
+<li><strong>X<sub>1</sub></strong> – PIB per capita;</li>
+<li><strong>X<sub>2</sub></strong> – Renda média;</li>
+<li><strong>X<sub>3</sub></strong> – Área urbanizada;</li>
+<li><strong>β<sub>0</sub></strong> – Intercepto do modelo;</li>
+<li><strong>β<sub>1</sub>, β<sub>2</sub>, β<sub>3</sub></strong> – Coeficientes que indicam o efeito marginal de cada variável explicativa sobre <strong>Y</strong>;</li>
+<li><strong>ε</strong> – Termo de erro aleatório, que captura as influências não observadas no modelo.</li>
 </ul>
 <p>Além do modelo linear simples, também são testadas outras formas funcionais, como o <strong>modelo log-linear</strong> (semi-log), o <strong>modelo linear-log</strong> e o <strong>modelo log-log</strong> (elasticidade constante). </p>
 <p>Diferentes combinações de variáveis explicativas são consideradas, incluindo <strong>PIB per capita, população, renda média, densidade populacional e área urbanizada</strong>.</p>
 <p>A escolha do modelo linear simples com as variáveis PIB per capita, renda média e área urbanizada é fundamentada no desempenho estatístico observado. Este modelo apresenta:</p>
 <ul>
-<li>Alta capacidade explicativa (( R^2 = 0,888 ));</li>
+<li>Alta capacidade explicativa <strong>R<sup>2</sup> = 0,888</strong>;</li>
 <li>Coeficientes estatisticamente significativos;</li>
 <li>Resíduos homocedásticos;</li>
 <li>Ausência de autocorrelação dos erros.</li>
@@ -1189,14 +1184,14 @@
 <li>O p-valor obtido foi 0,6741, não rejeitando a hipótese nula de especificação correta</li>
 <li>A forma funcional adotada é adequada, sem necessidade de inclusão de termos quadráticos ou cúbicos</li>
 </ul>
-<h3 id="exogeneidade-dos-erros">Exogeneidade dos erros ###</h3>
+<h3 id="exogeneidade-dos-erros">Exogeneidade dos erros</h3>
 <ul>
 <li>A exogeneidade dos erros requer que o termo de erro não esteja correlacionado com as variáveis independentes</li>
 <li>Esta condição foi avaliada por meio da análise gráfica dos resíduos</li>
 <li>A distribuição dos resíduos se mostrou aleatória em torno da linha zero, sem evidências de padrão sistemático</li>
 <li>É atendida a hipótese de exogeneidade dos erros</li>
 </ul>
-<h3 id="homocedasticidade">Homocedasticidade ###</h3>
+<h3 id="homocedasticidade">Homocedasticidade</h3>
 <ul>
 <li>A homocedasticidade implica variância constante dos resíduos ao longo de todas as observações.</li>
 <li>A hipótese foi testada utilizando o teste de Breusch-Pagan.</li>
@@ -1206,21 +1201,21 @@
 <p><strong>Figura 3 - Resíduos vs valores preditos pelo modelo</strong><br />
 <img alt="Figura 3 - Resíduos vs valores preditos pelo modelo" src="../assets/A33.jpg" /><br />
 <em>(Fonte: Autor)</em> </p>
-<h3 id="ausencia-de-autocorrelacao-dos-erros">Ausência de autocorrelação dos erros ###</h3>
+<h3 id="ausencia-de-autocorrelacao-dos-erros">Ausência de autocorrelação dos erros</h3>
 <ul>
 <li>A ausência de autocorrelação nos resíduos garante a eficiência dos estimadores.</li>
 <li>Essa condição foi testada pelo teste de Durbin-Watson</li>
 <li>O valor encontrado foi 1,814, muito próximo do valor ideal de 2</li>
 <li>Portanto, não há evidências de autocorrelação entre os resíduos</li>
 </ul>
-<h3 id="ausencia-de-multicolinearidade">Ausência de multicolinearidade ###</h3>
+<h3 id="ausencia-de-multicolinearidade">Ausência de multicolinearidade</h3>
 <ul>
 <li>A ausência de multicolinearidade entre variáveis explicativas é fundamental para assegurar a precisão das estimativas.</li>
 <li>A análise do número de condição (Condition Number) indicou um valor de 3,5 × 10⁷</li>
 <li>Embora considerado elevado, este valor ainda está abaixo dos limites críticos comumente adotados</li>
 <li>Assim, considera-se que a multicolinearidade é moderada e aceitável para fins exploratórios</li>
 </ul>
-<h3 id="conclusao-sobre-as-hipoteses">Conclusão sobre as hipóteses ###</h3>
+<h3 id="conclusao-sobre-as-hipoteses">Conclusão sobre as hipóteses</h3>
 <ul>
 <li>Todas as hipóteses clássicas da regressão foram atendidas no modelo estimado</li>
 <li>O modelo apresenta características Best Linear Unbiased Estimators (BLUE)</li>
@@ -1236,12 +1231,11 @@ O <strong>R² ajustado</strong> foi de <strong>0,776</strong>, demonstrando que 
 <p>A decisão final pela escolha deste modelo baseou-se na combinação entre bom ajuste estatístico, robustez em relação às hipóteses clássicas da regressão e interpretação econômica plausível dos coeficientes estimados.</p>
 <hr />
 <h2 id="interpretacao-economica-dos-coeficientes-estimados">Interpretação econômica dos coeficientes estimados</h2>
-<p>O coeficiente do PIB per capita é negativo e estatisticamente significativo. Isso indica que, no contexto analisado, aumentos no PIB per capita estão associados à redução no número de passageiros comerciais. Economicamente, essa relação pode ser interpretada como reflexo de substituição modal: com maior poder aquisitivo, parte da população pode optar por meios de transporte mais privados ou aeroportos maiores da região. O coeficiente da renda média também é negativo e estatisticamente significativo. Esse comportamento sugere que aumentos na renda média da população local não necessariamente se traduzem em maior demanda por transporte aéreo comercial a partir do aeroporto analisado, reforçando a hipótese de diversificação no uso de modais e preferência por outros polos de transporte. Esses coeficientes, negativos, podem indiciar...</p>
-<p>O coeficiente da área urbanizada é positivo e estatisticamente significativo. A expansão da área urbanizada tende a estar associada ao crescimento da infraestrutura, serviços e dinâmica econômica local, fatores que aumentam a demanda por transporte aéreo comercial. Assim, um maior desenvolvimento territorial tem impacto positivo na movimentação de passageiros.</p>
+<p>O coeficiente do PIB per capita é negativo e estatisticamente significativo. Isso indica que, no contexto analisado, aumentos no PIB per capita estão associados à redução no número de passageiros comerciais. Economicamente, essa relação pode ser interpretada como reflexo de substituição modal: com maior poder aquisitivo, parte da população pode optar por meios de transporte mais privados ou aeroportos maiores da região. O coeficiente da renda média também é negativo e estatisticamente significativo. Esse comportamento sugere que aumentos na renda média da população local não necessariamente se traduzem em maior demanda por transporte aéreo comercial a partir do aeroporto analisado, reforçando a hipótese de diversificação no uso de modais e preferência por outros polos de transporte. O coeficiente da área urbanizada é positivo e estatisticamente significativo. A expansão da área urbanizada tende a estar associada ao crescimento da infraestrutura, serviços e dinâmica econômica local, fatores que aumentam a demanda por transporte aéreo comercial. Assim, um maior desenvolvimento territorial tem impacto positivo na movimentação de passageiros.</p>
 <p>De maneira geral, os resultados estão alinhados com a teoria econômica, que prevê que fatores como desenvolvimento urbano e estrutura de mobilidade influenciam diretamente a demanda por transporte aéreo, enquanto variáveis de renda podem gerar efeitos mais complexos dependendo da oferta disponível e da competição entre modais.</p>
 <h2 id="validacao-do-modelo">Validação do modelo</h2>
 <p>Devido ao tamanho reduzido da amostra (apenas sete observações), a divisão entre dados de treinamento e teste não foi aplicada. Essa divisão seria inviável estatisticamente e poderia comprometer a validade dos resultados.</p>
-<p>A capacidade preditiva do modelo foi avaliada com base na qualidade do ajuste observado. O valor elevado de ( R^2 ) (0,888) e a ausência de problemas detectados nos resíduos sugerem que o modelo possui bom poder explicativo dentro da amostra analisada.</p>
+<p>A capacidade preditiva do modelo foi avaliada com base na qualidade do ajuste observado. O valor elevado de <strong>R<sup>2</sup> = 0,888</strong> e a ausência de problemas detectados nos resíduos sugerem que o modelo possui bom poder explicativo dentro da amostra analisada.</p>
 <p>Apesar disso, recomenda-se cautela na extrapolação dos resultados para períodos ou contextos muito distintos, uma vez que a validação externa (out-of-sample) não pode ser realizada formalmente.</p>
 
 
