@@ -28,12 +28,13 @@ Uma **proxy UAM-SJC** foi criada combinando o histórico de demanda com a retoma
 
 - **Produto Interno Bruto (PIB) per capita municipal** – Reflete a capacidade de consumo da população.
 - **População total** – Representa o mercado potencial de usuários.
-- **Índice de mobilidade urbana por macrozona** – Mede a intensidade dos deslocamentos internos.
 - **Renda média mensal por macrozona** – Indica o poder aquisitivo da população.
-- **Índice de Desenvolvimento Humano Municipal (IDHM)** – Síntese do nível de desenvolvimento humano.
 - **Densidade populacional** – Grau de adensamento urbano.
 - **Área urbanizada** – Extensão da infraestrutura consolidada.
-- **Meios de transporte utilizados** – Padrões predominantes de deslocamento.
+
+**Figura 1 - Gráficos de dispersão entre variáveis explicativas e variável dependente**  
+![Figura 1 - Gráficos de dispersão entre variáveis explicativas e variável dependente](assets/A31.jpg)  
+*(Fonte: Autor)* 
 
 Todas as variáveis foram extraídas de fontes oficiais, organizadas para aplicação em modelos econométricos.
 
@@ -118,7 +119,7 @@ Ou
 Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3 + \epsilon
 \]
 
-EQUAÇÃO COMPLETA
+
 
 Onde:
 
@@ -163,8 +164,11 @@ A interpretação dos coeficientes aponta que, mantendo as demais variáveis con
 
 Esses resultados confirmam que todos os coeficientes são estatisticamente significativos e possuem sinal consistente com as hipóteses econômicas levantadas para o estudo.
 
----
+**Figura 2 - Valores observados vs valores preditos pelo modelo**  
+![Figura 2 - Valores observados vs valores preditos pelo modelo](assets/A32.jpg)  
+*(Fonte: Autor)* 
 
+---
 
 ## Verificação das hipóteses clássicas da regressão ##
 
@@ -190,6 +194,10 @@ A validade dos estimadores obtidos por Mínimos Quadrados Ordinários (OLS) depe
 - A hipótese foi testada utilizando o teste de Breusch-Pagan.
 - O p-valor encontrado foi 0,7973, indicando que a hipótese de homocedasticidade não pode ser rejeitada.
 - Assim, conclui-se que os resíduos possuem variância constante.
+
+**Figura 3 - Resíduos vs valores preditos pelo modelo**  
+![Figura 3 - Resíduos vs valores preditos pelo modelo](assets/A33.jpg)  
+*(Fonte: Autor)* 
 
 ### Ausência de autocorrelação dos erros ### 
  
