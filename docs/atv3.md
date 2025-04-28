@@ -1,6 +1,6 @@
 # **Demanda por transporte aéreo** 
 
-## Coleta e Organização dos Dados ##
+## 1. Coleta e Organização dos Dados ##
 
 Esta seção apresenta a definição e organização das variáveis envolvidas na modelagem econométrica da demanda por transporte aéreo no município de São José dos Campos. A abordagem adotada utiliza um **modelo de regressão linear** com base em **séries temporais anuais**, considerando uma variável dependente e um conjunto de variáveis explicativas socioeconômicas e urbanas.
 
@@ -54,7 +54,7 @@ Os dados foram organizados como **série temporal anual** entre 2010 e 2024.
 
 ---
 
-## Análise Exploratória e Descrição Estatística das Variáveis ##
+## 2. Análise Exploratória e Descrição Estatística das Variáveis ##
 
 ### Estatísticas Descritivas ###
 
@@ -103,7 +103,7 @@ Foram calculadas as principais estatísticas descritivas para as variáveis, con
 
 ---
 
-## Formulação dos Modelos de Regressão ##
+## 3. Formulação dos Modelos de Regressão ##
 
 Para a análise proposta, é adotado o modelo de regressão **linear simples com múltiplas variáveis explicativas**. Essa forma funcional é caracterizada pela relação linear entre a variável dependente (número de passageiros comerciais) e as variáveis independentes (PIB per capita, renda média e área urbanizada).
 
@@ -141,7 +141,7 @@ São cumpridos, assim, os principais pressupostos do **Teorema de Gauss-Markov**
 
 ---
 
-## Estimativa dos Coeficientes utilizando o Método dos Mínimos Quadrados Ordinários (OLS)##
+## 4. Estimativa dos Coeficientes utilizando o Método dos Mínimos Quadrados Ordinários (OLS)##
 
 Os coeficientes do modelo são estimados utilizando o método dos **Mínimos Quadrados Ordinários (OLS)**, o qual busca minimizar a soma dos quadrados dos resíduos entre os valores observados e os valores previstos pela regressão. Esse procedimento garante a obtenção de estimadores linearmente não-viesados, de variância mínima, conforme as condições estabelecidas pelo **Teorema de Gauss-Markov**.
 
@@ -165,7 +165,7 @@ Esses resultados confirmam que todos os coeficientes são estatisticamente signi
 
 ---
 
-## Verificação das hipóteses clássicas da regressão ##
+## 5. Verificação das hipóteses clássicas da regressão ##
 
 A validade dos estimadores obtidos por Mínimos Quadrados Ordinários (OLS) depende do atendimento às hipóteses clássicas da regressão linear. A seguir, cada hipótese é discutida, testada e analisada em relação ao modelo estimado.
 
@@ -216,7 +216,7 @@ A validade dos estimadores obtidos por Mínimos Quadrados Ordinários (OLS) depe
 
 ---
 
-## Seleção do Modelo Mais Adequado ##
+## 6. Seleção do Modelo Mais Adequado ##
 
 A seleção do modelo mais adequado foi realizada com base na comparação entre diferentes especificações, considerando os critérios de informação **AIC** e **BIC**, os coeficientes de determinação (**R²** e **R² ajustado**) e o **teste F** para avaliação da significância global.
 
@@ -231,13 +231,13 @@ A decisão final pela escolha deste modelo baseou-se na combinação entre bom a
 
 ---
 
-## Interpretação econômica dos coeficientes estimados ##
+## 7. Interpretação econômica dos coeficientes estimados ##
 
 O coeficiente do PIB per capita é negativo e estatisticamente significativo. Isso indica que, no contexto analisado, aumentos no PIB per capita estão associados à redução no número de passageiros comerciais. Economicamente, essa relação pode ser interpretada como reflexo de substituição modal: com maior poder aquisitivo, parte da população pode optar por meios de transporte mais privados ou aeroportos maiores da região. O coeficiente da renda média também é negativo e estatisticamente significativo. Esse comportamento sugere que aumentos na renda média da população local não necessariamente se traduzem em maior demanda por transporte aéreo comercial a partir do aeroporto analisado, reforçando a hipótese de diversificação no uso de modais e preferência por outros polos de transporte. O coeficiente da área urbanizada é positivo e estatisticamente significativo. A expansão da área urbanizada tende a estar associada ao crescimento da infraestrutura, serviços e dinâmica econômica local, fatores que aumentam a demanda por transporte aéreo comercial. Assim, um maior desenvolvimento territorial tem impacto positivo na movimentação de passageiros.
 
 De maneira geral, os resultados estão alinhados com a teoria econômica, que prevê que fatores como desenvolvimento urbano e estrutura de mobilidade influenciam diretamente a demanda por transporte aéreo, enquanto variáveis de renda podem gerar efeitos mais complexos dependendo da oferta disponível e da competição entre modais.
 
-## Validação do modelo ##
+## 8. Validação do modelo ##
 
 Devido ao tamanho reduzido da amostra (apenas sete observações), a divisão entre dados de treinamento e teste não foi aplicada. Essa divisão seria inviável estatisticamente e poderia comprometer a validade dos resultados.
 
