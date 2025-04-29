@@ -12,7 +12,7 @@ A construção do modelo parte da definição da variável dependente, que expre
 
 ### Variável Dependente: Número de Passageiros Comerciais Anuais ###
 
-A variável dependente utilizada é o **número de passageiros transportados por voos comerciais regulares no Aeroporto de São José dos Campos (SJK)**, conforme registros da **ANAC**.
+A variável dependente utilizada é o **número de passageiros transportados por voos comerciais regulares no Aeroporto de São José dos Campos (SJK)**, conforme registros da [ANAC](https://www.gov.br/anac/pt-br/assuntos/dados-e-estatisticas/dados-estatisticos).
 
 - 2011: 51.541 passageiros
 - 2012: 59.863 passageiros
@@ -23,7 +23,7 @@ O total acumulado no período é de 169.087 passageiros, com uma **média anual 
 - 2017: 4.484 passageiros
 - 2022: 0 passageiros
 
-Em 2024, após a retomada de voos pela companhia **GOL Linhas Aéreas**, estima-se uma demanda anual de aproximadamente **20.300 passageiros**, considerando a capacidade e taxa média de ocupação dos voos.
+Em 2024, após a retomada de voos pela companhia [Gol Linhas Aéreas](https://www.voegol.com.br/?gclsrc=aw.ds&gad_source=1&gad_campaignid=12520896889&gclid=Cj0KCQjwzrzABhD8ARIsANlSWNNBwXMCWhJOk4NqMvafokji71YDC0hcViaQvffId4SzfrvBmTgEGn8aAkS3EALw_wcB), estima-se uma demanda anual de aproximadamente **20.300 passageiros**, considerando a capacidade e taxa média de ocupação dos voos.
 
 Uma **proxy UAM-SJC** foi criada combinando o histórico de demanda com a retomada recente.
 
@@ -39,7 +39,7 @@ Uma **proxy UAM-SJC** foi criada combinando o histórico de demanda com a retoma
 ![Figura 1 - Gráficos de dispersão entre variáveis explicativas e variável dependente](assets/A31.jpg)  
 *(Fonte: Autor)* 
 
-Todas as variáveis foram extraídas de fontes oficiais, organizadas para aplicação em modelos econométricos.
+Todas as variáveis foram extraídas de fontes oficiais, como [ANAC](https://www.gov.br/anac/pt-br/assuntos/dados-e-estatisticas/dados-estatisticos) e [IBGE](https://www.ibge.gov.br).
 
 ### Organização dos Dados ###
 

@@ -116,7 +116,7 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 
 - **Grande fluxo de pessoas**, justificando a demanda por transporte rápido  
 - **Infraestrutura já existente**, como estacionamentos e áreas de apoio  
-- **Proximidade com bairros residenciais de alto padrão**  
+- **Proximidade com bairros residenciais de alto padrão residencial e comercial**  
 - Possibilidade de **integração com serviços de entrega rápida** (logística de e-commerce)
 
 **Figura 6 - Sítio Shopping Colinas no Qgis**  
@@ -170,7 +170,10 @@ A cidade pode ser dividida em **sete regiões geográficas principais**, ou **ma
 
 ## Renda Per Capita Mensal por Macrozona
 
-- **Regiões com maior renda per capita mensal**: Oeste, Centro e Sul
+- **Regiões com maior renda per capita mensal**:
+- Oeste
+- Centro
+- Sul
 
 **Figura 11 - Renda per capita mensal média**  
 ![Figura 11 - Renda per capita mensal média](assets/figura3.jpg)  
@@ -276,7 +279,7 @@ O custo de deslocamento **c<sub>ij</sub>** é obtido a partir da criação de um
 ![Figura 17 - Matriz de distância aérea entre macrozonas e vertiportos](assets/A4custo1.jpg)  
 *(Fonte: Autor)*  
 
-O parâmetro de impedância **β = 1.5** foi estimado a partir de **iterações** . É interessante notar que o parâmetro de impedância, em casos usuais, **penaliza voos mais distantes**, mas no caso de **viagens entre vertiportos em São José dos Campos**, o **valor absoluto de distância é extremamente baixo em todos os casos** (menor que 16,5 km), ou seja, **voos mais distantes** (até 16,5 km) **são desejados para maior eficiência**, já que **viagens de poucos km são mais vantajosas utilizando veículos comuns**, que irão oferecer um tempo de viagem semelhante e menores custos. Após a **estimativa do valor de impedância**, o mesmo **é validado a partir da literatura**, **convergindo para -0,1** - [A demand forecasting model for urban air mobility in Chengdu, China](https://www.sciencedirect.com/science/article/pii/S2773153724000252).
+O parâmetro de impedância **β = -0.1** foi estimado a partir de **iterações** . É interessante notar que o parâmetro de impedância, em casos usuais, **penaliza voos mais distantes**, mas no caso de **viagens entre vertiportos em São José dos Campos**, o **valor absoluto de distância é extremamente baixo em todos os casos** (menor que 16,5 km), ou seja, **voos mais distantes** (até 16,5 km) **são desejados para maior eficiência**, já que **viagens de poucos km são mais vantajosas utilizando veículos comuns**, que irão oferecer um tempo de viagem semelhante e menores custos. Após a **estimativa do valor de impedância**, o mesmo **é validado a partir da literatura**, **convergindo para -0,1** - [A demand forecasting model for urban air mobility in Chengdu, China](https://www.sciencedirect.com/science/article/pii/S2773153724000252).
 
 A constante de proporcionalidade **k** é ajustada de forma que os resultados estejam em uma **escala interpretável e coerente** com a quantidade de viagens esperadas, **convergindo para 0,25**. Caso este valor seja superior ao utilizado, a estimativa de demanda irá retornar uma maior quantidade de viagens, mas novamente, conforme descrito anteriormente, é esperado apenas uma pequena quantidade de viagens neste modal.
 
