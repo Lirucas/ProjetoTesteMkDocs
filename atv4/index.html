@@ -869,7 +869,7 @@
 <ul>
 <li><strong>Grande fluxo de pessoas</strong>, justificando a demanda por transporte rápido  </li>
 <li><strong>Infraestrutura já existente</strong>, como estacionamentos e áreas de apoio  </li>
-<li><strong>Proximidade com bairros residenciais de alto padrão</strong>  </li>
+<li><strong>Proximidade com bairros residenciais de alto padrão residencial e comercial</strong>  </li>
 <li>Possibilidade de <strong>integração com serviços de entrega rápida</strong> (logística de e-commerce)</li>
 </ul>
 <p><strong>Figura 6 - Sítio Shopping Colinas no Qgis</strong><br />
@@ -907,7 +907,10 @@
 <hr />
 <h2 id="renda-per-capita-mensal-por-macrozona">Renda Per Capita Mensal por Macrozona</h2>
 <ul>
-<li><strong>Regiões com maior renda per capita mensal</strong>: Oeste, Centro e Sul</li>
+<li><strong>Regiões com maior renda per capita mensal</strong>:</li>
+<li>Oeste</li>
+<li>Centro</li>
+<li>Sul</li>
 </ul>
 <p><strong>Figura 11 - Renda per capita mensal média</strong><br />
 <img alt="Figura 11 - Renda per capita mensal média" src="../assets/figura3.jpg" />  </p>
@@ -993,7 +996,7 @@
 <p><strong>Figura 17 - Matriz de distância aérea entre macrozonas e vertiportos</strong><br />
 <img alt="Figura 17 - Matriz de distância aérea entre macrozonas e vertiportos" src="../assets/A4custo1.jpg" /><br />
 <em>(Fonte: Autor)</em>  </p>
-<p>O parâmetro de impedância <strong>β = 1.5</strong> foi estimado a partir de <strong>iterações</strong> . É interessante notar que o parâmetro de impedância, em casos usuais, <strong>penaliza voos mais distantes</strong>, mas no caso de <strong>viagens entre vertiportos em São José dos Campos</strong>, o <strong>valor absoluto de distância é extremamente baixo em todos os casos</strong> (menor que 16,5 km), ou seja, <strong>voos mais distantes</strong> (até 16,5 km) <strong>são desejados para maior eficiência</strong>, já que <strong>viagens de poucos km são mais vantajosas utilizando veículos comuns</strong>, que irão oferecer um tempo de viagem semelhante e menores custos. Após a <strong>estimativa do valor de impedância</strong>, o mesmo <strong>é validado a partir da literatura</strong>, <strong>convergindo para -0,1</strong> - <a href="https://www.sciencedirect.com/science/article/pii/S2773153724000252">A demand forecasting model for urban air mobility in Chengdu, China</a>.</p>
+<p>O parâmetro de impedância <strong>β = -0.1</strong> foi estimado a partir de <strong>iterações</strong> . É interessante notar que o parâmetro de impedância, em casos usuais, <strong>penaliza voos mais distantes</strong>, mas no caso de <strong>viagens entre vertiportos em São José dos Campos</strong>, o <strong>valor absoluto de distância é extremamente baixo em todos os casos</strong> (menor que 16,5 km), ou seja, <strong>voos mais distantes</strong> (até 16,5 km) <strong>são desejados para maior eficiência</strong>, já que <strong>viagens de poucos km são mais vantajosas utilizando veículos comuns</strong>, que irão oferecer um tempo de viagem semelhante e menores custos. Após a <strong>estimativa do valor de impedância</strong>, o mesmo <strong>é validado a partir da literatura</strong>, <strong>convergindo para -0,1</strong> - <a href="https://www.sciencedirect.com/science/article/pii/S2773153724000252">A demand forecasting model for urban air mobility in Chengdu, China</a>.</p>
 <p>A constante de proporcionalidade <strong>k</strong> é ajustada de forma que os resultados estejam em uma <strong>escala interpretável e coerente</strong> com a quantidade de viagens esperadas, <strong>convergindo para 0,25</strong>. Caso este valor seja superior ao utilizado, a estimativa de demanda irá retornar uma maior quantidade de viagens, mas novamente, conforme descrito anteriormente, é esperado apenas uma pequena quantidade de viagens neste modal.</p>
 <p>A aplicação do modelo com os parâmetros definidos resulta na <strong>matriz origem-destino</strong> estimada, que indica o <strong>número relativo de viagens</strong> partindo de cada vertiporto para cada macrozona. Essa matriz permite observar <strong>tendências de fluxo</strong>, identificar <strong>zonas com maior atratividade</strong> e subsidiar decisões sobre <strong>localização ótima de vertiportos</strong>, <strong>planejamento de rotas</strong> e <strong>integração modal</strong>.</p>
 <p><strong>Figura 18 - Matriz de origem-destino entre vertiportos e macrozonas</strong><br />
