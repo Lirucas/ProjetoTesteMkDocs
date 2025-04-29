@@ -18,7 +18,10 @@ A variável dependente utilizada é o **número de passageiros transportados por
 - 2012: 59.863 passageiros
 - 2013: 57.683 passageiros
 
-O total acumulado no período é de 169.087 passageiros, com uma **média anual de 56.362**.
+O total acumulado no período é de 169.087 passageiros, com uma **média anual de 56.362**. Em 2017 e 2022, apesar de movimentação registrada, os volumes de passageiros foram bem inferiores: 2017 – 4.484 passageiros; 2022 – sem operações comerciais relevantes.
+
+- 2017: 4.484 passageiros
+- 2022: 0 passageiros
 
 Em 2024, após a retomada de voos pela companhia **GOL Linhas Aéreas**, estima-se uma demanda anual de aproximadamente **20.300 passageiros**, considerando a capacidade e taxa média de ocupação dos voos.
 
@@ -26,11 +29,11 @@ Uma **proxy UAM-SJC** foi criada combinando o histórico de demanda com a retoma
 
 ### Variáveis Explicativas ###
 
-- **Produto Interno Bruto (PIB) per capita municipal** – Reflete a capacidade de consumo da população.
-- **População total** – Representa o mercado potencial de usuários.
-- **Renda média mensal por macrozona** – Indica o poder aquisitivo da população.
-- **Densidade populacional** – Grau de adensamento urbano.
-- **Área urbanizada** – Extensão da infraestrutura consolidada.
+- **Produto Interno Bruto (PIB) per capita municipal** – Reflete a capacidade de consumo da população
+- **População total** – Representa o mercado potencial de usuários
+- **Renda média mensal por macrozona** – Indica o poder aquisitivo da população
+- **Densidade populacional** – Grau de adensamento urbano
+- **Área urbanizada** – Extensão da infraestrutura consolidada
 
 **Figura 1 - Gráficos de dispersão entre variáveis explicativas e variável dependente**  
 ![Figura 1 - Gráficos de dispersão entre variáveis explicativas e variável dependente](assets/A31.jpg)  
@@ -50,6 +53,8 @@ Os dados foram organizados como **série temporal anual** entre 2010 e 2024.
 | 2011 | 45.762 | 634.998 | 2.503 | 591,88 | 126,30 | 51.541 |
 | 2012 | 48.920 | 639.752 | 2.638 | 599,04 | 127,10 | 59.863 |
 | 2013 | 50.896 | 644.641 | 2.731 | 607,33 | 127,65 | 57.683 |
+| 2017 | 53.615 | 703.219 | 2.704 | 611,23 | 128,10 | 4.484 |
+| 2022 | 61.315 | 712.350 | 2.492 | 625,50 | 128,40 | 0 |
 | 2024 | 56.140 (est.) | 724.756 | 3.352 (est.)| 634,03 | 128,94 | 20.300 (estimado) |
 
 ---
@@ -64,18 +69,19 @@ Foram calculadas as principais estatísticas descritivas para as variáveis, con
 
 | Variável | Média | Desvio Padrão | Mínimo | Máximo |
 |----------|-------|----------------|--------|--------|
-| PIB per capita (R$) | 51.494,50 | 5.722,60 | 45.762 | 56.140 |
+| PIB per capita (R$) | 52.433,00 | 6.287,77 | 45.762 | 61.315 |
 | População total | 661.537 | 38.340,88 | 634.998 | 724.756 |
-| Renda média mensal (R$) | 2.805,75 | 432,69 | 2.503 | 3.352 |
-| IDHM | 0,807 | 0,000 | 0,807 | 0,807 |
-| Densidade populacional (hab/km²) | 608,07 | 17,80 | 591,88 | 634,03 |
-| Área urbanizada (km²) | 127,51 | 1,11 | 126,30 | 128,94 |
-| Passageiros comerciais | 47.846,75 | 19.125,15 | 20.300 | 59.863 |
+| Renda média mensal (R$) | 2.753,33 | 297,88 | 2.492 | 3.352 |
+| Densidade populacional (hab/km²) | 611,60 | 17,32 | 591,88 | 634,03 |
+| Área urbanizada (km²) | 127,53 | 1,15 | 126,30 | 128,94 |
+| Passageiros comerciais | 32.978,50 | 26.032,77 | 0 | 59.863 |
 
 **Análise crítica**:
-- A inserção da estimativa de 2024 aumentou o desvio padrão dos passageiros.
-- Variáveis como IDHM e área urbanizada têm variação quase nula.
-- Renda, densidade e PIB per capita mostram maior sensibilidade temporal.
+- A inserção da estimativa de 2024 aumentou o desvio padrão dos passageiros
+- Variáveis área urbanizada têm variação quase nula
+- Renda, densidade e PIB per capita mostram maior sensibilidade temporal
+- A inserção dos dados de 2017 e 2022 ampliou significativamente a variabilidade dos passageiros, refletindo a descontinuidade operacional do aeroporto no período
+
 
 ### Análise de Correlação entre Variáveis ###
 
@@ -83,23 +89,24 @@ Foram calculadas as principais estatísticas descritivas para as variáveis, con
 
 | Variável | PIB per capita | População | Renda média | Densidade | Área urbanizada | Passageiros |
 |----------|----------------|-----------|-------------|-----------|-----------------|-------------|
-| PIB per capita | 1,000 | 0,981 | 0,975 | 0,958 | 0,937 | 0,947 |
-| População | 0,981 | 1,000 | 0,997 | 0,990 | 0,989 | 0,956 |
-| Renda média | 0,975 | 0,997 | 1,000 | 0,987 | 0,980 | 0,951 |
-| Densidade populacional | 0,958 | 0,990 | 0,987 | 1,000 | 0,991 | 0,938 |
-| Área urbanizada | 0,937 | 0,989 | 0,980 | 0,991 | 1,000 | 0,926 |
-| Passageiros | 0,947 | 0,956 | 0,951 | 0,938 | 0,926 | 1,000 |
+| PIB per capita | 1,000 | 0,973 | 0,962 | 0,954 | 0,943 | 0,884 |
+| População | 0,973 | 1,000 | 0,995 | 0,990 | 0,982 | 0,832 |
+| Renda média | 0,962 | 0,995 | 1,000 | 0,987 | 0,976 | 0,822 |
+| Densidade populacional | 0,954 | 0,990 | 0,987 | 1,000 | 0,992 | 0,810 |
+| Área urbanizada | 0,943 | 0,982 | 0,976 | 0,992 | 1,000 | 0,800 |
+| Passageiros | 0,844 | 0,832 | 0,822 | 0,810 | 0,800 | 1,000 |
 
 **Análise crítica**:
-- Todas as variáveis têm correlação positiva forte com a variável dependente.
-- Há alta colinearidade, exigindo atenção em regressão múltipla (VIF recomendado).
+- Todas as variáveis têm correlação positiva forte com a variável dependente
+- Há alta colinearidade, exigindo atenção em regressão múltipla
 
 ### Identificação de Tendências e Sazonalidades ###
 
-- Crescimento inicial entre 2011 e 2012.
-- Leve retração em 2013, indicando estabilização.
-- Retomada em 2024, com potencial de expansão futura.
-- A ausência de operações entre 2014 e 2023 dificultou a análise sazonal completa.
+- Crescimento inicial entre 2011 e 2012
+- Leve retração em 2013, indicando estabilização
+- Queda acentuada em 2017 e ausência de operações em 2022
+- Retomada em 2024, demonstrando recuperação com potencial de expansão futura
+- A ausência de operações em alguns anos dificultou a análise sazonal completa
 
 ---
 
@@ -118,13 +125,13 @@ Ou:
 
 Onde:
 
-- **Y** – Número de passageiros comerciais;
-- **X<sub>1</sub>** – PIB per capita;
-- **X<sub>2</sub>** – Renda média;
-- **X<sub>3</sub>** – Área urbanizada;
-- **β<sub>0</sub>** – Intercepto do modelo;
-- **β<sub>1</sub>, β<sub>2</sub>, β<sub>3</sub>** – Coeficientes que indicam o efeito marginal de cada variável explicativa sobre **Y**;
-- **ε** – Termo de erro aleatório, que captura as influências não observadas no modelo.
+- **Y** – Número de passageiros comerciais
+- **X<sub>1</sub>** – PIB per capita
+- **X<sub>2</sub>** – Renda média
+- **X<sub>3</sub>** – Área urbanizada
+- **β<sub>0</sub>** – Intercepto do modelo
+- **β<sub>1</sub>, β<sub>2</sub>, β<sub>3</sub>** – Coeficientes que indicam o efeito marginal de cada variável explicativa sobre **Y**
+- **ε** – Termo de erro aleatório, que captura as influências não observadas no modelo
 
 Além do modelo linear simples, também são testadas outras formas funcionais, como o **modelo log-linear** (semi-log), o **modelo linear-log** e o **modelo log-log** (elasticidade constante). 
 
@@ -132,10 +139,10 @@ Diferentes combinações de variáveis explicativas são consideradas, incluindo
 
 A escolha do modelo linear simples com as variáveis PIB per capita, renda média e área urbanizada é fundamentada no desempenho estatístico observado. Este modelo apresenta:
 
-- Alta capacidade explicativa **R<sup>2</sup> = 0,888**;
-- Coeficientes estatisticamente significativos;
-- Resíduos homocedásticos;
-- Ausência de autocorrelação dos erros.
+- Alta capacidade explicativa **R<sup>2</sup> = 0,888**
+- Coeficientes estatisticamente significativos
+- Resíduos homocedásticos
+- Ausência de autocorrelação dos erros
 
 São cumpridos, assim, os principais pressupostos do **Teorema de Gauss-Markov** (modelo BLUE). Entre todas as alternativas testadas, este é o modelo estatisticamente mais robusto e adequado para explicar a variação no número de passageiros comerciais no município estudado.
 
@@ -147,15 +154,15 @@ Os coeficientes do modelo são estimados utilizando o método dos **Mínimos Qua
 
 No modelo selecionado, que considera as variáveis PIB per capita, renda média e área urbanizada, são obtidos os seguintes coeficientes estimados:
 
-- **PIB per capita**: coeficiente negativo, estatisticamente significativo ao nível de 5% (p-valor = 0,018).
-- **Renda média**: coeficiente negativo, estatisticamente significativo ao nível de 5% (p-valor = 0,040).
-- **Área urbanizada**: coeficiente positivo, estatisticamente significativo ao nível de 5% (p-valor = 0,023).
+- **PIB per capita**: coeficiente negativo, estatisticamente significativo ao nível de 5% (p-valor = 0,018)
+- **Renda média**: coeficiente negativo, estatisticamente significativo ao nível de 5% (p-valor = 0,040)
+- **Área urbanizada**: coeficiente positivo, estatisticamente significativo ao nível de 5% (p-valor = 0,023)
 
 A interpretação dos coeficientes aponta que, mantendo as demais variáveis constantes:
 
-- Um aumento de uma unidade no PIB per capita está associado a uma redução aproximada de 20 unidades no número de passageiros comerciais.
-- Um aumento de uma unidade na renda média está associado a uma redução de aproximadamente 174 passageiros comerciais.
-- Um aumento de um quilômetro quadrado na área urbanizada está associado a um aumento de cerca de 126.000 passageiros comerciais.
+- Um aumento de uma unidade no PIB per capita está associado a uma redução aproximada de 20 unidades no número de passageiros comerciais
+- Um aumento de uma unidade na renda média está associado a uma redução de aproximadamente 174 passageiros comerciais
+- Um aumento de um quilômetro quadrado na área urbanizada está associado a um aumento de cerca de 126.000 passageiros comerciais
 
 Esses resultados confirmam que todos os coeficientes são estatisticamente significativos e possuem sinal consistente com as hipóteses econômicas levantadas para o estudo.
 
@@ -185,10 +192,10 @@ A validade dos estimadores obtidos por Mínimos Quadrados Ordinários (OLS) depe
 
 ### Homocedasticidade 
 
-- A homocedasticidade implica variância constante dos resíduos ao longo de todas as observações.
-- A hipótese foi testada utilizando o teste de Breusch-Pagan.
-- O p-valor encontrado foi 0,7973, indicando que a hipótese de homocedasticidade não pode ser rejeitada.
-- Assim, conclui-se que os resíduos possuem variância constante.
+- A homocedasticidade implica variância constante dos resíduos ao longo de todas as observações
+- A hipótese foi testada utilizando o teste de Breusch-Pagan
+- O p-valor encontrado foi 0,7973, indicando que a hipótese de homocedasticidade não pode ser rejeitada
+- Assim, conclui-se que os resíduos possuem variância constante
 
 **Figura 3 - Resíduos vs valores preditos pelo modelo**  
 ![Figura 3 - Resíduos vs valores preditos pelo modelo](assets/A33.jpg)  
@@ -233,7 +240,9 @@ A decisão final pela escolha deste modelo baseou-se na combinação entre bom a
 
 ## 7. Interpretação econômica dos coeficientes estimados ##
 
-O coeficiente do PIB per capita é negativo e estatisticamente significativo. Isso indica que, no contexto analisado, aumentos no PIB per capita estão associados à redução no número de passageiros comerciais. Economicamente, essa relação pode ser interpretada como reflexo de substituição modal: com maior poder aquisitivo, parte da população pode optar por meios de transporte mais privados ou aeroportos maiores da região. O coeficiente da renda média também é negativo e estatisticamente significativo. Esse comportamento sugere que aumentos na renda média da população local não necessariamente se traduzem em maior demanda por transporte aéreo comercial a partir do aeroporto analisado, reforçando a hipótese de diversificação no uso de modais e preferência por outros polos de transporte. O coeficiente da área urbanizada é positivo e estatisticamente significativo. A expansão da área urbanizada tende a estar associada ao crescimento da infraestrutura, serviços e dinâmica econômica local, fatores que aumentam a demanda por transporte aéreo comercial. Assim, um maior desenvolvimento territorial tem impacto positivo na movimentação de passageiros.
+O coeficiente do PIB per capita é negativo e estatisticamente significativo. Isso indica que, no contexto analisado, aumentos no PIB per capita estão associados à redução no número de passageiros comerciais. Economicamente, essa relação pode ser interpretada como reflexo de substituição modal: com maior poder aquisitivo, parte da população pode optar por meios de transporte mais privados ou aeroportos maiores da região. O coeficiente da renda média também é negativo e estatisticamente significativo. Esse comportamento sugere que aumentos na renda média da população local não necessariamente se traduzem em maior demanda por transporte aéreo comercial a partir do aeroporto analisado, reforçando a hipótese de diversificação no uso de modais e preferência por outros polos de transporte. O coeficiente da área urbanizada é positivo e estatisticamente significativo.
+
+A expansão da área urbanizada tende a estar associada ao crescimento da infraestrutura, serviços e dinâmica econômica local, fatores que aumentam a demanda por transporte aéreo comercial. Assim, um maior desenvolvimento territorial tem impacto positivo na movimentação de passageiros.
 
 De maneira geral, os resultados estão alinhados com a teoria econômica, que prevê que fatores como desenvolvimento urbano e estrutura de mobilidade influenciam diretamente a demanda por transporte aéreo, enquanto variáveis de renda podem gerar efeitos mais complexos dependendo da oferta disponível e da competição entre modais.
 
