@@ -22,7 +22,7 @@ AHP é uma **metodologia de tomada de decisão** que organiza e analisa complexo
 **Figura 1 - Resultados individuais para AHP dos oito critérios para escolha de sítio**  
 ![Figura 1 - Resultados individuais para AHP dos oito critérios para escolha de sítio](assets/ahp.jpg)  
 
-*(Fonte: Autor.)* 
+*(Fonte: Autor)* 
 
 ---
 
@@ -41,6 +41,8 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 
 **Figura 2 - Resultados do grupo para AIP dos oito critérios para escolha de sítio**  
 ![Figura 2 - Resultados do grupo para AIP dos oito critérios para escolha de sítio](assets/aip.jpg)
+
+*(Fonte: Autor)* 
 
 ---
 
@@ -82,7 +84,8 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 - **Espaço disponível** para a construção de infraestrutura sem grandes impactos urbanos
 
 **Figura 4 - Sítio Bairro Urbanova no Qgis**  
-![Figura 4 - Sítio Bairro Urbanova no Qgis](assets/urb.png)  
+![Figura 4 - Sítio Bairro Urbanova no Qgis](assets/urb.png)
+  
 *(Fonte: Autor)* 
 
 ### **Parque de Inovação Tecnológica São José dos Campos** ###
@@ -102,6 +105,7 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 
 **Figura 5 - Sítio Parque Tecnológico no Qgis**  
 ![Figura 5 - Sítio Parque Tecnológico no Qgis](assets/pq.png)  
+
 *(Fonte: Autor)* 
 
 ### **Shopping Colinas** ###
@@ -126,7 +130,10 @@ AIP é o **processo de combinar as prioridades individuais** de diferentes pesso
 **Figura 7 - Mapa com possíveis sítios**  
 ![Figura 7 - Mapa com possíveis sítios](assets/sitios.jpg) 
 
+*(Fonte: Autor)* 
+
 ---
+
 
 ## AHP e AIP Sítios ##
 
@@ -135,10 +142,14 @@ Com o **AHP dentre os sítios para cada critério**, é possível definir um **A
 **Figura 8 - Resultados do grupo para AIP dos quatro sítios de acordo com cada critério**  
 ![Figura 8 - Resultados do grupo para AIP dos quatro sítios de acordo com cada critério](assets/aip2.jpg)
 
+*(Fonte: Autor)* 
+
 Por fim, de acordo com a **prioridade entre os critérios** e a **prioridade entre os sítios de acordo com os critérios**, é possível **definir o sítio no qual o vertiporto será projetado**, que é o **Aeroporto Internacional de São José dos Campos Professor Urbano Ernesto Stumpf**.
 
 **Figura 9 - Resultados de escolha do sítio a partir do AIP para critérios e AIP para sítios**  
 ![Figura 9 - Resultados de escolha do sítio a partir do AIP para critérios e AIP para sítios](assets/a2final.jpg)
+
+*(Fonte: Autor)* 
 
 ---
 
@@ -287,6 +298,7 @@ A aplicação do modelo com os parâmetros definidos resulta na **matriz origem-
 
 **Figura 18 - Matriz de origem-destino entre vertiportos e macrozonas**  
 ![Figura 18 - Matriz de origem-destino entre vertiportos e macrozonas](assets/A4R1.jpg)  
+
 *(Fonte: Autor)* 
 
 A **matriz origem-destino** revela **tendências de fluxo compatíveis com os perfis de produção e atração definidos**. O **Aeroporto Internacional de São José dos Campos**, com maior fator de produção **P<sub>i</sub>** = 52,6 , apresenta os maiores volumes de viagens estimadas, destacando-se nas conexões com o **Sul (76 viagens)** e **Leste (60 viagens)** — macrozonas que, por sua vez, possuem os maiores fatores de atração.
@@ -332,8 +344,9 @@ O **parâmetro de sensibilidade à distância λ = -0,1** foi definido com base 
 
 A aplicação do modelo resulta na **matriz de probabilidades P<sub>ij</sub>**, representando a **probabilidade de um usuário de cada macrozona escolher cada vertiporto como ponto de partida ou chegada**.
 
-**Figura 20 - Matriz de probabilidades de escolha entre macrozonas e vertiportos**  
-![Figura 20 - Matriz de probabilidades de escolha entre macrozonas e vertiportos](assets/A4R2.jpg)  
+**Figura 19 - Matriz de probabilidades de escolha entre macrozonas e vertiportos**  
+![Figura 19 - Matriz de probabilidades de escolha entre macrozonas e vertiportos](assets/A4R2.jpg)  
+
 *(Fonte: Autor)*
 
 A **aplicação do Modelo de Huff** resultou em uma **matriz de probabilidades de escolha** para cada vertiporto, considerando a **nota final de atratividade atribuída a partir de 8 critérios multicritério** (e não apenas infraestrutura), além da penalização da distância por meio do parâmetro **λ = -0,1**.
