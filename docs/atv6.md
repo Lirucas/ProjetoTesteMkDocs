@@ -13,7 +13,7 @@ Para cada taxa de ocupação, são considerados dois cenários distintos de dist
 
 *(Fonte: Autor)* 
 
-Na figura 1 é mostrada a comparação entre os cenários B (com 100% de ocupação) considerando dois picos de passageiros e também uma distribuição suave ao longo do dia.
+Na figura 2 é mostrada a comparação entre os cenários B (com 100% de ocupação) considerando dois picos de passageiros e também uma distribuição suave ao longo do dia.
 
 **Figura 2 - Estimativa de passageiros ao longo da operação diária para ocupação B - 100% com dois picos e distribuição suave**  
 ![Figura 2 - Estimativa de passageiros ao longo da operação diária para ocupação B - 100% com dois picos e distribuição suave](assets/A62.jpg)  
@@ -28,81 +28,64 @@ Para o dimensionamento do lado terra, são considerados três cenários de deman
 - Cenário realista: 144 passageiros/dia (75% de ocupação), com pico de 18 passageiros/hora
 - Cenário realista: 192 passageiros/dia (100% de ocupação), com pico de 24 passageiros/hora
 
-Além disso, é considerado também uma possível expansão futura para atender um auemnto de até 40% na demanda.
+Além disso, é considerado também uma possível expansão futura para atender um aumento de até 40% na demanda.
 
-Para o dimensionamento do terminal, são utilizados os índices de dimensionamento da STBA (1983), conforme apresentado por Medeiros (2004), e as recomendações da IATA (2019) para terminais aeroportuários, adaptados ao contexto de um vertiporto. 
-
-Na figura 1 é mostrada a comparação entre os cenários B (com 100% de ocupação) considerando dois picos de passageiros e também uma distribuição suave ao longo do dia.
-
-**Figura 3 - Área total do TPS - Índices de dimensionamento (m²/pax)**  
-![Figura 3 - Área total do TPS - Índices de dimensionamento (m²/pax)](assets/A63.jpg)  
-
-É adotado o índice de dimensionamento para terminal regional com nível de serviço B (Bom), resultando em 12,00 m²/pax. Este valor é ajustado considerando as particularidades operacionais de um vertiporto, que possui fluxos mais simplificados em comparação a aeroportos convencionais.
-
-**Figura 4 - Recomendações IATA ADRM 11 - Espaço e Tempo de Espera**  
-![Figura 4 - Recomendações IATA ADRM 11 - Espaço e Tempo de Espera](assets/A64.jpg)  
-
-Com base nas recomendações da IATA, foram adotados os seguintes parâmetros específicos para cada ambiente:
-- Saguão de Embarque/Desembarque: 2,3 m² por passageiro em hora-pico (nível superdimensionado)
-- Área de Check-in: 1,8 m² por passageiro em hora-pico (nível superdimensionado) 
-- Sala de Espera/Embarque: 1,2 m² por passageiro em hora-pico (nível subótimo para pax em pé)
-- Sanitários: Conforme NBR 9050:2020
-- Lanchonete/Café: 1,0 m² por 30% dos passageiros em hora-pico (adaptado da IATA)
-
-**Figura 5 - Dimensionamento dos ambientes do Terminal para o cenário realista**  
-![Figura 5 - Dimensionamento dos ambientes do Terminal para o cenário realista](assets/A65.jpg)  
-
-O projeto foi dimensionado para três cenários de demanda, conforme solicitado:
-- Cenário Pessimista (96 pax/dia): Área total de 125,30 m²
-- Cenário Realista (144 pax/dia): Área total de 164,30 m²
-- Cenário Otimista (192 pax/dia): Área total de 215,30 m²
-- Expansão Futura (+40%): Área total de 301,42 m²
-
-## Planta do Lado Terra ##
- 
-Saguão de Embarque/Desembarque (27 m²): Área principal de acesso ao terminal, com portas automáticas e espaço para circulação e espera. Dimensionado conforme parâmetro IATA de 2,3 m²/pax para nível superdimensionado.
-
-Área de Check-in (33 m²): Espaço para atendimento e despacho de passageiros, com balcões de atendimento e área para filas. Dimensionado conforme parâmetro IATA de 1,8 m²/pax para nível superdimensionado.
-
-Sala de Espera/Embarque (22 m²): Ambiente com assentos para aguardar o embarque, localizado próximo à saída para a área de pouso e decolagem.Dimensionado conforme parâmetro IATA de 1,2 m²/pax para nível sub-ótimo.
-
-Sanitários (19,30 m²): Conjunto de sanitários masculino, feminino e acessível (PCD), conforme NBR 9050:2020. Posicionados de forma central, com acesso a partir da circulação principal.
-
-Lanchonete/Café (15 m²): Área para alimentação rápida, com balcão de atendimento e algumas mesas. Dimensionado considerando 1,0 m² para 30% dos passageiros em hora-pico.
-
-Área Administrativa/Back-office (14 m²): Escritório para gestão do terminal, com estações de trabalho e equipamentos administrativos. Dimensionado conforme recomendações da ANAC para áreas administrativas em terminais aeroportuários.
-
-Sala de Funcionários (12 m²): Espaço de descanso e apoio para colaboradores, com armários, pequena copa e área de estar. Dimensionado considerando 1,5 m² por funcionário.
-
-Depósito/Área Técnica (10 m²): Ambiente para armazenamento de equipamentos, materiais de limpeza e manutenção. Dimensionado conforme recomendações IATA para áreas de apoio.
-
-Área de Segurança (12 m²): Espaço para controle de acesso e monitoramento de segurança, com equipamentos de CFTV e comunicação. Dimensionado conforme recomendações do DECEA para áreas de segurança em instalações aeroportuárias.
-
-Circulação Principal: Eixo central de circulação, conectando todos os ambientes do terminal e garantindo fluxo eficiente de passageiros e funcionários. Dimensionado conforme NBR 9050:2020.
-
-Área para Expansão Futura: Espaço reservado para ampliação do terminal, permitindo aumento de 40% na capacidade conforme recomendado por Medeiros (2004).
-
-O dimensionamento de terminais de passageiros tradicionalmente segue metodologias estabelecidas por órgãos como IATA, FAA e ICAO, além de referências acadêmicas como Medeiros (2004) e Ashford et al. (2011). No entanto, para vertiportos, por se tratar de uma tipologia emergente, foi necessário adaptar esses parâmetros considerando: 
+ O dimensionamento de terminais de passageiros tradicionalmente segue metodologias estabelecidas por órgãos como IATA, FAA e ICAO, além de referências acadêmicas como Medeiros (2004) e Ashford et al. (2011). No entanto, para vertiportos, por se tratar de uma tipologia emergente, foi necessário adaptar esses parâmetros considerando: 
 
 - Escala reduzida: Vertiportos operam com aeronaves menores (eVTOLs) e fluxos de passageiros mais limitados em comparação a aeroportos convencionais
 - Simplicidade operacional: Processos mais ágeis e menos complexos, com tempos de permanência reduzidos
 - Integração urbana: Necessidade de otimização espacial devido à inserção em contextos urbanos com limitações de área
 - Flexibilidade: Capacidade de adaptação a diferentes cenários de demanda e evolução tecnológica
 
-A área total do terminal (164,30 m²) é validada através de três abordagens complementares:
+Para o dimensionamento do terminal, são utilizadas as recomendações da IATA (2019) para terminais aeroportuários, adaptados ao contexto de um vertiporto.
 
-- Método comparativo: Análise de vertiportos similares, como o projeto do Reino Unido com 160 m² (referência internacional)
-- Método analítico: Aplicação do índice de dimensionamento da STBA (1983) para terminal regional com nível de serviço B (12,00 m²/pax), resultando em 18 pax (hora-pico) × 12,00 m²/pax × 0,75 (fator de ajuste para vertiportos) = 162 m²
-- Método sintético: Somatório das áreas individuais dimensionadas conforme parâmetros específicos, resultando em 164,30 m².
+É adotado o índice de dimensionamento para terminal regional com nível de serviço A (alto), resultando em 15,00 m²/pax. Este valor é ajustado considerando as particularidades operacionais de um vertiporto, que possui fluxos mais simplificados em comparação a aeroportos convencionais.
 
-Considerando o aumento de 40% na capacidade, a expansão prevê:
+**Figura 3 - Recomendações IATA ADRM 11 - Espaço e Tempo de Espera**  
+![Figura 3 - Recomendações IATA ADRM 11 - Espaço e Tempo de Espera](assets/A64.jpg)  
 
-- Capacidade atual (cenário realista): 144 pax/dia, pico de 18 pax/hora
-- Capacidade após expansão: 202 pax/dia, pico de 25 pax/hora
-- Área atual: 164,30 m²
-- Área após expansão: 301,42 m²
-- Área adicional necessária: 86,12 m²
-- Área de expansão prevista: 90 m²
+Com base nas recomendações da IATA, foram adotados os seguintes parâmetros específicos para cada ambiente:
+- Saguão de Embarque: 2,2 m² por passageiro em hora-pico (nível ótimo)
+- Área de Check-in: 1,7 m² por passageiro em hora-pico (nível ótimo) 
+- Sala de Espera/Embarque: 2,1 m² por passageiro em hora-pico (nível ótimo)
+- Lanchonete/Café: 1,0 m² por passageiros em hora-pico 
+- Saguão de desembarque: 2,2 m² por passageiro em hora-pico (nível ótimo)
+
+Para o dimensionamento de sanitários públicos adotamos os parâmetros estabelecidos pelo Código Sanitário do Estado de SP (Decreto nº 12.342/1978) e ABNT NBR 9050:2015 (Acessibilidade). Assim, é necessária ao menos 1 cabine acessível por sanitário, com dimensões mínimas de 1,50 m x 1,70 m, e para edificações de uso público com área entre 151 m² e 500 m², como terminais de passageiros é necessário a separação por sexo e os seguintes requisitos:
+
+Sanitário Masculino: 2 bacias, 2 lavatórios e 2 mictórios.
+
+Sanitário Feminino: 2 bacias e 2 lavatórios.
+
+Estimativas de área mínima
+Banheiro feminino: 9 m²
+
+Banheiro masculino: 10 m²
+
+Somando-se as áreas de todos os compontentes, o total estimado para as áreas de acesso ao público será de 206.2
+
+**Figura 4 - Dimensionamento dos ambientes do Terminal para o cenário realista**  
+![Figura 4 - Dimensionamento dos ambientes do Terminal para o cenário realista](assets/A65.jpg)  
+
+
+Para estimar o dimensionamento de componentes de Administração e apoio a funcionários, utilizamos como base os dados da IATA – Airport Development Reference Manual (ADRM, 12ª edição).
+
+**Figura 5 - Dimensionamento dos ambientes de Administração**  
+![Figura 5 - Dimensionamento dos ambientes de Administração](assets/A67.jpg) 
+
+O total estimado de área destinada à administração será de 79m².
+
+Somando-se as áreas previstas para acesso ao público com a área destinada a administração totaliza uma área de 285.2m²
+
+O fluxograma abaixo ilustra o fluxo de passageiros bem como o acesso e proximidade de cada componente dentro do terminal de passageiros, desde o meio fio até o lado ar.
+
+**Figura 6 - Fluxo de passageiros**  
+![Figura 6 - Fluxo de passageiros](assets/A68.jpg) 
+
+## Planta do Lado Terra ##
+ 
+
+Área para Expansão Futura: Espaço reservado para ampliação do terminal, permitindo aumento de 40% na capacidade conforme recomendado por Medeiros (2004). Assim, uma área de 114m² será reservada para futura expansão. 
 
 ## Referências ##
 
